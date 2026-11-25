@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react';
-import {Composition, useCurrentFrame, useDelayRender} from 'remotion';
+import {Composition,registerRoot,useCurrentFrame,useDelayRender} from 'remotion';
 import {brandAt,captionAt,chapterAt,fps,totalFrames,type Branding,type Caption,type Chapter} from './clock';
 import timeline from './timeline.json';
 import './styles.css';
@@ -54,7 +54,20 @@ function FramePicture({frame,chapter,brand,caption,logicOnly=false}:{frame:numbe
  </div>;
 }
 export const Picture=({frame,logicOnly=false}:{frame:number;logicOnly?:boolean})=> <FramePicture frame={frame} chapter={chapterAt(frame)} brand={brandAt(frame)} caption={captionAt(frame)} logicOnly={logicOnly}/>;
-function OfflineFonts() {return null;}
+function OfflineFonts() {
+ const {delayRender,continueRender,cancelRender}=useDelayRender();
+ const [handle]=useState(()=>delayRender('FT1007: local bundled CJK + display fonts'));
+ useEffect(()=>{
+   let gone=false;
+   Promise.all([document.fonts.load('760 50px FT07CN','发售 GTA'),document.fonts.load('900 72px FT07Display','GTA6 4,500')]).then(groups=>{
+     if(gone) return;
+     if(groups.some(g=>g.length===0)) {cancelRender(new Error('FT1007 local font face did not resolve'));return;}
+     continueRender(handle);
+   }).catch(e=>{if(!gone) cancelRender(e instanceof Error?e:new Error(String(e)));});
+   return ()=>{gone=true;continueRender(handle);};
+ },[handle,continueRender,cancelRender]);
+ return null;
+}
 const at = <T extends {start:number;end:number}>(rows:readonly T[], frame:number) => rows.find(r=>r.start<=frame && frame<r.end)!;
 export const FT1007=()=>{
  const frame=useCurrentFrame();
@@ -64,4 +77,3 @@ export const FT1007=()=>{
  return <><FramePicture frame={frame} chapter={chapter} brand={brand} caption={caption}/><OfflineFonts/></>;
 };
 const Root=()=> <Composition id="FT1007" component={FT1007} width={1920} height={1080} fps={timeline.fps} durationInFrames={timeline.totalFrames}/>;
-

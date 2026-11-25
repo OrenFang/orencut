@@ -1,6 +1,6 @@
 import React from 'react';
 import timeline from './timeline.json';
-import {AbsoluteFill, useCurrentFrame} from 'remotion';
+import {AbsoluteFill,useCurrentFrame} from 'remotion';
 import './style.css';
 import {C,Bed,Head,Foot,rect} from './primitives';
 import {P,type Rank} from './projects';
@@ -9,7 +9,7 @@ import {CardWall,Credits,Flash,Poll,RankOpen} from './bookends';
 import {Early} from './early';
 import {Late} from './late';
 
-const Brand:React.FC<{mode:string}>=({mode})=> null;
+const Brand:React.FC<{mode:string}>=({mode})=> <div data-brand={mode} style={{...rect(0,0,1080,1920),pointerEvents:'none',zIndex:19}}>{mode==='none'?null:<span style={{...rect(46,49,285),fontSize:36,fontWeight:900,color:mode==='dark'?'#1a1721':mode==='purple'?'#8554e8':C.paper,WebkitTextStroke:mode==='white-outline'?'1px #242123':undefined}}>FredTalk</span>}</div>;
 export const Episode:React.FC=()=>{
  const f=useCurrentFrame();
  const chapter=timeline.chapters.find(row=>row.start<=f&&f<row.end)!;

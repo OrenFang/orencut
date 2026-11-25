@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../../../demo-media';
 import type {CSSProperties, FC, ReactNode} from 'react';
-import {Img} from 'remotion';
+import {Img, staticFile} from 'remotion';
 import {FT_FONTS} from '../../fonts';
 
 export const WIDTH = 1920;

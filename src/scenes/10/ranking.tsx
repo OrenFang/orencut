@@ -181,12 +181,12 @@ const galleryKeys = ['agent-hero','univer-dashboard-charts','chrome_features','m
 export function EndCard({f}:{f:number}){
  const a=appearing(f,6093,7), b=appearing(f,6118,9), c=appearing(f,6190,6);
  const submitted = f>=6229;
- const text='Demo'.slice(0,Math.floor(progress(f,6208,6224)*4+.001));
+ const text='Fred'.slice(0,Math.floor(progress(f,6208,6224)*4+.001));
  return <div data-layer="cta" style={{position:'absolute',inset:0}}>
   <Backdrop tone="warm"/>
   <div style={{position:'absolute',left:60,top:347,opacity:a}}>
     <div style={{fontSize:28,lineHeight:'57px',letterSpacing:6,color:'#bdb5a5'}}>本期视频由</div>
-    <div className="tech" style={{fontSize:83,lineHeight:'100px',transform:'skewX(-5deg) scaleX(1.1)',transformOrigin:'left center'}}><span>Demo</span> <span className="gold">Skill</span></div>
+    <div className="tech" style={{fontSize:83,lineHeight:'100px',transform:'skewX(-5deg) scaleX(1.1)',transformOrigin:'left center'}}><span>FredTalk</span> <span className="gold">Skill</span></div>
     <div className="tech" style={{fontSize:49,lineHeight:'83px',opacity:b,color:'#bfb7a7',transform:'skewX(-6deg)'}}>全自动剪辑输出</div>
   </div>
   {f>=6115&&f<6193?<div style={{position:'absolute',inset:0,opacity:1-c}}>
@@ -200,13 +200,13 @@ export function EndCard({f}:{f:number}){
   {f>=6190?<div style={{position:'absolute',inset:0,opacity:c}}>
    <div style={{...xy([88,658,904,submitted?366:244]),border:'2px solid #a7834e5e',background:'#211d15',padding:'27px 32px',boxShadow:'0 15px 35px #0005'}}>
     <div style={{fontSize:33,color:'#c7bead'}}>评论区</div>
-    {submitted?<div style={{height:111,display:'flex',alignItems:'center',gap:23}}><div style={{width:76,height:76,display:'grid',placeItems:'center',background:GOLD,color:'#201808',borderRadius:'50%',fontSize:36}}>我</div><div className="tech" style={{fontSize:51,transform:'skewX(-5deg)'}}>Demo</div><div className="medium" style={{marginLeft:'auto',color:'#857d71',fontSize:24}}>刚刚</div></div>:null}
+    {submitted?<div style={{height:111,display:'flex',alignItems:'center',gap:23}}><div style={{width:76,height:76,display:'grid',placeItems:'center',background:GOLD,color:'#201808',borderRadius:'50%',fontSize:36}}>我</div><div className="tech" style={{fontSize:51,transform:'skewX(-5deg)'}}>Fred</div><div className="medium" style={{marginLeft:'auto',color:'#857d71',fontSize:24}}>刚刚</div></div>:null}
     <div style={{position:'absolute',left:32,right:32,bottom:32,height:107,border:'1px solid #685e4f',background:'#12100d',display:'flex',alignItems:'center',gap:8,padding:'10px 12px'}}>
      {!submitted?<span className="tech" style={{fontSize:50,paddingLeft:10,transform:'skewX(-5deg)'}}>{text}{f>=6207&&Math.floor(f/5)%2===0?'▏':''}</span>:null}
-     <div style={{marginLeft:'auto',background:!submitted&&text==='Demo'?GOLD:'#332e26',color:!submitted&&text==='Demo'?'#22170c':'#898273',fontSize:30,padding:'15px 29px'}}>发送</div>
+     <div style={{marginLeft:'auto',background:!submitted&&text==='Fred'?GOLD:'#332e26',color:!submitted&&text==='Fred'?'#22170c':'#898273',fontSize:30,padding:'15px 29px'}}>发送</div>
     </div>
    </div>
-   <div className="tech" style={{position:'absolute',left:117,top:submitted?1093:1042,fontSize:100,letterSpacing:'.055em',transform:'skewX(-5deg) scaleX(1.06)',transformOrigin:'left'}}>评论区扣 <span className="gold">Demo</span></div>
+   <div className="tech" style={{position:'absolute',left:117,top:submitted?1093:1042,fontSize:100,letterSpacing:'.055em',transform:'skewX(-5deg) scaleX(1.06)',transformOrigin:'left'}}>评论区扣 <span className="gold">Fred</span></div>
   </div>:null}
  </div>;
 }

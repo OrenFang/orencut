@@ -114,5 +114,3 @@ export const Settlement: FC<{frame: number}> = ({frame}) => frame < 4763 ? null 
     <Conclusion frame={frame} />
   </>
 );
-
-export { Receipt, Conclusion };

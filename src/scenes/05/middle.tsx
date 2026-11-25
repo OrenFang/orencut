@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Freeze} from 'remotion';
+import {AbsoluteFill,Freeze} from 'remotion';
 import {Box,Pane,Moving,Still,Shade,Tag,Credit,Violet,FullTitle,W,H,PURPLE,LILAC,INK,env,p,rise,clamp,lerp,kf} from './visual';
 import type {Movie} from './visual';
 
@@ -147,5 +147,3 @@ export const Suno:React.FC<F>=({f})=>{
     {f>=2127&&<Credit text="来源：Suno Visuals · 官方竖幅示例（静音）" dark onVideo/>}
   </AbsoluteFill>;
 };
-
-export { Cost };

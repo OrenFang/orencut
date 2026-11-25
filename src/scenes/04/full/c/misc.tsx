@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../../../demo-media';
 import type {CSSProperties, FC, ReactNode} from 'react';
-import {AbsoluteFill} from 'remotion';
+import {AbsoluteFill, staticFile} from 'remotion';
 import {at, box, Canvas, GRAY, Ink, INK, InsetCaption, LAVENDER, lerp, Photo, rise, settle, smooth, SOFT_SHADOW,
   Stamp, TEXT, WEB} from './stage';
 
@@ -80,7 +79,7 @@ const CorrectionTile: FC<{frame: number; index: number}> = ({frame, index}) => {
           <div data-c-support-real={index + 1} style={{...box(0, 0, 199, 121), ...rise(swap, 29)}}>
             {index === 0 ? <div aria-label="独立图库中的真实电车缩略图" style={{...box(0, 0, 199, 121),
               ...stockTile(1, 199, 121), filter: 'brightness(.73) saturate(.73)'}} /> :
-              <Photo src={WEB.graphics} alt="真实公开的 Demo 组件目录"
+              <Photo src={WEB.graphics} alt="真实公开的 FredTalk 组件目录"
                 style={{objectPosition: '57% 28%', filter: 'brightness(.59) saturate(.73)'}} />}
             <div style={{...box(0, 0, 199, 121), background: 'linear-gradient(180deg, transparent 22%, rgba(15,15,17,.80))'}} />
             <Canvas width={199} height={121}>
@@ -101,8 +100,8 @@ const Support: FC<{frame: number}> = ({frame}) => {
   const head = settle(frame, 4578, 4589);
   const pillW = 280 - 76 * after;
   const pillH = 41 - 12 * after;
-  const cue = frame < 4640 ? '示例卡片开始展开' : frame < 4661 ? '按顺序查看两个项目' :
-    frame < 4749 ? '展示画面与动效' : '预览状态已更新';
+  const cue = frame < 4640 ? 'AI剪的视频一眼就能看出来是 AI 做的' : frame < 4661 ? '我觉得原因就两个' :
+    frame < 4749 ? '画面是假的动画是套的' : '我这套东西就专门治这两个毛病';
   return (
     <AbsoluteFill data-c-support-diagram style={{background: '#fff'}}>
       <div style={{...box(134 + 38 * after, 115 - 73 * after, pillW, pillH),
@@ -126,7 +125,7 @@ const Storage: FC<{frame: number}> = ({frame}) => {
   return (
     <AbsoluteFill style={{background: '#efedf3'}}>
       <div style={{...box(82, 0, 384, PREVIEW_H), backgroundColor: '#fff', overflow: 'hidden'}}>
-        <Photo src={WEB.library} alt="Demo 官方公共视觉库长图；独立采集" style={{
+        <Photo src={WEB.library} alt="FredTalk 官方公共视觉库长图；独立采集" style={{
           width: 384, height: 813, top: -scroll, objectFit: 'contain',
         }} />
         {frame > 4748 ? (

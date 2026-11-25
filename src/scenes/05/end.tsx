@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Freeze} from 'remotion';
+import {AbsoluteFill,Freeze} from 'remotion';
 import {Box,Pane,Moving,Still,Shade,Tag,Credit,Violet,PURPLE,LILAC,INK,env,p,rise,lerp,kf} from './visual';
 
 type F={f:number};

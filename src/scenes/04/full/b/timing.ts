@@ -79,4 +79,3 @@ export const segmentBState = (frame: number) => {
     cost: costAt(frame),
   };
 };
-export { tenMinuteCents };

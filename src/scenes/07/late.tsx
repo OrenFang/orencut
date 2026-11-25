@@ -46,7 +46,7 @@ export function WorldGap() {
    <SourceTag text={i?'可持续 · 3A 大世界':'视效强 · 分钟级可玩'} left={28} top={27} tone={i?'red':''} font={20}/>
    <Glyph fill={i?'red':'gold'} gradient style={{...pos(24,276,705),fontSize:59}}>{i?'几百小时':'10 秒 — 几分钟'}</Glyph>
    {i===1&&<span style={{...pos(389,302),fontSize:26,color:'#ffcabd',fontWeight:850}}>持久大世界</span>}
-   {gapRows[i].map((text,j)=>{const q=cue(f,`gap-${i?'r':'l'}${j}`);return <div key={text} className={`row ${i?'red':''}`} style={{...pos(23,370+j*78,696,64),fontSize:25,opacity:mix(.22,1,q)}}><strong style={{fontFamily:'system-ui',color:i?RED:GOLD}}>0{j+1}</strong>{text}</div>;})}
+   {gapRows[i].map((text,j)=>{const q=cue(f,`gap-${i?'r':'l'}${j}`);return <div key={text} className={`row ${i?'red':''}`} style={{...pos(23,370+j*78,696,64),fontSize:25,opacity:mix(.22,1,q)}}><strong style={{fontFamily:'FT07Display',color:i?RED:GOLD}}>0{j+1}</strong>{text}</div>;})}
   </Panel>;})}
   <div style={{...pos(902,398,117,132),opacity:base,border:'2px solid #dfa86f85',borderRadius:19,background:r>.5?'#5e281f':'#332719',textAlign:'center',paddingTop:11}}><Glyph fill={r>.5?'red':'gold'} style={{fontSize:58}}>≫</Glyph><div className="label-small" style={{marginTop:6,color:'#ffe3a3'}}>量级差距</div></div>
   <Foot style={{opacity:base*.63}}>左窗：Google DeepMind 官方 Genie 3 演示 / 右窗：Rockstar Games GTA VI 官方宣传；为量级对比，非性能基准</Foot>
@@ -106,7 +106,7 @@ export function PriceChart() {
     <path d="M92 184 Q410 212 671 302" stroke="#9fb6e49c" strokeWidth="3.3" strokeDasharray="10 9" fill="none"/>
     <text x="410" y="338" fill={BLUE} fontSize="22" fontWeight="850">正常规律：逐年降价（示意）</text>
     <path d={`M${p0.join(',')} L${q1.join(',')}${a===1?` L${q2.join(',')}`:''}`} stroke="#eb6755" strokeWidth="6" fill="none" strokeLinecap="round"/>
-    {graphPoints.map(([x,y],i)=>{const t=i===0?1:i===1?clamp((a-.73)*3.7):clamp((b-.73)*3.7);return <g key={i} opacity={t} style={{fontFamily:'system-ui,system-ui',fontWeight:900}}><circle cx={x} cy={y} r={i===2?12:8} fill={[WHITE,GOLD,'#f16d57'][i]}/><text x={i===2?546:x-5} y={y-22} fill={[WHITE,GOLD,RED][i]} fontSize={i===2?30:25} fontStyle="italic">{['$499','$549.99','$649.99'][i]}</text></g>;})}
+    {graphPoints.map(([x,y],i)=>{const t=i===0?1:i===1?clamp((a-.73)*3.7):clamp((b-.73)*3.7);return <g key={i} opacity={t} style={{fontFamily:'FT07Display,FT07CN',fontWeight:900}}><circle cx={x} cy={y} r={i===2?12:8} fill={[WHITE,GOLD,'#f16d57'][i]}/><text x={i===2?546:x-5} y={y-22} fill={[WHITE,GOLD,RED][i]} fontSize={i===2?30:25} fontStyle="italic">{['$499','$549.99','$649.99'][i]}</text></g>;})}
     {[['2020',68],['2025',409],['2026.04',600]].map(([label,x],i)=><text key={label} x={x} y="398" fill={i===2?RED:'#b6bdcc'} fontSize={i===2?23:21} fontWeight={i===2?800:650}>{label}</text>)}
    </svg>
   </Panel>

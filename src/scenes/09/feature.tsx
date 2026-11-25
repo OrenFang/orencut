@@ -5,7 +5,7 @@ import type {SceneProps} from './index';
 
 export function Phone({f=0,bridge=false}:{f?:number;bridge?:boolean}){
  // Editorial object drawing, not a recreated or executed product UI.
- return <X w={960} h={540} style={{overflow:'hidden',background:'linear-gradient(120deg,#2e2726,#282523 60%,#0e1319)'}}><svg width="960" height="540" viewBox="0 0 960 540" style={{position:'absolute',filter:bridge?'blur(.25px)':'blur(6px)',transform:`scale(${1+f*.0007})`,transformOrigin:'48% 51%'}}><defs><linearGradient id="skin" x2="0.8" y2="1"><stop stopColor="#886d60"/><stop offset="1" stopColor="#392e2a"/></linearGradient><linearGradient id="glass" x2="0" y2="1"><stop stopColor="#779ab8"/><stop offset="1" stopColor="#394857"/></linearGradient></defs><path d="M0 80Q157 86 276 181L376 282Q403 303 366 318L268 286 222 274 262 321Q296 370 258 385L149 332 0 300Z" fill="url(#skin)" opacity=".88"/><path d="M960 20Q785 45 684 130L644 204 595 226Q569 256 596 266L648 258 582 310Q568 342 600 351L710 303 750 295 960 296Z" fill="url(#skin)"/><g transform={bridge?'translate(474 261) rotate(-27) scale(1.27 1.04)':'translate(462 281) rotate(-6) scale(1.08 .66)'}><rect x="-183" y="-67" width="366" height="142" rx="29" fill="#0a0f15" stroke="#635b51" strokeWidth="8"/><rect x="-172" y="-58" width="344" height="124" rx="24" fill="url(#glass)"/>{bridge&&<text x="0" y="8" textAnchor="middle" fill="#0e2348" fontFamily="system-ui, sans-serif" fontWeight="900" fontSize="32">DeepSeek</text>}</g><path d="M0 0h960v540H0z" fill="#04060a" opacity=".32"/></svg><X w={960} h={540} style={{background:'radial-gradient(ellipse at 53% 40%,transparent 24%,#050505bb 85%),linear-gradient(0deg,#0a0909 2%,transparent 32%)'}}/>{bridge&&<MediaNote x={16} y={17}>手机端 · 示意</MediaNote>}</X>
+ return <X w={960} h={540} style={{overflow:'hidden',background:'linear-gradient(120deg,#2e2726,#282523 60%,#0e1319)'}}><svg width="960" height="540" viewBox="0 0 960 540" style={{position:'absolute',filter:bridge?'blur(.25px)':'blur(6px)',transform:`scale(${1+f*.0007})`,transformOrigin:'48% 51%'}}><defs><linearGradient id="skin" x2="0.8" y2="1"><stop stopColor="#886d60"/><stop offset="1" stopColor="#392e2a"/></linearGradient><linearGradient id="glass" x2="0" y2="1"><stop stopColor="#779ab8"/><stop offset="1" stopColor="#394857"/></linearGradient></defs><path d="M0 80Q157 86 276 181L376 282Q403 303 366 318L268 286 222 274 262 321Q296 370 258 385L149 332 0 300Z" fill="url(#skin)" opacity=".88"/><path d="M960 20Q785 45 684 130L644 204 595 226Q569 256 596 266L648 258 582 310Q568 342 600 351L710 303 750 295 960 296Z" fill="url(#skin)"/><g transform={bridge?'translate(474 261) rotate(-27) scale(1.27 1.04)':'translate(462 281) rotate(-6) scale(1.08 .66)'}><rect x="-183" y="-67" width="366" height="142" rx="29" fill="#0a0f15" stroke="#635b51" strokeWidth="8"/><rect x="-172" y="-58" width="344" height="124" rx="24" fill="url(#glass)"/>{bridge&&<text x="0" y="8" textAnchor="middle" fill="#0e2348" fontFamily="Mi, sans-serif" fontWeight="900" fontSize="32">DeepSeek</text>}</g><path d="M0 0h960v540H0z" fill="#04060a" opacity=".32"/></svg><X w={960} h={540} style={{background:'radial-gradient(ellipse at 53% 40%,transparent 24%,#050505bb 85%),linear-gradient(0deg,#0a0909 2%,transparent 32%)'}}/>{bridge&&<MediaNote x={16} y={17}>手机端 · 示意</MediaNote>}</X>
 }
 // The settled grid was measured at f36. The final centers and rotations are
 // read from the f52 pose, with obscured card edges estimated from neighboring frames.
@@ -59,7 +59,7 @@ function openerScatter(f:number) {
 }
 
 const openerLettering:React.CSSProperties = {
-  fontFamily: 'system-ui, system-ui, sans-serif', fontWeight: 900,
+  fontFamily: 'Rui, Mi, sans-serif', fontWeight: 900,
 };
 
 function openerInkPose(x:number, fromY:number, toY:number, heightScale:number) {
@@ -82,7 +82,7 @@ function Opener({f}:SceneProps) {
       <text x="480" y="62" textAnchor="middle" textLength="392" lengthAdjust="spacingAndGlyphs" transform={openerInkPose(480, 53, 52, .8)}
         fill="#e9eaf0" fontSize="27" style={openerLettering}>2026　·　这么多 AI 工具</text>
       <text x="480" y="85" textAnchor="middle" textLength="203" lengthAdjust="spacingAndGlyphs"
-        fill="#96969d" fontFamily="system-ui, sans-serif" fontSize="12" fontWeight="600">SO MANY AI TOOLS IN 2026</text>
+        fill="#96969d" fontFamily="Mi, sans-serif" fontSize="12" fontWeight="600">SO MANY AI TOOLS IN 2026</text>
     </svg>
     {openerRows.map((row, rowIndex) => row.map(([name, inkWidth, finalX, finalY, rotation], column) => {
       const x = openerColumns[column];
@@ -190,11 +190,11 @@ export function Feature({route,shot,f,local}:SceneProps&{route:string}){
           <path d="M647 303v8q0 6-6 6h-9 M644 307q-1 7-9 7 M648 314q-4 1-5 5"/>
         </g>
         <text x="327" y="59" textAnchor="middle" textLength="108" lengthAdjust="spacingAndGlyphs"
-          fontFamily="system-ui, sans-serif" fontSize="29" fontWeight="900" fill="#fff">Demo</text>
+          fontFamily="Mi, sans-serif" fontSize="29" fontWeight="900" fill="#fff">FredTalk</text>
         <text x="325.5" y="103" textAnchor="middle" textLength="122" lengthAdjust="spacingAndGlyphs"
           fontSize="23" style={openerLettering} transform={openerInkPose(325.5,97.5,96,.82)} fill="url(#promo-white)">本期视频由</text>
         <text x="326.5" y="154" textAnchor="middle" textLength="414" lengthAdjust="spacingAndGlyphs"
-          fontSize="43" style={openerLettering} transform={openerInkPose(326.5,144,144,.79)} fill="url(#promo-gold)">Demo Skill</text>
+          fontSize="43" style={openerLettering} transform={openerInkPose(326.5,144,144,.79)} fill="url(#promo-gold)">FredTalk Skill</text>
         <text x="325" y="205" textAnchor="middle" textLength="216" lengthAdjust="spacingAndGlyphs"
           fontSize="29" style={openerLettering} transform={openerInkPose(325,198.5,198,.82)} fill="url(#promo-white)">全自动剪辑输出</text>
         {pills.map(([label,x,width,start]) => {
@@ -215,7 +215,7 @@ export function Feature({route,shot,f,local}:SceneProps&{route:string}){
       }}>
       <svg width="392" height="45" viewBox="0 0 392 45" style={{display:'block'}}>
         <text x="194.5" y="29" textAnchor="middle" textLength="346" lengthAdjust="spacingAndGlyphs"
-          fontSize="23" style={openerLettering} transform={openerInkPose(194.5,24,24,.84)} fill="#fff4ed">有兴趣 · 评论区扣 Demo</text>
+          fontSize="23" style={openerLettering} transform={openerInkPose(194.5,24,24,.84)} fill="#fff4ed">有兴趣 · 评论区扣 Fred</text>
       </svg>
     </X>}
   </>;
@@ -227,9 +227,9 @@ export function Feature({route,shot,f,local}:SceneProps&{route:string}){
   const p=turn(local,-2,14), q=turn(f,1302,1317);return <><Backdrop kind="warm" t={t}/><Header title={shot.title} en="AGENTS ARE ALREADY AT WORK" f={f} start={1242}/><X x={115} y={96} w={730} h={319} style={{opacity:p,overflow:'hidden',borderRadius:4}}><Desk/><MediaNote x={8} y={6}>工作场景 · 示意</MediaNote></X><X x={134} y={368} style={{opacity:turn(f,1252,1264)}}><Tag>OpenAI 今年没公开定级</Tag></X><X x={627} y={259} w={259} h={155} style={{...panel(),padding:7,opacity:q,transform:`translateY(${7*(1-q)}px)`}}><X x={8} y={8} w={241} h={102} style={{overflow:'hidden',borderRadius:4,background:'#091019'}}><Pic name="claude" alt="Claude Code 官方审阅界面"/></X><X x={10} y={115} w={237} style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}><F size={16}>Claude Code</F><En size={8}>官方界面</En></X></X></>;
  }
  if(route==='workflowDemo'){
-  return <><Backdrop kind="silver" t={t}/><Header title={shot.title} en="HOW DEMO IS MADE" f={f} start={11135}/><X x={114} y={95} w={732} h={322} style={{...panel(false),borderRadius:6,overflow:'hidden',background:'#0d141a'}}><X w={594} h={322} style={{overflow:'hidden',background:'#0b0d0e'}}><Pic name="claude" alt="Anthropic 官方 Claude Code 审阅界面" style={{objectFit:'contain'}}/><MediaNote x={12} y={9}>Claude Code · 官方界面</MediaNote></X><X x={594} w={138} h={322} style={{background:'linear-gradient(0deg,#8c919a,#d9d8d8 30%,#f0f0ee)',borderLeft:'1px solid #52535b'}}/><X x={608} y={145} w={110} style={{textAlign:'center'}}><F size={13} color="#333540" style={{textShadow:'none'}}>并行工作</F><En color="#42444f" size={8}>分工示意</En></X></X>{f>=11265&&<X x={628} y={257} w={257} h={157} style={{...panel(),opacity:turn(f,11264,11277),overflow:'hidden'}}><X x={7} y={7} w={243} h={105} style={{background:'#252e54'}}><Pic name="codex" alt="OpenAI 官方 Codex 桌面界面"/></X><X x={10} y={119} w={236} style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}><F size={16}>Codex · 资料查找</F><En size={8}>官方界面</En></X></X>}<X x={114} y={431}><En size={9}>独立公开界面说明分工 · 非 Demo 私有工作区或本期执行结果</En></X></>;
+  return <><Backdrop kind="silver" t={t}/><Header title={shot.title} en="HOW FREDTALK IS MADE" f={f} start={11135}/><X x={114} y={95} w={732} h={322} style={{...panel(false),borderRadius:6,overflow:'hidden',background:'#0d141a'}}><X w={594} h={322} style={{overflow:'hidden',background:'#0b0d0e'}}><Pic name="claude" alt="Anthropic 官方 Claude Code 审阅界面" style={{objectFit:'contain'}}/><MediaNote x={12} y={9}>Claude Code · 官方界面</MediaNote></X><X x={594} w={138} h={322} style={{background:'linear-gradient(0deg,#8c919a,#d9d8d8 30%,#f0f0ee)',borderLeft:'1px solid #52535b'}}/><X x={608} y={145} w={110} style={{textAlign:'center'}}><F size={13} color="#333540" style={{textShadow:'none'}}>并行工作</F><En color="#42444f" size={8}>分工示意</En></X></X>{f>=11265&&<X x={628} y={257} w={257} h={157} style={{...panel(),opacity:turn(f,11264,11277),overflow:'hidden'}}><X x={7} y={7} w={243} h={105} style={{background:'#252e54'}}><Pic name="codex" alt="OpenAI 官方 Codex 桌面界面"/></X><X x={10} y={119} w={236} style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}><F size={16}>Codex · 资料查找</F><En size={8}>官方界面</En></X></X>}<X x={114} y={431}><En size={9}>独立公开界面说明分工 · 非 FredTalk 私有工作区或本期执行结果</En></X></>;
  }
- if(route==='actualVideo')return <><Backdrop kind="black" t={t}/><Header title={shot.title} en="DEMO B-ROLL · MADE ON LIBTV" f={f} start={12298}/><X x={114} y={94} w={732} h={322} style={{overflow:'hidden',background:'#07080a',borderRadius:4}}><Clip name="libtvDemo" from={12295}/><MediaNote x={10} y={8}>LibTV 官方案例 · 非原片所述驾驶镜头</MediaNote></X></>;
+ if(route==='actualVideo')return <><Backdrop kind="black" t={t}/><Header title={shot.title} en="FREDTALK B-ROLL · MADE ON LIBTV" f={f} start={12298}/><X x={114} y={94} w={732} h={322} style={{overflow:'hidden',background:'#07080a',borderRadius:4}}><Clip name="libtvDemo" from={12295}/><MediaNote x={10} y={8}>LibTV 官方案例 · 非原片所述驾驶镜头</MediaNote></X></>;
  if(route==='codeModels')return <><Backdrop kind="silver" t={t}/><Header title={shot.title} en="TOP CODING MODELS · NOV 2026" f={f} start={8177}/>{['Claude Fable 5.2','GPT-6.2'].map((txt,i)=>{const p=turn(f,[8224,8263][i],[8243,8282][i]);return <CenterBox key={txt} x={116+382*i} y={129+7*(1-p)} w={347} h={258} style={{opacity:.21+.79*p,transform:`scale(${.97+.03*p})`}}><X y={54} w={347}><Badge text={i?'◎':'✺'} size={83}/><div style={{marginTop:16}}><F size={25} color={GOLD}>{txt}</F></div><En size={9}>{i?'OPENAI':'ANTHROPIC'}</En></X></CenterBox>})}</>;
  if(route==='mapDeclaration'){
   // Both old lines are fully hidden here. Preserve the exact underlying JSX at
@@ -246,5 +246,3 @@ export function Feature({route,shot,f,local}:SceneProps&{route:string}){
  if(route==='outro')return <EndCard f={f}/>;
  throw new Error('Unknown native chapter '+route);
 }
-
-export { Opener };

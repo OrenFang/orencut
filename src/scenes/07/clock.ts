@@ -1,5 +1,5 @@
 import raw from './timeline.json';
-import provenance from '../assets.json';
+import provenance from './assets.json';
 
 export const WIDTH = 1920;
 export const HEIGHT = 1080;

@@ -1,0 +1,499 @@
+{
+  "assets": [
+    {
+      "id": "gtavi-gallery-weights",
+      "path": "public/editorial/publisher/gtavi-gallery-weights.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-nightclub",
+      "path": "public/editorial/publisher/gtavi-gallery-nightclub.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-night-car",
+      "path": "public/editorial/publisher/gtavi-gallery-night-car.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-pink-car",
+      "path": "public/editorial/publisher/gtavi-gallery-pink-car.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-wetlands",
+      "path": "public/editorial/publisher/gtavi-gallery-wetlands.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-beach",
+      "path": "public/editorial/publisher/gtavi-gallery-beach.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-harbor",
+      "path": "public/editorial/publisher/gtavi-gallery-harbor.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-gallery-night-skyline",
+      "path": "public/editorial/publisher/gtavi-gallery-night-skyline.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "ps5-slim-white",
+      "path": "public/editorial/publisher/ps5-slim-white.webp",
+      "mediaType": "image",
+      "width": 1600,
+      "height": 900,
+      "status": "mounted"
+    },
+    {
+      "id": "ps5-slim-midnight-black",
+      "path": "public/editorial/publisher/ps5-slim-midnight-black.webp",
+      "mediaType": "image",
+      "width": 1600,
+      "height": 900,
+      "status": "mounted"
+    },
+    {
+      "id": "ps5-slim-dark",
+      "path": "public/editorial/publisher/ps5-slim-dark.jpg",
+      "mediaType": "image",
+      "width": 900,
+      "height": 900,
+      "status": "mounted"
+    },
+    {
+      "id": "gtav-character",
+      "path": "public/editorial/publisher/gtav-character.jpg",
+      "mediaType": "image",
+      "width": 1024,
+      "height": 576,
+      "status": "mounted"
+    },
+    {
+      "id": "gtav-vinewood-sunset",
+      "path": "public/editorial/publisher/gtav-vinewood-sunset.webp",
+      "mediaType": "image",
+      "width": 1600,
+      "height": 900,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-bench",
+      "path": "public/editorial/publisher/gtavi-bench.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 576,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 2.8,
+        "frameCount": 84,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-bench-still",
+      "path": "public/editorial/publisher/gtavi-bench-still.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 864,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-store",
+      "path": "public/editorial/publisher/gtavi-store.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 576,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.5333333333333334,
+        "frameCount": 46,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-store-still",
+      "path": "public/editorial/publisher/gtavi-store-still.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 864,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-nightclub",
+      "path": "public/editorial/publisher/gtavi-nightclub.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 0.9,
+        "frameCount": 27,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-nightclub-still",
+      "path": "public/editorial/publisher/gtavi-nightclub-still.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-neon-car",
+      "path": "public/editorial/publisher/gtavi-neon-car.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 2.066666666666667,
+        "frameCount": 62,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-neon-car-still",
+      "path": "public/editorial/publisher/gtavi-neon-car-still.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-pink-street",
+      "path": "public/editorial/publisher/gtavi-pink-street.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.3333333333333333,
+        "frameCount": 40,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-pink-street-still",
+      "path": "public/editorial/publisher/gtavi-pink-street-still.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-flamingos",
+      "path": "public/editorial/publisher/gtavi-flamingos.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 0.9,
+        "frameCount": 27,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-beach-crowd",
+      "path": "public/editorial/publisher/gtavi-beach-crowd.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.2333333333333334,
+        "frameCount": 37,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-speedboats",
+      "path": "public/editorial/publisher/gtavi-speedboats.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.3333333333333333,
+        "frameCount": 40,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-night-aerial",
+      "path": "public/editorial/publisher/gtavi-night-aerial.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.4,
+        "frameCount": 42,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-night-aerial-still",
+      "path": "public/editorial/publisher/gtavi-night-aerial-still.jpg",
+      "mediaType": "image",
+      "width": 1920,
+      "height": 1080,
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-night-street",
+      "path": "public/editorial/publisher/gtavi-night-street.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.3333333333333333,
+        "frameCount": 40,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gtavi-end-close",
+      "path": "public/editorial/publisher/gtavi-end-close.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 720,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 1.0,
+        "frameCount": 30,
+        "fps": 30,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "不是无缝循环。时长更长优先用 -still 或合成内停帧，不拉伸画面。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "ps5-slim-hero-motion",
+      "path": "public/editorial/publisher/ps5-slim-hero-motion.mp4",
+      "mediaType": "video",
+      "width": 1280,
+      "height": 500,
+      "playback": {
+        "beginAt": 0,
+        "durationSec": 2.75275,
+        "frameCount": 66,
+        "fps": 23.976023976023978,
+        "silent": true,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "faststart": true,
+        "loopHint": "非无缝；白机身位置固定，仅蓝色图形动。"
+      },
+      "status": "mounted"
+    },
+    {
+      "id": "gamesradar-zelnick-title",
+      "path": "public/editorial/reporting/gamesradar-zelnick-title.png",
+      "mediaType": "image/png",
+      "width": 1466,
+      "height": 780,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-japan-old-street",
+      "path": "public/editorial/reporting/genie3-japan-old-street.mp4",
+      "mediaType": "video/mp4",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 1.376375,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-forest-mammoth",
+      "path": "public/editorial/reporting/genie3-forest-mammoth.mp4",
+      "mediaType": "video/mp4",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 2.460792,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-silhouette-waterfall",
+      "path": "public/editorial/reporting/genie3-silhouette-waterfall.mp4",
+      "mediaType": "video/mp4",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 1.334667,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-white-boat-canal",
+      "path": "public/editorial/reporting/genie3-white-boat-canal.mp4",
+      "mediaType": "video/mp4",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 3.003,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-volcano-dark",
+      "path": "public/editorial/reporting/genie3-volcano-dark.mp4",
+      "mediaType": "video/mp4",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 2.544208,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-volcano-buggy",
+      "path": "public/editorial/reporting/genie3-volcano-buggy.mp4",
+      "mediaType": "video/mp4",
+      "width": 1280,
+      "height": 704,
+      "durationSec": 56.375,
+      "status": "mounted"
+    },
+    {
+      "id": "genie3-hinsdale-street",
+      "path": "public/editorial/reporting/genie3-hinsdale-street.mp4",
+      "mediaType": "video/mp4",
+      "width": 1280,
+      "height": 704,
+      "durationSec": 57.0,
+      "status": "mounted"
+    },
+    {
+      "id": "microsoft-hot-aisle",
+      "path": "public/editorial/reporting/microsoft-hot-aisle.jpg",
+      "mediaType": "image/jpeg",
+      "width": 1920,
+      "height": 1281,
+      "status": "mounted"
+    },
+    {
+      "id": "microsoft-ai-gb200-aisle",
+      "path": "public/editorial/reporting/microsoft-ai-gb200-aisle.jpg",
+      "mediaType": "image/jpeg",
+      "width": 1920,
+      "height": 958,
+      "status": "mounted"
+    },
+    {
+      "id": "skhynix-ddr5-rdimm",
+      "path": "public/editorial/reporting/skhynix-ddr5-rdimm.jpg",
+      "mediaType": "image/jpeg",
+      "width": 882,
+      "height": 246,
+      "status": "mounted"
+    },
+    {
+      "id": "google-mayes-aisle",
+      "path": "public/editorial/reporting/google-mayes-aisle.webp",
+      "mediaType": "image/webp",
+      "width": 2560,
+      "height": 1707,
+      "status": "mounted"
+    },
+    {
+      "id": "font-cn",
+      "path": "public/fonts/FT07CN.ttf",
+      "mediaType": "font/ttf",
+      "status": "mounted"
+    },
+    {
+      "id": "font-disp",
+      "path": "public/fonts/Tektur.ttf",
+      "mediaType": "font/ttf",
+      "status": "mounted"
+    }
+  ]
+}

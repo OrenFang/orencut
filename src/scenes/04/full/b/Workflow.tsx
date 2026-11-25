@@ -5,20 +5,20 @@ import {easeOut, mix, phase, series} from './timing';
 
 type Thumb = Readonly<{asset: string; starts: number; lasts: number; alt: string; replacement?: {at: number; asset: string; alt: string}}>;
 const chunks: readonly Thumb[] = [
-  {asset: 'web/library.jpg', starts: 3115, lasts: 12, alt: 'Demo 公开视觉库'},
-  {asset: 'full-web/renderer-example.jpg', starts: 3130, lasts: 23, alt: 'Demo 官网公开作品审看区'},
+  {asset: 'web/library.jpg', starts: 3115, lasts: 12, alt: 'FredTalk 公开视觉库'},
+  {asset: 'full-web/renderer-example.jpg', starts: 3130, lasts: 23, alt: 'FredTalk 官网公开作品审看区'},
   {asset: 'web/demo-finance.jpg', starts: 3151, lasts: 20, alt: '独立行情素材缩图'},
-  {asset: 'web/wall-09.jpg', starts: 3161, lasts: 23, alt: 'Demo 官方公开作品截图'},
+  {asset: 'web/wall-09.jpg', starts: 3161, lasts: 23, alt: 'FredTalk 官方公开作品截图'},
   {asset: 'web/wall-11.jpg', starts: 3115, lasts: 16, alt: '公开案例缩图'},
   {asset: 'web/demo-anime.jpg', starts: 3128, lasts: 22, alt: '公开案例缩图'},
-  {asset: 'web/wall-02.jpg', starts: 3145, lasts: 27, alt: 'Demo 官方公开作品截图',
-    replacement: {at: 3084, asset: 'web/wall-08.jpg', alt: 'Demo 官方公开工作流作品截图'}},
-  {asset: 'web/wall-12.jpg', starts: 3174, lasts: 24, alt: 'Demo 官方公开作品截图'},
+  {asset: 'web/wall-02.jpg', starts: 3145, lasts: 27, alt: 'FredTalk 官方公开作品截图',
+    replacement: {at: 3084, asset: 'web/wall-08.jpg', alt: 'FredTalk 官方公开工作流作品截图'}},
+  {asset: 'web/wall-12.jpg', starts: 3174, lasts: 24, alt: 'FredTalk 官方公开作品截图'},
   {asset: 'web/wall-04.jpg', starts: 3115, lasts: 12, alt: '暖色实拍案例缩图',
-    replacement: {at: 3166, asset: 'web/wall-05.jpg', alt: 'Demo 官方公开作品截图'}},
-  {asset: 'web/wall-03.jpg', starts: 3129, lasts: 19, alt: 'Demo 官方公开作品截图'},
-  {asset: 'web/wall-01.jpg', starts: 3141, lasts: 18, alt: 'Demo 官方公开作品截图'},
-  {asset: 'web/wall-06.jpg', starts: 3166, lasts: 30, alt: 'Demo 官方公开作品截图'},
+    replacement: {at: 3166, asset: 'web/wall-05.jpg', alt: 'FredTalk 官方公开作品截图'}},
+  {asset: 'web/wall-03.jpg', starts: 3129, lasts: 19, alt: 'FredTalk 官方公开作品截图'},
+  {asset: 'web/wall-01.jpg', starts: 3141, lasts: 18, alt: 'FredTalk 官方公开作品截图'},
+  {asset: 'web/wall-06.jpg', starts: 3166, lasts: 30, alt: 'FredTalk 官方公开作品截图'},
 ];
 
 const workflowBg = '0 16px 42px rgba(5,5,8,.44)';

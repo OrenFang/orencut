@@ -1,511 +1,103 @@
 [
-  {
-    "startFrame": 900,
-    "endFrame": 928,
-    "text": ""
-  },
-  {
-    "startFrame": 928,
-    "endFrame": 985,
-    "text": ""
-  },
-  {
-    "startFrame": 985,
-    "endFrame": 1023,
-    "text": ""
-  },
-  {
-    "startFrame": 1023,
-    "endFrame": 1108,
-    "text": ""
-  },
-  {
-    "startFrame": 1108,
-    "endFrame": 1150,
-    "text": ""
-  },
-  {
-    "startFrame": 1150,
-    "endFrame": 1222,
-    "text": ""
-  },
-  {
-    "startFrame": 1222,
-    "endFrame": 1318,
-    "text": ""
-  },
-  {
-    "startFrame": 1318,
-    "endFrame": 1368,
-    "text": ""
-  },
-  {
-    "startFrame": 1368,
-    "endFrame": 1433,
-    "text": ""
-  },
-  {
-    "startFrame": 1433,
-    "endFrame": 1504,
-    "text": ""
-  },
-  {
-    "startFrame": 1504,
-    "endFrame": 1593,
-    "text": ""
-  },
-  {
-    "startFrame": 1593,
-    "endFrame": 1662,
-    "text": ""
-  },
-  {
-    "startFrame": 1662,
-    "endFrame": 1708,
-    "text": ""
-  },
-  {
-    "startFrame": 1708,
-    "endFrame": 1774,
-    "text": ""
-  },
-  {
-    "startFrame": 1774,
-    "endFrame": 1849,
-    "text": ""
-  },
-  {
-    "startFrame": 1849,
-    "endFrame": 1891,
-    "text": ""
-  },
-  {
-    "startFrame": 1891,
-    "endFrame": 1954,
-    "text": ""
-  },
-  {
-    "startFrame": 1954,
-    "endFrame": 2017,
-    "text": ""
-  },
-  {
-    "startFrame": 2017,
-    "endFrame": 2056,
-    "text": ""
-  },
-  {
-    "startFrame": 2056,
-    "endFrame": 2118,
-    "text": ""
-  },
-  {
-    "startFrame": 2118,
-    "endFrame": 2159,
-    "text": ""
-  },
-  {
-    "startFrame": 2159,
-    "endFrame": 2231,
-    "text": ""
-  },
-  {
-    "startFrame": 2231,
-    "endFrame": 2282,
-    "text": ""
-  },
-  {
-    "startFrame": 2283,
-    "endFrame": 2338,
-    "text": ""
-  },
-  {
-    "startFrame": 2338,
-    "endFrame": 2410,
-    "text": ""
-  },
-  {
-    "startFrame": 2410,
-    "endFrame": 2450,
-    "text": ""
-  },
-  {
-    "startFrame": 2450,
-    "endFrame": 2526,
-    "text": ""
-  },
-  {
-    "startFrame": 2526,
-    "endFrame": 2642,
-    "text": ""
-  },
-  {
-    "startFrame": 2642,
-    "endFrame": 2720,
-    "text": ""
-  },
-  {
-    "startFrame": 2720,
-    "endFrame": 2814,
-    "text": ""
-  },
-  {
-    "startFrame": 2814,
-    "endFrame": 2888,
-    "text": ""
-  },
-  {
-    "startFrame": 2888,
-    "endFrame": 2933,
-    "text": ""
-  },
-  {
-    "startFrame": 2933,
-    "endFrame": 3005,
-    "text": ""
-  },
-  {
-    "startFrame": 3005,
-    "endFrame": 3041,
-    "text": ""
-  },
-  {
-    "startFrame": 3041,
-    "endFrame": 3113,
-    "text": ""
-  },
-  {
-    "startFrame": 3113,
-    "endFrame": 3181,
-    "text": ""
-  },
-  {
-    "startFrame": 3181,
-    "endFrame": 3240,
-    "text": ""
-  },
-  {
-    "startFrame": 3240,
-    "endFrame": 3313,
-    "text": ""
-  },
-  {
-    "startFrame": 3313,
-    "endFrame": 3408,
-    "text": ""
-  },
-  {
-    "startFrame": 3408,
-    "endFrame": 3494,
-    "text": ""
-  },
-  {
-    "startFrame": 3494,
-    "endFrame": 3602,
-    "text": ""
-  },
-  {
-    "startFrame": 3603,
-    "endFrame": 3706,
-    "text": ""
-  },
-  {
-    "startFrame": 3706,
-    "endFrame": 3780,
-    "text": ""
-  },
-  {
-    "startFrame": 3780,
-    "endFrame": 3857,
-    "text": ""
-  },
-  {
-    "startFrame": 3857,
-    "endFrame": 3923,
-    "text": ""
-  },
-  {
-    "startFrame": 3923,
-    "endFrame": 3984,
-    "text": ""
-  },
-  {
-    "startFrame": 3984,
-    "endFrame": 4053,
-    "text": ""
-  },
-  {
-    "startFrame": 4053,
-    "endFrame": 4159,
-    "text": ""
-  },
-  {
-    "startFrame": 4159,
-    "endFrame": 4225,
-    "text": ""
-  },
-  {
-    "startFrame": 4225,
-    "endFrame": 4308,
-    "text": ""
-  },
-  {
-    "startFrame": 4308,
-    "endFrame": 4406,
-    "text": ""
-  },
-  {
-    "startFrame": 4406,
-    "endFrame": 4522,
-    "text": ""
-  },
-  {
-    "startFrame": 4523,
-    "endFrame": 4555,
-    "text": ""
-  },
-  {
-    "startFrame": 4555,
-    "endFrame": 4620,
-    "text": ""
-  },
-  {
-    "startFrame": 4620,
-    "endFrame": 4682,
-    "text": ""
-  },
-  {
-    "startFrame": 4682,
-    "endFrame": 4765,
-    "text": ""
-  },
-  {
-    "startFrame": 4765,
-    "endFrame": 4840,
-    "text": ""
-  },
-  {
-    "startFrame": 4840,
-    "endFrame": 4952,
-    "text": ""
-  },
-  {
-    "startFrame": 4952,
-    "endFrame": 5053,
-    "text": ""
-  },
-  {
-    "startFrame": 5053,
-    "endFrame": 5125,
-    "text": ""
-  },
-  {
-    "startFrame": 5125,
-    "endFrame": 5165,
-    "text": ""
-  },
-  {
-    "startFrame": 5165,
-    "endFrame": 5216,
-    "text": ""
-  },
-  {
-    "startFrame": 5216,
-    "endFrame": 5296,
-    "text": ""
-  },
-  {
-    "startFrame": 5297,
-    "endFrame": 5372,
-    "text": ""
-  },
-  {
-    "startFrame": 5372,
-    "endFrame": 5432,
-    "text": ""
-  },
-  {
-    "startFrame": 5432,
-    "endFrame": 5492,
-    "text": ""
-  },
-  {
-    "startFrame": 5492,
-    "endFrame": 5580,
-    "text": ""
-  },
-  {
-    "startFrame": 5580,
-    "endFrame": 5648,
-    "text": ""
-  },
-  {
-    "startFrame": 5650,
-    "endFrame": 5683,
-    "text": ""
-  },
-  {
-    "startFrame": 5683,
-    "endFrame": 5773,
-    "text": ""
-  },
-  {
-    "startFrame": 5773,
-    "endFrame": 5821,
-    "text": ""
-  },
-  {
-    "startFrame": 5821,
-    "endFrame": 5875,
-    "text": ""
-  },
-  {
-    "startFrame": 5875,
-    "endFrame": 5934,
-    "text": ""
-  },
-  {
-    "startFrame": 5934,
-    "endFrame": 6001,
-    "text": ""
-  },
-  {
-    "startFrame": 6001,
-    "endFrame": 6063,
-    "text": ""
-  },
-  {
-    "startFrame": 6063,
-    "endFrame": 6120,
-    "text": ""
-  },
-  {
-    "startFrame": 6120,
-    "endFrame": 6192,
-    "text": ""
-  },
-  {
-    "startFrame": 6192,
-    "endFrame": 6261,
-    "text": ""
-  },
-  {
-    "startFrame": 6262,
-    "endFrame": 6293,
-    "text": ""
-  },
-  {
-    "startFrame": 6293,
-    "endFrame": 6342,
-    "text": ""
-  },
-  {
-    "startFrame": 6342,
-    "endFrame": 6389,
-    "text": ""
-  },
-  {
-    "startFrame": 6389,
-    "endFrame": 6433,
-    "text": ""
-  },
-  {
-    "startFrame": 6433,
-    "endFrame": 6504,
-    "text": ""
-  },
-  {
-    "startFrame": 6504,
-    "endFrame": 6614,
-    "text": ""
-  },
-  {
-    "startFrame": 6614,
-    "endFrame": 6672,
-    "text": ""
-  },
-  {
-    "startFrame": 6672,
-    "endFrame": 6766,
-    "text": ""
-  },
-  {
-    "startFrame": 6766,
-    "endFrame": 6812,
-    "text": ""
-  },
-  {
-    "startFrame": 6812,
-    "endFrame": 6916,
-    "text": ""
-  },
-  {
-    "startFrame": 6916,
-    "endFrame": 7013,
-    "text": ""
-  },
-  {
-    "startFrame": 7013,
-    "endFrame": 7088,
-    "text": ""
-  },
-  {
-    "startFrame": 7088,
-    "endFrame": 7135,
-    "text": ""
-  },
-  {
-    "startFrame": 7135,
-    "endFrame": 7191,
-    "text": ""
-  },
-  {
-    "startFrame": 7191,
-    "endFrame": 7245,
-    "text": ""
-  },
-  {
-    "startFrame": 7245,
-    "endFrame": 7301,
-    "text": ""
-  },
-  {
-    "startFrame": 7301,
-    "endFrame": 7349,
-    "text": ""
-  },
-  {
-    "startFrame": 7349,
-    "endFrame": 7419,
-    "text": ""
-  },
-  {
-    "startFrame": 7419,
-    "endFrame": 7519,
-    "text": ""
-  },
-  {
-    "startFrame": 7519,
-    "endFrame": 7581,
-    "text": "",
-    "solidInkFromFrame": 7547
-  },
-  {
-    "startFrame": 7581,
-    "endFrame": 7649,
-    "text": "",
-    "solidInkFromFrame": 7581
-  },
-  {
-    "startFrame": 7649,
-    "endFrame": 7700,
-    "text": "",
-    "solidInkFromFrame": 7649
-  },
-  {
-    "startFrame": 7700,
-    "endFrame": 7756,
-    "text": "",
-    "solidInkFromFrame": 7700
-  }
+  {"startFrame": 900, "endFrame": 928, "text": "第一笔账也是最大头的一块"},
+  {"startFrame": 928, "endFrame": 985, "text": "AI 账号的月订阅费"},
+  {"startFrame": 985, "endFrame": 1023, "text": "我这套流水线里"},
+  {"startFrame": 1023, "endFrame": 1108, "text": "写代码、做画面主力用的是 Claude Code"},
+  {"startFrame": 1108, "endFrame": 1150, "text": "200 美金一个月的账号"},
+  {"startFrame": 1150, "endFrame": 1222, "text": "折合人民币大概 1330 多块"},
+  {"startFrame": 1222, "endFrame": 1318, "text": "很多小白一听觉得好贵但你不能按月算"},
+  {"startFrame": 1318, "endFrame": 1368, "text": "你得除以每个月的产量"},
+  {"startFrame": 1368, "endFrame": 1433, "text": "像我最近一个月发了 104 条"},
+  {"startFrame": 1433, "endFrame": 1504, "text": "除以 104 条均摊到每一期视频"},
+  {"startFrame": 1504, "endFrame": 1593, "text": "主力账号大概 12.8 元不到 13 块钱"},
+  {"startFrame": 1593, "endFrame": 1662, "text": "查资料、搜索材用的是 Codex"},
+  {"startFrame": 1662, "endFrame": 1708, "text": "虽然也是 200 美金的账号"},
+  {"startFrame": 1708, "endFrame": 1774, "text": "但它平时还要帮我干很多别的活"},
+  {"startFrame": 1774, "endFrame": 1849, "text": "分摊到每期视频上大约也就 1 块钱"},
+  {"startFrame": 1849, "endFrame": 1891, "text": "而且 Codex 这部分"},
+  {"startFrame": 1891, "endFrame": 1954, "text": "用 DeepSeek 平替也完全可以"},
+  {"startFrame": 1954, "endFrame": 2017, "text": "另外主力这块我还留了后手"},
+  {"startFrame": 2017, "endFrame": 2056, "text": "如果 Claude 被封号"},
+  {"startFrame": 2056, "endFrame": 2118, "text": "我也能直接换成 Gemini 平替"},
+  {"startFrame": 2118, "endFrame": 2159, "text": "同样是 200 美金一个月"},
+  {"startFrame": 2159, "endFrame": 2231, "text": "额度消耗也差不多整套流程照样跑"},
+  {"startFrame": 2231, "endFrame": 2282, "text": "工作流不会断"},
+  {"startFrame": 2283, "endFrame": 2338, "text": "第二笔账云端渲染"},
+  {"startFrame": 2338, "endFrame": 2410, "text": "很多人以为云端租显卡肯定很烧钱"},
+  {"startFrame": 2410, "endFrame": 2450, "text": "其实恰恰相反"},
+  {"startFrame": 2450, "endFrame": 2526, "text": "我用的是按量计费的 4090 云主机"},
+  {"startFrame": 2526, "endFrame": 2642, "text": "按小时标价 2.15 元关键是按秒计费"},
+  {"startFrame": 2642, "endFrame": 2720, "text": "我接了官方接口自动开机、自动关机"},
+  {"startFrame": 2720, "endFrame": 2814, "text": "渲完立刻断电不用的时候一分钱不花"},
+  {"startFrame": 2814, "endFrame": 2888, "text": "为什么这套工作流特别适合上云"},
+  {"startFrame": 2888, "endFrame": 2933, "text": "传统剪辑软件导出视频"},
+  {"startFrame": 2933, "endFrame": 3005, "text": "是一条时间线从头到尾慢慢导"},
+  {"startFrame": 3005, "endFrame": 3041, "text": "但 Remotion 不一样"},
+  {"startFrame": 3041, "endFrame": 3113, "text": "它把一万帧画面切成几十个块"},
+  {"startFrame": 3113, "endFrame": 3181, "text": "同时交给多台机器并行渲染"},
+  {"startFrame": 3181, "endFrame": 3240, "text": "多开几台就能成倍提速"},
+  {"startFrame": 3240, "endFrame": 3313, "text": "我实测过一条 3 到 5 分钟的片子"},
+  {"startFrame": 3313, "endFrame": 3408, "text": "单次渲染开机大概 10 分钟只要几毛钱"},
+  {"startFrame": 3408, "endFrame": 3494, "text": "哪怕算上预览、局部返修再出最终版"},
+  {"startFrame": 3494, "endFrame": 3602, "text": "累计开机半小时渲染成本也就 1 块钱左右"},
+  {"startFrame": 3603, "endFrame": 3706, "text": "第三笔账声音和字幕这块就更便宜了"},
+  {"startFrame": 3706, "endFrame": 3780, "text": "语音转文字和声音复刻这两个模型"},
+  {"startFrame": 3780, "endFrame": 3857, "text": "是我挑选、对比了几十个开源"},
+  {"startFrame": 3857, "endFrame": 3923, "text": "和闭源模型之后效果最好的"},
+  {"startFrame": 3923, "endFrame": 3984, "text": "转字幕按最新计费折算"},
+  {"startFrame": 3984, "endFrame": 4053, "text": "转一小时音频才一毛钱左右"},
+  {"startFrame": 4053, "endFrame": 4159, "text": "一期 4 分钟的视频转一次字幕不到一分钱"},
+  {"startFrame": 4159, "endFrame": 4225, "text": "声音复刻大概 8 块钱一万字"},
+  {"startFrame": 4225, "endFrame": 4308, "text": "一期 3 到 5 分钟的口播大概 1500 字"},
+  {"startFrame": 4308, "endFrame": 4406, "text": "加上偶尔补录几句也就 1.2 到 1.6 元"},
+  {"startFrame": 4406, "endFrame": 4522, "text": "两项加在一起整期声音成本不到 2 块钱"},
+  {"startFrame": 4523, "endFrame": 4555, "text": "除了这三大块"},
+  {"startFrame": 4555, "endFrame": 4620, "text": "还有封面生图、素材补充"},
+  {"startFrame": 4620, "endFrame": 4682, "text": "存储这些零零碎碎的杂项工具"},
+  {"startFrame": 4682, "endFrame": 4765, "text": "按月均摊下来每期大概 2 到 3 块钱"},
+  {"startFrame": 4765, "endFrame": 4840, "text": "把刚才四笔账全加起来给你揭晓答案"},
+  {"startFrame": 4840, "endFrame": 4952, "text": "订阅均摊约 13.8 元云端渲染约 1.1 元"},
+  {"startFrame": 4952, "endFrame": 5053, "text": "声音字幕约 1.5 元加上 2.5 元左右的杂项"},
+  {"startFrame": 5053, "endFrame": 5125, "text": "一期 3 到 5 分钟的高质量 AI 视频"},
+  {"startFrame": 5125, "endFrame": 5165, "text": "总成本不到 20 块"},
+  {"startFrame": 5165, "endFrame": 5216, "text": "算下来大概就是 19 块钱左右"},
+  {"startFrame": 5216, "endFrame": 5296, "text": "也就是 15 到 20 块钱这个区间"},
+  {"startFrame": 5297, "endFrame": 5372, "text": "不到 20 块钱放到行业里是什么概念"},
+  {"startFrame": 5372, "endFrame": 5432, "text": "现在去市面上找剪辑师外包"},
+  {"startFrame": 5432, "endFrame": 5492, "text": "普通的动效数据横版视频"},
+  {"startFrame": 5492, "endFrame": 5580, "text": "市场价一般一分钟 180 到 250 块"},
+  {"startFrame": 5580, "endFrame": 5648, "text": "一条 4 分钟的片子光剪辑费就得"},
+  {"startFrame": 5650, "endFrame": 5683, "text": "700 到 1000 块"},
+  {"startFrame": 5683, "endFrame": 5773, "text": "而这套工作流全算上每分钟不到 5 块钱"},
+  {"startFrame": 5773, "endFrame": 5821, "text": "直接差出几十倍"},
+  {"startFrame": 5821, "endFrame": 5875, "text": "而且不止普通横版教程"},
+  {"startFrame": 5875, "endFrame": 5934, "text": "你看像这种小Lin说风格的视频"},
+  {"startFrame": 5934, "endFrame": 6001, "text": "市面上找人剪一条可能要 6000 块"},
+  {"startFrame": 6001, "endFrame": 6063, "text": "用这套流程不到 20 块钱"},
+  {"startFrame": 6063, "endFrame": 6120, "text": "还有这种二次元双女主科普"},
+  {"startFrame": 6120, "endFrame": 6192, "text": "像素风闯关动画、深度技术视频"},
+  {"startFrame": 6192, "endFrame": 6261, "text": "这类风格做起来都非常容易"},
+  {"startFrame": 6262, "endFrame": 6293, "text": "也有很多人说"},
+  {"startFrame": 6293, "endFrame": 6342, "text": "你不就是靠 Claude Code 吗"},
+  {"startFrame": 6342, "endFrame": 6389, "text": "但其实能用上 Claude Code 或者"},
+  {"startFrame": 6389, "endFrame": 6433, "text": "Gemini 的人非常多"},
+  {"startFrame": 6433, "endFrame": 6504, "text": "为什么大多数人跑不通这个工作流"},
+  {"startFrame": 6504, "endFrame": 6614, "text": "本质是认知、能力、经验和审美的差异"},
+  {"startFrame": 6614, "endFrame": 6672, "text": "怎么拆选题、怎么控节奏"},
+  {"startFrame": 6672, "endFrame": 6766, "text": "什么画面叫高级、哪里丑必须打回返修"},
+  {"startFrame": 6766, "endFrame": 6812, "text": "这些 AI 自己不会"},
+  {"startFrame": 6812, "endFrame": 6916, "text": "全靠人把经验一条条沉淀进规则里"},
+  {"startFrame": 6916, "endFrame": 7013, "text": "所以这套全自动剪辑我觉得最适合四类人"},
+  {"startFrame": 7013, "endFrame": 7088, "text": "第一类 AI 时代想转型的剪辑师"},
+  {"startFrame": 7088, "endFrame": 7135, "text": "以前一帧一帧死磕"},
+  {"startFrame": 7135, "endFrame": 7191, "text": "现在一个人管好几条流水线"},
+  {"startFrame": 7191, "endFrame": 7245, "text": "效率和收入都能翻倍"},
+  {"startFrame": 7245, "endFrame": 7301, "text": "第二类自己管业务的老板"},
+  {"startFrame": 7301, "endFrame": 7349, "text": "想把专业内容做成流量"},
+  {"startFrame": 7349, "endFrame": 7419, "text": "又不想花大价钱养剪辑团队"},
+  {"startFrame": 7419, "endFrame": 7519, "text": "第三类 MCN 和内容工作室批量跑矩阵号"},
+  {"startFrame": 7519, "endFrame": 7581, "text": "把单条制作成本直接打穿", "solidInkFromFrame": 7547},
+  {"startFrame": 7581, "endFrame": 7649, "text": "第四类想稳定日更的个人博主", "solidInkFromFrame": 7581},
+  {"startFrame": 7649, "endFrame": 7700, "text": "不用再被剪辑卡死产能", "solidInkFromFrame": 7649},
+  {"startFrame": 7700, "endFrame": 7756, "text": "把精力全放在选题和表达上", "solidInkFromFrame": 7700}
 ]

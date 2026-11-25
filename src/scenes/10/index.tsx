@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react';
-import {AbsoluteFill, Composition, cancelRender, continueRender, delayRender, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Composition, cancelRender, continueRender, delayRender, registerRoot, useCurrentFrame} from 'remotion';
 import {captionAt,progress,smooth,stateAt,whiteAt,type BrandMode} from './clock';
 import timeline from './timeline.json';
 import {appearing,cornerAt,rankPlan,sceneAt,type Segment} from './story';
@@ -9,12 +9,35 @@ import {EarlyScenes} from './scenes-early';
 import {LateScenes} from './scenes-late';
 import './style.css';
 
-
-function useLocalFonts(){}
+const faces=['900 46px FTHeavy','500 22px FTMedium','400 83px FTTech','400 74px FTDigits','600 30px FTMono'];
+function useLocalFonts(){
+ const [handle]=useState(()=>typeof document==='undefined'?null:delayRender('FT1010 bundled typefaces'));
+ useEffect(()=>{
+  if(handle===null) return;
+  Promise.all(faces.map(face=>document.fonts.load(face,'FredTalk 本周功能 ABC0123456789'))).then(loaded=>{
+   if(loaded.some(f=>f.length===0)) throw new Error('FT1010 missing local font face');
+   continueRender(handle);
+  }).catch(cancelRender);
+ },[handle]);
+}
 const none={color:'transparent',WebkitTextStroke:'0px transparent'};
-
-function CreatorMark({mode}:{mode:BrandMode}) {return null;}
-function Caption({text,f,start}:{text:string|null;f:number;start:number}){return null;}
+const markStyle={
+ 'white-outline':{color:'transparent',WebkitTextStroke:'2px #fcfaf4'},
+ white:{color:'#fcfaf4',WebkitTextStroke:'0px transparent'},
+ purple:{color:'#8656e8',WebkitTextStroke:'0px transparent'},
+ dark:{color:'#19191c',WebkitTextStroke:'0px transparent'},
+ none,
+};
+function CreatorMark({mode}:{mode:BrandMode}) {
+ return mode==='none'?null:<div className="tech" style={{position:'absolute',top:121,right:60,fontSize:37,...markStyle[mode]}}>FredTalk</div>;
+}
+function Caption({text,f,start}:{text:string|null;f:number;start:number}){
+ const previous=start===0?null:captionAt(start-1).text;
+ // These two entry cues have a faint first frame, an intermediate frame, then a full hold.
+ const measuredFade=start===1998?[.30,.73]:start===2615?[.22,.66]:undefined;
+ const on=measuredFade?(measuredFade[f-start]??1):previous===null?(.37+.63*progress(f,start,start+3)):1;
+ return text===null?null:<div data-layer="caption" style={{position:'absolute',left:38,right:38,top:1340,textAlign:'center',whiteSpace:'nowrap',margin:0,color:'#fffdf6',fontSize:46,lineHeight:'62px',fontWeight:900,letterSpacing:'0px',textShadow:'0 4px 3px #13100fd9, 0 1px 9px #030303bd',opacity:on}}>{text}</div>;
+}
 const foot=(text:string,opacity:number=1)=><div className="medium" style={{position:'absolute',top:1478,left:65,right:65,textAlign:'center',fontSize:21,lineHeight:'27px',color:'#8a8274',opacity}}>{text}</div>;
 const chapterFoot=(rank:number,s?:Segment) => {
  const extra=rank===8&&s?.id==='human-blind'?'；16/16 为项目方 README 自述':rank===10?'；画面：OpenAI 公开资料／防御流程示意':rank===9?'；画面：项目官方示例／工具页':rank===6?'；画面：Chrome 官方网页与文档':'；画面：项目官方公开资料';
@@ -90,4 +113,3 @@ export function Film(){
 export {timeline,stateAt};
 export const compositionConfig = {id:'FT1010',width:1080,height:1920,fps:timeline.fps,durationInFrames:timeline.totalFrames};
 export function Root(){return <Composition id={compositionConfig.id} width={compositionConfig.width} height={compositionConfig.height} fps={compositionConfig.fps} durationInFrames={compositionConfig.durationInFrames} component={Film}/>;}
-

@@ -1,6 +1,5 @@
-import { DemoImage as OffthreadVideo, demoAsset as staticFile } from '../../demo-media';
 import React, {createContext,useContext,type CSSProperties,type PropsWithChildren} from 'react';
-import {Freeze, Img, Sequence} from 'remotion';
+import {Freeze,Img,OffthreadVideo,Sequence,staticFile} from 'remotion';
 import {brandAt,chapterAt,clamp,cue,fitPhase,linear,mediaAt,mix,rise,type Branding,type Caption,type Chapter} from './clock';
 
 export const W=1920,H=1080;
@@ -109,9 +108,29 @@ export function HeroText({a,b,sub,x=95,y=300,width=1730,size=88,p1=1,p2=1,color=
   {sub&&<div className="subhead" style={{marginTop:28,opacity:p2}}>{sub}</div>}
  </div>;
 }
-export function Brand({frame,b,place='corner'}:{frame:number;b:Branding;place?:'corner'|'skill'}) {return null;}
-export function SkillBrand() {return null;}
-export function Captions({frame,c}:{frame:number;c:Caption}) {return null;}
+export function Brand({frame,b,place='corner'}:{frame:number;b:Branding;place?:'corner'|'skill'}) {
+
+ if(b.mode==='none') return place==='corner'?<div data-brand={b.mode} aria-hidden/>:null;
+ const on=b.place===place;
+ const opacity=b.fade?mix(.20,1,rise(frame,b.start,b.fade)):1;
+ if(!on) return place==='corner'?<div data-brand={b.mode} aria-hidden/>:null;
+ if(place==='corner') return <div className="corner-tag" data-brand={b.mode} style={{opacity,background:b.mode==='dark'?'#eee9db':undefined,color:b.mode==='dark'?'#171719':undefined}}><Glyph as="span">{b.label}</Glyph></div>;
+ return <div data-brand={b.mode} style={{display:'inline-flex',position:'relative',alignItems:'center',gap:8,margin:'auto',fontSize:42,opacity}}>
+   <svg width="36" height="32" viewBox="0 0 36 32" aria-hidden style={{position:'absolute',left:-17,top:-8,color:GOLD}}><path d="M9 13 3 8M13 10 11 1M7 20 1 18M3 29l8-5" stroke="currentColor" strokeWidth="2.7" strokeLinecap="round" fill="none"/></svg>
+   <span style={{position:'relative',fontFamily:'Georgia,FT07Display',fontWeight:900,fontStyle:'italic',letterSpacing:'-.055em',transform:'rotate(-4deg)',textShadow:'0 3px 6px #000',lineHeight:1,padding:'0 3px 8px'}}>FredTalk<svg width="100%" height="10" viewBox="0 0 130 12" preserveAspectRatio="none" style={{position:'absolute',bottom:0,left:0}}><path d="M4 10Q66 0 126 4" stroke="#ebbc5a" strokeWidth="3.5" fill="none" strokeLinecap="round"/></svg></span>
+   <span style={{transform:'skewX(-12deg)',background:'linear-gradient(130deg,#5b28cb,#371486)',borderRadius:10,fontFamily:'FT07Display',fontWeight:900,padding:'2px 10px 4px',boxShadow:'0 0 12px #592bd78a'}}>AI</span>
+ </div>;
+}
+export function SkillBrand() {
+ const {frame}=useStage();
+ return <Brand place="skill" frame={frame} b={brandAt(frame)}/>;
+}
+export function Captions({frame,c}:{frame:number;c:Caption}) {
+ if(c.text===null) return <div data-caption-visible="0" aria-hidden/>;
+ const hi=c.fadeIn?mix(c.onsetOpacity??.18,1,linear(frame,c.start,c.fadeIn)):1;
+ const lo=c.fadeOut?mix(.33,1,clamp((c.end-frame)/c.fadeOut)):1;
+ return <div className="caption" data-caption-visible="1" data-caption-frame={c.start} style={{opacity:hi*lo}}>{c.text}</div>;
+}
 export const SourceTag=({text,left=24,top=23,tone='gold-solid',font=20}:{text:string;left?:number;top?:number;tone?:string;font?:number})=><div style={pos(left,top)}><Pill tone={tone} font={font}>{text}</Pill></div>;
 export function BigValue({value,color='gold',p=1,y=381,font=155,reveal=p,blur}: {value:string;color?:'gold'|'red'|'silver';p?:number;y?:number;font?:number;reveal?:number;blur?:number}) {
   return <div style={{...pos(130,y,1660,215),textAlign:'center',opacity:p,transform:`translateY(${(1-p)*20}px)`,clipPath:`inset(0 0 ${100-100*reveal}% 0)`,filter:blur?`blur(${blur}px)`:undefined}}><span className={`big-number gradient-text ${color}-text`} style={{fontSize:font,display:'inline-block'}}>{value}</span></div>;

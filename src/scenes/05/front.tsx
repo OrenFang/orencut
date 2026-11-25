@@ -53,12 +53,12 @@ export const Opening:React.FC<F>=({f})=>{
   </Box>}</AbsoluteFill>;
 };
 
-const DemoAside:React.FC<F>=({f})=>{
+const FredAside:React.FC<F>=({f})=>{
   const exit=p(f,595,610);
   const shown=rise(f,470,479)*(1-exit);
   const labels=[['热点抓取与写稿','自动核验一手来源'],['声音复刻对齐','词级时间戳精修'],['全自动剪辑出片','Skill + 组件库渲染']];
   return <AbsoluteFill>
-    <Box x={265} y={127} w={1390} h={115} style={{display:'grid',placeItems:'center',fontWeight:900,fontSize:64,letterSpacing:-1,opacity:shown,transform:`translateY(${lerp(40,0,shown)}px)`}}><div>本期视频由 <Violet>Demo</Violet> 全自动剪辑输出</div></Box>
+    <Box x={265} y={127} w={1390} h={115} style={{display:'grid',placeItems:'center',fontWeight:900,fontSize:64,letterSpacing:-1,opacity:shown,transform:`translateY(${lerp(40,0,shown)}px)`}}><div>本期视频由 <Violet>Fred</Violet> 全自动剪辑输出</div></Box>
     {[0,1].map(i=><Box key={i} x={625+i*566} y={402+65*exit} w={99*rise(f,490+i*12,501+i*12)} h={5} style={{backgroundColor:PURPLE,opacity:1-exit}}/>)}
     {labels.map(([title,sub],i)=>{
       const a=rise(f,473+i*12,489+i*12);
@@ -69,14 +69,14 @@ const DemoAside:React.FC<F>=({f})=>{
       </Pane>;
     })}
     {f>=518&&<Pane x={459} y={604+45*exit} w={1002} h={180} radius={37} style={{opacity:env(f,518,531,595,610),padding:'28px 35px',display:'flex',alignItems:'center',justifyContent:'space-between'}}>
-      <div><div style={{fontSize:25,fontWeight:690,color:'#6b6971'}}>想拿这套全自动剪辑工作流？</div><div style={{fontSize:40,fontWeight:890,marginTop:9,display:'flex',alignItems:'center',gap:19}}>评论区扣 <Tag style={{height:50,minWidth:179,fontSize:30,border:'1px solid #dfdbe6'}}><Violet>{'Demo'.slice(0,Math.round(kf(f,[[540,0],[562,4]])))}</Violet></Tag></div></div>
-      <Tag dark style={{backgroundColor:f<570?PURPLE:'#19191c',color:'#fff',borderRadius:22,fontSize:33,padding:'16px 45px'}}>{f<570?'发送':'Demo'}</Tag>
+      <div><div style={{fontSize:25,fontWeight:690,color:'#6b6971'}}>想拿这套全自动剪辑工作流？</div><div style={{fontSize:40,fontWeight:890,marginTop:9,display:'flex',alignItems:'center',gap:19}}>评论区扣 <Tag style={{height:50,minWidth:179,fontSize:30,border:'1px solid #dfdbe6'}}><Violet>{'Fred'.slice(0,Math.round(kf(f,[[540,0],[562,4]])))}</Violet></Tag></div></div>
+      <Tag dark style={{backgroundColor:f<570?PURPLE:'#19191c',color:'#fff',borderRadius:22,fontSize:33,padding:'16px 45px'}}>{f<570?'发送':'Fred'}</Tag>
     </Pane>}
   </AbsoluteFill>;
 };
 
 export const Genie:React.FC<F>=({f})=>{
-  if(f>=466) return <DemoAside f={f}/>;
+  if(f>=466) return <FredAside f={f}/>;
   const onWhite=f>=407;
   const shot=rise(f,407,432), exit=p(f,454,465);
   const beforeSettle=f>=404&&f<420, dropping=f>454;
@@ -116,7 +116,7 @@ export const Genie:React.FC<F>=({f})=>{
       <div style={{borderTop:'2px solid #f0eef3',marginTop:46,paddingTop:22,color:'#626168',fontSize:25,fontWeight:680}}>Project Genie · Google DeepMind</div>
     </Pane>}
     {f>=99&&f<465&&<Credit text={onWhite?'来源：Google · Google DeepMind':'来源：Project Genie · 官方山地替代例'} dark={!onWhite} onVideo={!onWhite}/>}
-    {f===465&&<DemoAside f={f}/>}
+    {f===465&&<FredAside f={f}/>}
   </AbsoluteFill>;
 };
 
@@ -178,5 +178,3 @@ export const Closing:React.FC<F>=({f})=>{
     {f<3716&&<Box x={x} y={y} w={w} h={w*H/W} style={{backgroundColor:'#eee',overflow:'hidden',borderRadius:18*p(f,3710,3716),boxShadow:f>3710?'0 8px 24px #0004':undefined,zIndex:16}}><Moving media="claudeLaptop" from={3169} to={3716} rate={.74} style={{filter:'saturate(.84)',objectPosition:'54% 50%'}}/></Box>}
   </AbsoluteFill>;
 };
-
-export { Ring };

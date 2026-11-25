@@ -1,8 +1,13 @@
-[data-motion-scene="10"] .ft1010{color:#faf6e9;font-family:system-ui,'PingFang SC',sans-serif;font-weight:900;overflow:hidden;text-rendering:optimizeLegibility;box-sizing:border-box;background:#181713}
-[data-motion-scene="10"] .ft1010 *, [data-motion-scene="10"] .ft1010 *::before, [data-motion-scene="10"] .ft1010 *::after{box-sizing:border-box}
-[data-motion-scene="10"] .ft1010 img{display:block;margin:0}
-[data-motion-scene="10"] .ft1010 .tech{font-family:system-ui,system-ui,sans-serif;font-weight:400;letter-spacing:.045em}
-[data-motion-scene="10"] .ft1010 .digits{font-family:system-ui,system-ui,sans-serif;font-weight:400;letter-spacing:.01em;font-variant-numeric:tabular-nums}
-[data-motion-scene="10"] .ft1010 .medium{font-family:system-ui,sans-serif;font-weight:500}
-[data-motion-scene="10"] .ft1010 .mono{font-family:monospace,monospace;font-weight:600}
-[data-motion-scene="10"] .ft1010 .gold{color:#e8bd62}
+@font-face{font-family:FTHeavy;src:url('../../../public/type/MiSans-Heavy.otf') format('opentype');font-weight:900;font-display:block}
+@font-face{font-family:FTMedium;src:url('../../../public/type/MiSans-Medium.otf') format('opentype');font-weight:500;font-display:block}
+@font-face{font-family:FTTech;src:url('../../../public/type/RuiZi.ttf') format('truetype');font-weight:400;font-display:block}
+@font-face{font-family:FTDigits;src:url('../../../public/type/RussoOne-Regular.ttf') format('truetype');font-weight:400;font-display:block}
+@font-face{font-family:FTMono;src:url('../../../public/type/SourceCodePro-Semibold.ttf') format('truetype');font-weight:600;font-display:block}
+.ft1010{color:#faf6e9;font-family:FTHeavy,'PingFang SC',sans-serif;font-weight:900;overflow:hidden;text-rendering:optimizeLegibility;box-sizing:border-box;background:#181713}
+.ft1010 *, .ft1010 *::before, .ft1010 *::after{box-sizing:border-box}
+.ft1010 img{display:block;margin:0}
+.ft1010 .tech{font-family:FTTech,FTHeavy,sans-serif;font-weight:400;letter-spacing:.045em}
+.ft1010 .digits{font-family:FTDigits,FTHeavy,sans-serif;font-weight:400;letter-spacing:.01em;font-variant-numeric:tabular-nums}
+.ft1010 .medium{font-family:FTMedium,sans-serif;font-weight:500}
+.ft1010 .mono{font-family:FTMono,monospace;font-weight:600}
+.ft1010 .gold{color:#e8bd62}
