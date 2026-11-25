@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Abstract route map</title>
+  <defs>
+    <radialGradient id="field" cx=".5" cy=".2" r=".84">
+      <stop stop-color="#26395c"/>
+      <stop offset="1" stop-color="#0c1428"/>
+    </radialGradient>
+    <pattern id="lines" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0v42" fill="none" stroke="#5581ad" stroke-width="1" opacity=".2"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#field)"/>
+  <path d="M0 0h1280v720H0z" fill="url(#lines)"/>
+  <g fill="none" stroke="#49678c" stroke-width="2" opacity=".55">
+    <path d="M-24 170l194-16 115 89 172-26 135 104 109-62 166 38 178-72 268 10"/>
+    <path d="M-18 377l166 39 170-103 97 34 137 111 161-19 146 55 174-81 264 17"/>
+    <path d="M-9 591l178-56 106 69 157-2 116-81 174 61 126-34 148 18 156-63 156 31"/>
+    <path d="M174-10l-31 156 76 133-91 160 91 115 11 171M480-10l-71 107 81 152-75 90 48 177-59 211M763-5l-26 126 38 109-80 125 79 138-14 240M1090-8l-54 129 33 129-68 108 104 133-34 253"/>
+  </g>
+  <path d="M89 515l156-68h137l131-105h117l120-119h149l159-106 143 32" stroke="#608ca8" stroke-width="18" fill="none" opacity=".28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M89 515l156-68h137l131-105h117l120-119h149l159-106 143 32" stroke="#9bb6d7" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M304 446l-42-100-95-37m463 33l49 82 139 45 118 122m-185-367l-54-59-134-60m335 119l75 79 130 33" stroke="#657da4" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g fill="#b0c6e4" stroke="#1b2943" stroke-width="4">
+    <circle cx="89" cy="515" r="11"/><circle cx="304" cy="447" r="12"/><circle cx="512" cy="342" r="13"/><circle cx="750" cy="223" r="13"/><circle cx="899" cy="223" r="12"/><circle cx="1060" cy="117" r="11"/><circle cx="1201" cy="149" r="9"/><circle cx="938" cy="591" r="14"/><circle cx="167" cy="309" r="9"/><circle cx="563" cy="105" r="9"/>
+  </g>
+  <circle cx="630" cy="342" r="37" fill="#e5b464" opacity=".15"/>
+  <circle cx="630" cy="342" r="22" fill="#ecc27a" stroke="#3a3b54" stroke-width="4"/>
+  <circle cx="630" cy="342" r="6" fill="#fff1ce"/>
+</svg>

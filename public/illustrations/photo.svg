@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Abstract coast at dusk</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#344774"/>
+      <stop offset=".55" stop-color="#8b8fac"/>
+      <stop offset="1" stop-color="#d8a9a6"/>
+    </linearGradient>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#8e9ead"/>
+      <stop offset="1" stop-color="#172e4b"/>
+    </linearGradient>
+    <linearGradient id="headland" x2=".8" y2="1">
+      <stop stop-color="#526a80"/>
+      <stop offset="1" stop-color="#233145"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#ffddbf" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#ffddbf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1280v495H0z"/>
+  <circle cx="921" cy="288" r="202" fill="url(#glow)"/>
+  <circle cx="921" cy="288" r="67" fill="#ebc4af" opacity=".76"/>
+  <path d="M0 367l144-28 82-49 110 63 98-96 93 56 59 6 67 55 132 41 105-44 63 36 104-31 126 52v95H0z" fill="#4f678a"/>
+  <path d="M0 430l138-33 108 30 91-15 142 44 90-30 178 40 247-22 286-1v277H0z" fill="url(#water)"/>
+  <path d="M0 434l127-23 121 10 73 38-92 27 18 26-69 22-54 61-124 30z" fill="url(#headland)"/>
+  <path d="M1280 473l-130-7-81 33 29 53-137 31-45 55-130 44-26 38h520z" fill="#283f52"/>
+  <path d="M0 650l109-45 139-1 70 39 78-14 142 91H0z" fill="#162c42"/>
+  <g fill="none" stroke-linecap="round" opacity=".55">
+    <path d="M736 476h229m-171 25h102m-181 33h265m-361 22h161m-286 48h300m-183 27h214m-259 56h133" stroke="#c2bdc8" stroke-width="4"/>
+    <path d="M437 506h88m-192 55h161m-77 102h85m397-52h53" stroke="#708da2" stroke-width="4"/>
+  </g>
+</svg>

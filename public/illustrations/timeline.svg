@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Editing timeline example</title>
+  <defs>
+    <linearGradient id="field" x2="1" y2="1">
+      <stop stop-color="#293447"/>
+      <stop offset="1" stop-color="#172236"/>
+    </linearGradient>
+    <linearGradient id="canvas" x2=".7" y2="1">
+      <stop stop-color="#5a769b"/>
+      <stop offset="1" stop-color="#28354e"/>
+    </linearGradient>
+    <pattern id="ticks" width="20" height="19" patternUnits="userSpaceOnUse">
+      <path d="M1 1v8m10-8v5" stroke="#92a4bf" stroke-width="1.5" opacity=".65"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#field)"/>
+  <rect x="53" y="54" width="1174" height="606" rx="24" fill="#182337" stroke="#5f6a83" stroke-width="2"/>
+  <rect x="79" y="82" width="765" height="293" rx="10" fill="#202c41"/>
+  <rect x="224" y="94" width="475" height="269" rx="9" fill="url(#canvas)"/>
+  <path d="M226 337l103-89 49 23 81-69 57 44 54-17 128 108v24H226z" fill="#353f60"/>
+  <circle cx="557" cy="168" r="28" fill="#ccafac"/>
+  <rect x="860" y="82" width="341" height="293" rx="10" fill="#26344e"/>
+  <g fill="#667da1"><rect x="878" y="108" width="97" height="56" rx="6"/><rect x="983" y="108" width="97" height="56" rx="6"/><rect x="1089" y="108" width="97" height="56" rx="6"/><rect x="878" y="179" width="97" height="56" rx="6"/><rect x="983" y="179" width="97" height="56" rx="6"/><rect x="1089" y="179" width="97" height="56" rx="6"/></g>
+  <path d="M883 270h162m-162 31h253m-253 33h191" stroke="#8e9ebc" stroke-width="7" stroke-linecap="round"/>
+  <rect x="78" y="389" width="1124" height="245" rx="11" fill="#212c43"/>
+  <path d="M218 391h967v19H218z" fill="url(#ticks)"/>
+  <path d="M217 391v242M78 463h1124M78 510h1124M78 557h1124M78 604h1124" stroke="#4b5973" stroke-width="2"/>
+  <g fill="#9b8ac2"><rect x="230" y="426" width="224" height="31" rx="4"/><rect x="462" y="426" width="206" height="31" rx="4"/><rect x="676" y="426" width="272" height="31" rx="4"/><rect x="957" y="426" width="226" height="31" rx="4"/></g>
+  <g fill="#7087a6"><rect x="277" y="474" width="149" height="29" rx="4"/><rect x="466" y="474" width="140" height="29" rx="4"/><rect x="719" y="474" width="185" height="29" rx="4"/><rect x="916" y="474" width="236" height="29" rx="4"/></g>
+  <g fill="#647d85"><rect x="230" y="520" width="354" height="30" rx="4"/><rect x="590" y="520" width="298" height="30" rx="4"/><rect x="895" y="520" width="288" height="30" rx="4"/><rect x="243" y="567" width="502" height="30" rx="4"/></g>
+  <path d="M240 535l15-3 14 5 26-4 24 3 20-3 24 4 15-6 22 4 16-2 19 5 28-4 14 3 23-4 18 2 20-3 18 5 23-4 22 3 11-3m48 0 26-2 18 4 20-5 26 3 18-4 16 4 30-1 21 4 20-4 24 2 26-4m35 4 29-7 18 5 20-4 16 4 38-3 28 5 17-5 27 2 33-4" stroke="#a5c5be" stroke-width="3" fill="none"/>
+  <path d="M701 402v230" stroke="#e3a77d" stroke-width="3"/>
+  <path d="M692 393h18v12l-9 9-9-9z" fill="#e3a77d"/>
+  <path d="M103 441h81m-81 46h66m-66 48h82m-82 48h51" stroke="#8396b3" stroke-width="8" stroke-linecap="round"/>
+</svg>

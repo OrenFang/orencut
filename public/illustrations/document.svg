@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>Document example</title>
+  <defs>
+    <linearGradient id="desk" x2="1" y2="1">
+      <stop stop-color="#d9e1e6"/>
+      <stop offset="1" stop-color="#cad0d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#desk)"/>
+  <rect x="185" y="65" width="824" height="835" rx="26" fill="#aab3c0" opacity=".36"/>
+  <rect x="203" y="48" width="788" height="852" rx="22" fill="#fffef9"/>
+  <path d="M252 111H949" stroke="#dde1e8" stroke-width="2"/>
+  <rect x="254" y="78" width="109" height="10" rx="5" fill="#929db5"/>
+  <circle cx="925" cy="83" r="8" fill="#b8a9d2"/>
+  <rect x="254" y="151" width="342" height="29" rx="6" fill="#313b4c"/>
+  <rect x="254" y="198" width="211" height="12" rx="4" fill="#8492a4"/>
+  <circle cx="911" cy="177" r="41" fill="#e7edf7"/>
+  <path d="M888 177h46m-23-23v46" stroke="#91a2bd" stroke-width="3" opacity=".6"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M255 258H915m-660 28H857m-602 28H881m-626 28H746" stroke="#b5bcc6" stroke-width="11"/>
+    <path d="M255 410H503m-248 232H526" stroke="#4c586a" stroke-width="17"/>
+    <path d="M255 684H910m-655 26H844m-589 26H893m-638 26H773m-518 26H919m-664 26H802" stroke="#b5bcc6" stroke-width="10"/>
+  </g>
+  <rect x="252" y="450" width="693" height="142" rx="12" fill="#eef1fa"/>
+  <path d="M287 549l76-32 69 9 74-34 93 20 96-18 85 21 91-31" fill="none" stroke="#8272b6" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M286 568H914" stroke="#cbd4e5" stroke-width="2"/>
+  <circle cx="871" cy="484" r="11" fill="#a48bc8"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Dark data panel example</title>
+  <defs>
+    <linearGradient id="base" x2=".9" y2="1">
+      <stop stop-color="#253246"/>
+      <stop offset="1" stop-color="#101822"/>
+    </linearGradient>
+    <linearGradient id="gold" x2="1" y2="0">
+      <stop stop-color="#b88c5a"/>
+      <stop offset="1" stop-color="#edc98c"/>
+    </linearGradient>
+    <linearGradient id="bars" x2="0" y2="1">
+      <stop stop-color="#8f9ac8"/>
+      <stop offset="1" stop-color="#495471"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#base)"/>
+  <rect x="66" y="69" width="1148" height="582" rx="21" fill="#1c2633" stroke="#566172" stroke-width="2"/>
+  <path d="M110 118h226m-226 39h132" fill="none" stroke="#aab6cb" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="1154" cy="126" r="12" fill="#ad8b6b"/>
+  <path d="M112 238H1160M112 324H1160M112 410H1160M112 496H1160M112 582H1160" fill="none" stroke="#516374" stroke-width="2" opacity=".54"/>
+  <path d="M174 582V445h71v137m52 0V390h71v192m52 0V461h71v121m52 0V337h71v245m52 0V367h71v215m52 0V308h71v274m52 0V262h71v320m52 0V333h71v249" fill="url(#bars)"/>
+  <rect x="913" y="262" width="71" height="320" rx="2" fill="url(#gold)"/>
+  <path d="M177 412l150-53 125 26 119-80 125 13 129-63 124-55 132 57" fill="none" stroke="#d9bd91" stroke-linejoin="round" stroke-linecap="round" stroke-width="6"/>
+  <circle cx="949" cy="200" r="12" fill="#f7d899"/>
+  <g stroke="#8793a3" stroke-width="6" stroke-linecap="round" opacity=".74">
+    <path d="M183 609h53m69 0h53m69 0h53m69 0h53m69 0h53m69 0h53m69 0h53m69 0h53"/>
+  </g>
+</svg>

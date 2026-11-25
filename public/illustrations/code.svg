@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Code editor example</title>
+  <defs>
+    <linearGradient id="back" x2="1" y2="1">
+      <stop stop-color="#252d42"/>
+      <stop offset="1" stop-color="#1c2940"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#back)"/>
+  <rect x="69" y="61" width="1142" height="598" rx="22" fill="#182133" stroke="#526279" stroke-width="2"/>
+  <path d="M70 129h1140" stroke="#51617b" stroke-width="2"/>
+  <circle cx="107" cy="95" r="7" fill="#dc9a9d"/>
+  <circle cx="130" cy="95" r="7" fill="#d6ae81"/>
+  <circle cx="153" cy="95" r="7" fill="#99b9ae"/>
+  <path d="M205 95h128m536 0h165m47 0h79" stroke="#788cae" stroke-width="9" stroke-linecap="round"/>
+  <path d="M287 131v526m696-526v526" stroke="#52627a" stroke-width="2" opacity=".55"/>
+  <rect x="91" y="217" width="177" height="34" rx="6" fill="#3b4d70"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M113 174h105m-105 40h77m-59 20h111m-129 40h119m-119 37h81m-81 37h107m-107 39h64m-46 36h104m-122 37h90" stroke="#91a5c8" stroke-width="8"/>
+    <path d="M316 184h16m-16 37h16m-16 38h16m-16 38h16m-16 38h16m-16 38h16m-16 38h16m-16 38h16m-16 38h16m-16 38h16m-16 38h16" stroke="#556b8b" stroke-width="7"/>
+    <path d="M367 184h57m-35 75h92m-64 76h108m-136 75h57m-29 38h91m-141 114h77" stroke="#afa4dc" stroke-width="11"/>
+    <path d="M440 184h143m-92 75h104m-60 76h167m-246 75h140m-77 38h175m-235 114h84" stroke="#8dbccd" stroke-width="11"/>
+    <path d="M389 221h111m-83 76h155m-154 76h98m-127 114h165m-187 38h102" stroke="#d8b58f" stroke-width="11"/>
+    <path d="M512 221h117m-46 76h172m-227 76h162m-125 114h96m-181 38h135" stroke="#7e92b6" stroke-width="11"/>
+    <path d="M1025 175h103m-103 19h78m-57 19h87m-105 19h56m-55 19h104m-73 19h91m-124 39h97m-97 19h61m-48 19h112" stroke="#8ea4c1" stroke-width="5" opacity=".6"/>
+  </g>
+</svg>
