@@ -1,6 +1,5 @@
-import { DemoImage as OffthreadVideo, demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {AbsoluteFill, Sequence} from 'remotion';
+import {AbsoluteFill,OffthreadVideo,Sequence,staticFile} from 'remotion';
 import {Backdrop,Check,Chip,ImageBarrier,Media,Mono,Note,Num,P,Text,at,font,thumb,wall} from './primitives';
 import {cue,ease,inCue,lerp,phase,sampled,st} from './timing';
 import type {Chapter} from './timing';
@@ -33,7 +32,7 @@ function wallPosition(f:number,index:number) {
   return [lerp(x,nextX,p),lerp(y,nextY,p)];
 }
 
-const cardMark=null;
+const cardMark=<span style={{...at(0,5),right:9,textAlign:'right',fontSize:8,letterSpacing:'.035em',fontWeight:900,color:'#4f3d92'}}>FredTalk AI</span>;
 const lines=(count:number,color='#b8b3c0')=>Array.from({length:count},(_,i)=><div key={i} style={{height:3,width:`${[72,91,62,85,49,78,60][i%7]}%`,borderRadius:2,background:color,opacity:[.61,.43,.69][i%3]}}/>);
 
 function PhoneFaces({detailed=false}:{detailed?:boolean}) {
@@ -136,7 +135,7 @@ function FilmWall({f,blur=0}:{f:number;blur?:number}) {
 const profileRows=[['稿均点赞量','9509.6','+31.36%'],['稿均涨粉量','1013.6','+44.88%'],['稿均分享量','1475.5','+38.43%'],['稿均评论量','198.5','+60.57%']];
 function HistoricCard({amount}:{amount:number}){
   return <div style={{...at(1178,196,614,510),background:'#fff',color:P.ink,borderRadius:27,padding:'17px 27px',boxSizing:'border-box',boxShadow:'0 16px 27px #0005',opacity:amount,transform:`translateY(${40*(1-amount)}px) rotate(3.4deg)`}}>
-    <div style={{display:'flex',alignItems:'end',justifyContent:'space-between',gap:26}}><div><b style={{fontSize:33}}>Demo</b><div style={{color:'#8062c4',fontSize:19}}>原片历史口径｜编辑复排</div></div>{[['粉丝指标','9.4w'],['总获赞量','64.9w'],['总作品数','171']].map(([a,b])=><div key={a}><small style={{display:'block',fontSize:21,color:'#717074'}}>{a}</small><b style={{fontSize:31}}>{b}</b></div>)}</div>
+    <div style={{display:'flex',alignItems:'end',justifyContent:'space-between',gap:26}}><div><b style={{fontSize:33}}>FredTalk</b><div style={{color:'#8062c4',fontSize:19}}>原片历史口径｜编辑复排</div></div>{[['粉丝指标','9.4w'],['总获赞量','64.9w'],['总作品数','171']].map(([a,b])=><div key={a}><small style={{display:'block',fontSize:21,color:'#717074'}}>{a}</small><b style={{fontSize:31}}>{b}</b></div>)}</div>
     <div style={{borderTop:'1px solid #efedf1',marginTop:18,padding:'13px 0',fontWeight:900,fontSize:28}}>核心指标 <span style={{float:'right',color:'#666',fontSize:21}}>近30天</span></div>
     <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',rowGap:22,paddingTop:9,textAlign:'center'}}>{profileRows.map(([a,b,d])=><div key={a}><div style={{fontSize:20,color:'#78757b'}}>{a}</div><div style={{fontSize:35,lineHeight:1.2}}>{b}</div><div style={{fontSize:18,color:'#a05a65'}}>较上周期 {d}</div></div>)}</div>
   </div>;
@@ -168,7 +167,7 @@ export function Opening({f}:Props){
       {stats>0&&<div data-ft-opening="stats"><HistoricCard amount={stats}/></div>}
       {grow>0&&<div data-ft-opening="growth"><Text x={254+dx} y={570} size={130} color={P.lav} display style={{opacity:grow}}><span style={{fontSize:69,color:fill,marginRight:24}}>涨粉</span>+{plus}</Text></div>}
       {follow>0&&<Text x={310} y={744} size={53} color={fill} style={{opacity:follow}}>看完这期，你也可以</Text>}
-      {invite>0&&<Chip x={107} y={837} size={44} style={{opacity:invite,transform:`translateY(${19*(1-invite)}px)`,fontFamily:font.title,fontWeight:400,background:'#fff',color:P.ink,padding:'10px 30px',boxShadow:'0 12px 26px #0006'}}>有兴趣的，评论区扣<span style={{color:P.purple}}>Demo</span></Chip>}
+      {invite>0&&<Chip x={107} y={837} size={44} style={{opacity:invite,transform:`translateY(${19*(1-invite)}px)`,fontFamily:font.title,fontWeight:400,background:'#fff',color:P.ink,padding:'10px 30px',boxShadow:'0 12px 26px #0006'}}>有兴趣的，评论区扣<span style={{color:P.purple}}>FredTalk</span></Chip>}
     </div>}
     {ask>0&&<Text x={0} y={385} w={1920} size={147} color={fill} display style={{textAlign:'center',clipPath:`inset(0 ${100-ask*100}% 0 0)`,opacity:ask}}>什么叫<span style={{color:P.lav}}>全自动</span>剪辑？</Text>}
   </>;
@@ -217,7 +216,7 @@ export function Compare({f,c}:Props){
  const x=lerp(501,70,ease(f,'compareSlide')), right=lerp(2040,970,b);
  const play=inCue(f,'compareMotion');
  return <>
-  {a>0&&<div data-ft-compare="left" data-left={x} style={{opacity:a,transform:`translateY(${22*(1-a)}px)`}}><Chip x={x} y={132}>以前 · 7–8 月的视频</Chip>{play?<ComparisonExample name="ep154" left={x}/>:<Media shadow x={x} y={201} w={880} h={494} r={24} name="doc" position="center 36%"/>}<Note x={x+12} y={649}>{play?'独立样片 · Demo 第154期':'独立文档示例 · Typora'}</Note></div>}
+  {a>0&&<div data-ft-compare="left" data-left={x} style={{opacity:a,transform:`translateY(${22*(1-a)}px)`}}><Chip x={x} y={132}>以前 · 7–8 月的视频</Chip>{play?<ComparisonExample name="ep154" left={x}/>:<Media shadow x={x} y={201} w={880} h={494} r={24} name="doc" position="center 36%"/>}<Note x={x+12} y={649}>{play?'独立样片 · FredTalk 第154期':'独立文档示例 · Typora'}</Note></div>}
   {b>0&&<div data-ft-compare="right" data-left={right} style={{opacity:b}}><Chip x={right} y={132} purple>现在 · AI 全自动</Chip>{play?<ComparisonExample name="xg001" left={right}/>:<Media shadow x={right} y={201} w={880} h={494} r={24} name="finance"/>}<Note x={right+12} y={649}>独立财经样片 xg001 · 非同案实测</Note></div>}
   {['字幕','动画','图表','节奏'].map((name,j)=>{
    const delay=[0,11,31,51][j], t=st(f,cue('compareLabels').start,15,delay), line=st(f,cue('compareLabels').start,13,delay+6);
@@ -280,5 +279,3 @@ export function SectionBand({f}:{f:number}){
  } else if(id==='band04') h=sampled(f,'band04Reveal');
  return <AbsoluteFill data-ft-band={id} style={{zIndex:10,background:P.black,opacity:alpha,clipPath:`inset(${(1080-h)/2}px 0)`}}><BandText f={f} id={id} title={title} num={num}/>{id==='band02'&&<Note x={835} y={615} onDark>原片自述 · 情节复排</Note>}</AbsoluteFill>;
 }
-
-export { FilmWall };

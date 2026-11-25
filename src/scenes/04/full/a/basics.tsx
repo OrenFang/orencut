@@ -9,9 +9,9 @@ export const P = {
   purple: '#8554e8', lavender: '#d6bfff', pale: '#f3f0fb',
 } as const;
 export const F = {
-  display: '"system-ui", "PingFang SC", sans-serif',
-  text: '"system-ui", "PingFang SC", sans-serif',
-  mono: '"FT Mono", "system-ui", "PingFang SC", monospace',
+  display: '"FT Display", "PingFang SC", sans-serif',
+  text: '"FT Text", "PingFang SC", sans-serif',
+  mono: '"FT Mono", "FT Text", "PingFang SC", monospace',
 } as const;
 
 export const at = (left: number, top: number, width: number, height: number): CSSProperties =>

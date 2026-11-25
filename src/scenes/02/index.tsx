@@ -1,8 +1,7 @@
 import React from 'react';
-import {AbsoluteFill, Composition, useCurrentFrame, useDelayRender} from 'remotion';
+import {AbsoluteFill,Composition,registerRoot,useCurrentFrame,useDelayRender} from 'remotion';
 import timeline from './timeline.json';
 import './type.css';
-import {Brand,BrandMode} from './Brand';
 import {B,DARK,F,H,INK,W,ratio,rect} from './core';
 import {Early} from './early';
 import {Middle,irisRadius} from './middle';
@@ -10,14 +9,26 @@ import {Late} from './late';
 
 const chapterNums={'画面':'01','图表':'02','组件':'03','审美':'04'} as const;
 const fontProbes = [
- ['400 44px "system-ui"','财经字体0123456789Demo'],
- ['500 27px "system-ui"','画面图表组件审美'],
- ['900 27px "system-ui"','实拍来源纪录'],
- ['400 35px "system-ui"','字幕，AI剪的'],
- ['600 25px "monospace"','const Frame24.2'],
+ ['400 44px "FT02 Display"','财经字体0123456789Fred'],
+ ['500 27px "FT02 Text"','画面图表组件审美'],
+ ['900 27px "FT02 Text"','实拍来源纪录'],
+ ['400 35px "FT02 Caption"','字幕，AI剪的'],
+ ['600 25px "FT02 Code"','const Frame24.2'],
 ] as const;
 let fontsLoaded:Promise<void>|undefined;
-function useTypography(){}
+function useTypography(){
+ const {delayRender,continueRender,cancelRender}=useDelayRender();
+ React.useEffect(()=>{
+  const handle=delayRender('FT1002 local CSS faces');
+  let pending=true;
+  const release=()=>{if(pending){pending=false;continueRender(handle);}};
+  fontsLoaded??=Promise.all(fontProbes.map(([face,probe])=>document.fonts.load(face,probe))).then(results=>{
+   if(results.some(faces=>faces.length<1))throw new Error('FT1002 is missing one or more bundled font faces.');
+  });
+  fontsLoaded.then(release,(error:Error)=>{if(pending)cancelRender(error);});
+  return release;
+ },[delayRender,continueRender,cancelRender]);
+}
 function ChapterInk({id,y=0,squash=1,phase}:{id:string;y?:number;squash?:number;phase?:number}){
  if(id==='none')return null;
  const num=chapterNums[id as keyof typeof chapterNums]??'';
@@ -26,7 +37,10 @@ function ChapterInk({id,y=0,squash=1,phase}:{id:string;y?:number;squash?:number;
    <span style={{color:'#fff',fontSize:45,marginLeft:12}}>{id}</span>
  </div>;
 }
-function Subtitle({text}:{text:string|null}){return null;}
+function Subtitle({text}:{text:string|null}){
+ if(text===null)return null;
+ return <div data-ft-caption="visible" lang="zh-CN" style={{position:'absolute',zIndex:100,top:715,left:'50%',transform:'translateX(-50%)',height:76.5,padding:'0 19px 1px',boxSizing:'border-box',borderRadius:12,display:'flex',alignItems:'center',color:'#fff',background:'#000',fontFamily:F.caption,fontWeight:400,fontSize:35.625,lineHeight:1,fontSynthesis:'none',whiteSpace:'pre',pointerEvents:'none'}}>{text}</div>;
+}
 function Picture({frame}:{frame:number}){
  const shot=timeline.shots.find(row=>row.start<=frame && frame<row.end);
  if(!shot)throw new RangeError(`Outside FT1002 picture clock: ${frame}`);
@@ -41,7 +55,6 @@ export function Film(){
  useTypography();
  const frame=useCurrentFrame();
  const chapter=timeline.chapters.find(row=>row.start<=frame && frame<row.end);
- const brand=timeline.brand.find(row=>row.start<=frame && frame<row.end);
  const caption=timeline.captions.find(row=>row.start<=frame && frame<row.end);
  const white=timeline.whitePageWindows.find(row=>row.start<=frame && frame<row.end);
  const roll=timeline.events.find(row=>row.id==='chapter-roll' && row.start<=frame && frame<row.end);
@@ -59,10 +72,8 @@ export function Film(){
     <ChapterInk id={chapter?.id??'none'} y={y} squash={oldSquash} phase={chapter04?frame:undefined}/>
     {roll?.outgoing&&<ChapterInk id={roll.outgoing} y={chapter04?[-56,-61,-64,-67,-69][frame-2615]:y-71}/>}
    </B>
-   <Brand mode={(brand?.mode??'none') as BrandMode}/>
    <Subtitle text={caption?.text??null}/>
   </div>
  </AbsoluteFill>;
 }
 export const Root=()=> <Composition id="FT1002" component={Film} width={1920} height={1080} fps={timeline.fps} durationInFrames={timeline.totalFrames}/>;
-

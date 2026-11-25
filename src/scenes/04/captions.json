@@ -1,72 +1,16 @@
 [
-  {
-    "startFrame": 3,
-    "endFrame": 25,
-    "text": ""
-  },
-  {
-    "startFrame": 25,
-    "endFrame": 110,
-    "text": ""
-  },
-  {
-    "startFrame": 110,
-    "endFrame": 206,
-    "text": ""
-  },
-  {
-    "startFrame": 206,
-    "endFrame": 260,
-    "text": ""
-  },
-  {
-    "startFrame": 260,
-    "endFrame": 317,
-    "text": ""
-  },
-  {
-    "startFrame": 317,
-    "endFrame": 419,
-    "text": ""
-  },
-  {
-    "startFrame": 419,
-    "endFrame": 482,
-    "text": ""
-  },
-  {
-    "startFrame": 482,
-    "endFrame": 543,
-    "text": ""
-  },
-  {
-    "startFrame": 543,
-    "endFrame": 583,
-    "text": ""
-  },
-  {
-    "startFrame": 583,
-    "endFrame": 638,
-    "text": ""
-  },
-  {
-    "startFrame": 638,
-    "endFrame": 738,
-    "text": ""
-  },
-  {
-    "startFrame": 738,
-    "endFrame": 785,
-    "text": ""
-  },
-  {
-    "startFrame": 785,
-    "endFrame": 866,
-    "text": ""
-  },
-  {
-    "startFrame": 867,
-    "endFrame": 900,
-    "text": ""
-  }
+  {"startFrame": 3, "endFrame": 25, "text": "最近一个月"},
+  {"startFrame": 25, "endFrame": 110, "text": "我用 AI 全自动发了 104 条视频"},
+  {"startFrame": 110, "endFrame": 206, "text": "涨了 5 万多粉播放量 1380 多万"},
+  {"startFrame": 206, "endFrame": 260, "text": "这期视频也是全自动剪辑"},
+  {"startFrame": 260, "endFrame": 317, "text": "由剪辑 Skill 直接输出的"},
+  {"startFrame": 317, "endFrame": 419, "text": "不需要人工剪感兴趣的评论区扣 Fred"},
+  {"startFrame": 419, "endFrame": 482, "text": "评论区大家问得最多的问题就是"},
+  {"startFrame": 482, "endFrame": 543, "text": "你这么猛地用 AI 剪视频"},
+  {"startFrame": 543, "endFrame": 583, "text": "Token 是不是烧飞了"},
+  {"startFrame": 583, "endFrame": 638, "text": "一条成本是不是超级高"},
+  {"startFrame": 638, "endFrame": 738, "text": "先说结论完全不是它便宜到你不敢信"},
+  {"startFrame": 738, "endFrame": 785, "text": "具体一期到底花多少钱"},
+  {"startFrame": 785, "endFrame": 866, "text": "我把每一笔账拆开算给你看"},
+  {"startFrame": 867, "endFrame": 900, "text": "第一笔账也是最大头的一块"}
 ]

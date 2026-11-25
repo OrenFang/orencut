@@ -1,6 +1,5 @@
-import { DemoImage as OffthreadVideo, demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {Img, Sequence} from 'remotion';
+import {Img,OffthreadVideo,Sequence,staticFile} from 'remotion';
 import {B, Rect, Style, T} from './core';
 
 const photos={

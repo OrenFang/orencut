@@ -2,3 +2,7 @@ node_modules/
 out/
 .remotion/
 .DS_Store
+public/
+licenses/
+visual-assets.lock.json
+.visual-import-*/

@@ -43,7 +43,7 @@ function YieldArt({f}:{f:number}){
  const y0=316,lo=4,hi=4.9;
  const points=publicData.yields.map(([_,v],i)=>[66+i*4.86,y0-(Number(v)-lo)/(hi-lo)*207]);
  const path='M'+points.map(([x,y])=>`${x.toFixed(2)},${y.toFixed(2)}`).join('L');
- return <><B x={0} y={0} w={720} h={405} style={{background:'linear-gradient(118deg,#242523,#101212 77%)'}}/><TopLine topic="美国 10 年期国债收益率" tag="Federal Reserve / DEMO · DGS10 · 2025 年 1–6 月"/>
+ return <><B x={0} y={0} w={720} h={405} style={{background:'linear-gradient(118deg,#242523,#101212 77%)'}}/><TopLine topic="美国 10 年期国债收益率" tag="Federal Reserve / FRED · DGS10 · 2025 年 1–6 月"/>
  <svg width={720} height={405} viewBox="0 0 720 405" style={{position:'absolute',inset:0}}>
   {[4,4.2,4.4,4.6,4.8].map(v=>{const y=y0-(v-lo)/(hi-lo)*207;return <g key={v}><line x1="66" y1={y} x2="663" y2={y} stroke="#a8acac30"/><text x="27" y={y+4} fill="#b5b2a9" fontSize="12" fontFamily={F.code}>{v.toFixed(1)}%</text></g>;})}
   <path d={`${path}L${points[points.length-1][0]} ${y0}H66Z`} fill="#79be6d16"/>

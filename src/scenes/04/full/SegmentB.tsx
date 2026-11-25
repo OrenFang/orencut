@@ -8,14 +8,14 @@ import {WorkflowB} from './b/Workflow';
 
 export {brandLightB} from './b/timing';
 
-/** Demo 04 · Chapter 02. Mount on the 1920×1080 master clock, not in a shifted Sequence. */
+/** FredTalk 04 · Chapter 02. Mount on the 1920×1080 master clock, not in a shifted Sequence. */
 export const SegmentB: FC = () => {
   const frame = useCurrentFrame();
   const state = segmentBState(frame);
   if (!state) return null;
   const priceOut = series(frame, 2812, [1, .992, .962, .908, .823, .718, .591, .46, .34, .229, .143, .077, .022, 0]);
   return (
-    <AbsoluteFill data-layer="demo04-segment-b" style={{backgroundColor: DARK, overflow: 'hidden', fontSynthesis: 'none', pointerEvents: 'none'}}>
+    <AbsoluteFill data-layer="fred04-segment-b" style={{backgroundColor: DARK, overflow: 'hidden', fontSynthesis: 'none', pointerEvents: 'none'}}>
       {frame >= 2319 && <>
         <BackdropB frame={frame} />
         <TopLedgerB frame={frame} total={state.total} />

@@ -70,7 +70,7 @@ function Support({s,f}:{s:ChapterRow;f:number}){
   const id=s.id,start=s.start;
   if(isReadout.has(id))return <Readout id={id} f={f} start={start}/>;
   if(id==='capitol')return <>
-    <PhotoField asset="capitol" f={f} start={start} label="建筑远景示意图" position="50% center"/>
+    <PhotoField asset="capitol" f={f} start={start} label="美国国会大厦资料照（Library of Congress）" position="50% center"/>
     <div data-layer="editorial-label" style={{...xy(36,201,370,29),display:'flex',alignItems:'center',gap:8,
       opacity:slide(f,9,7),color:'#fff7ec',fontSize:15,letterSpacing:'.16em',fontWeight:900}}>
       <i style={{width:8,height:8,background:'#d34e36'}}/>BREAKING · 美国联邦公报
@@ -215,5 +215,3 @@ export function SceneStage({s,f}:{s:ChapterRow;f:number}){
     {id==='part-three'&&f<18610&&<div data-overlap="control-linger" style={{position:'absolute',inset:0,opacity:.64*(1-slide(f,18580,30))}}><View s={byId.control} f={18581}/></div>}
   </>;
 }
-
-export { Support };

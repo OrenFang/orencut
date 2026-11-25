@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {Img} from 'remotion';
+import {Img, staticFile} from 'remotion';
 import citationTable from './citations.json';
 import {clamp, gold, pale, ramp} from './Geometry';
 

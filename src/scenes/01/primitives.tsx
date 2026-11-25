@@ -1,18 +1,32 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React, {useLayoutEffect} from 'react';
 import type {CSSProperties, ReactNode} from 'react';
-import {AbsoluteFill, Img, useDelayRender} from 'remotion';
+import {AbsoluteFill, Img, staticFile, useDelayRender} from 'remotion';
 import './fonts.css';
 
 export const P = {black:'#19191b',ink:'#18181a',paper:'#fff',purple:'#8554e8',lav:'#d7bef9',muted:'#77767b',shadow:'0 19px 45px #1e182024'} as const;
-export const font = {body:'system-ui, sans-serif',title:'system-ui, system-ui, sans-serif',sub:'system-ui, system-ui, sans-serif',mono:'monospace, monospace'} as const;
+export const font = {body:'FT01 Text, sans-serif',title:'FT01 Display, FT01 Text, sans-serif',sub:'FT01 Captions, FT01 Text, sans-serif',mono:'FT01 Mono, monospace'} as const;
 export const at=(left:number,top:number,width?:number,height?:number):CSSProperties=>({position:'absolute',left,top,width,height});
 const fontQueries = [
-  '500 48px "system-ui"','900 48px "system-ui"','400 48px "system-ui"',
-  '400 48px "system-ui"','600 48px "monospace"',
+  '500 48px "FT01 Text"','900 48px "FT01 Text"','400 48px "FT01 Display"',
+  '400 48px "FT01 Captions"','600 48px "FT01 Mono"',
 ] as const;
 let fontPromise: Promise<void> | undefined;
-export function Fonts() {return null;}
+export function Fonts() {
+  const {delayRender,continueRender,cancelRender}=useDelayRender();
+  useLayoutEffect(()=>{
+    const h=delayRender('FT01: wait for the five local CSS font faces');
+    let active=true;
+    // Loading a registered local face is different from constructing it or
+    // opening network media. Explicit loads also cover text arriving late.
+    fontPromise ??= Promise.all(fontQueries.map(async query=>{
+      const faces=await document.fonts.load(query,'FredTalk脚本文字字幕0123456789');
+      if(faces.length===0)throw new Error(`Local CSS font declaration missing: ${query}`);
+    })).then(()=>undefined);
+    fontPromise.then(()=>{if(active){active=false;continueRender(h);}},error=>{if(active){active=false;cancelRender(error);}});
+    return ()=>{if(active){active=false;continueRender(h);}};
+  },[delayRender,continueRender,cancelRender]);
+  return null;
+}
 
 type TextProps={x:number;y:number;w?:number;size?:number;color?:string;display?:boolean;children:ReactNode;style?:CSSProperties};
 export const Text=({x,y,w,size=36,color=P.ink,display=false,children,style}:TextProps)=><div style={{...at(x,y,w),fontFamily:display?font.title:font.body,fontWeight:display?400:900,color,fontSize:size,lineHeight:1.13,whiteSpace:'nowrap',...style}}>{children}</div>;
@@ -35,7 +49,7 @@ export const media = {
   chip:staticFile('independent/official/cover-wall-chip.jpg'),
   steps:staticFile('independent/official/cover-repo-t03e.jpg'),
   glass:staticFile('independent/official/cover-repo-t08i.jpg'),
-  finance:staticFile('independent/official/demo-demo-finance-frame.jpg'),
+  finance:staticFile('independent/official/demo-fredtalk-finance-frame.jpg'),
   city:staticFile('independent/official/bg-night-city.jpg'),
   key:staticFile('independent/official/bg-keyboard.jpg'),
   studio:staticFile('independent/official/bg-editing-green.jpg'),
@@ -58,7 +72,7 @@ export const media = {
   portraitOffice:staticFile('independent/official/vertical-office.jpg'),
   portraitVlog:staticFile('independent/official/vertical-vlog.jpg'),
   portraitFood:staticFile('independent/official/vertical-food.jpg'),
-  catalog:staticFile('independent/official/demo-component-catalog.jpg'),
+  catalog:staticFile('independent/official/fredtalk-component-catalog.jpg'),
 } as const;
 export type Key=keyof typeof media;
 export const wall:Key[]=['doc','split','fire','api','pixel','wideStage','glass','finance','chip','blue','codex','steps','github'];

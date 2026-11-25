@@ -6,8 +6,8 @@ export const COST_START = 419;
 export const CHAPTER_START = 866;
 const COST_END = 900;
 
-const DISPLAY = '"system-ui", "PingFang SC", sans-serif';
-const TEXT = '"system-ui", "PingFang SC", sans-serif';
+const DISPLAY = '"FT Display", "PingFang SC", sans-serif';
+const TEXT = '"FT Text", "PingFang SC", sans-serif';
 const MONO = '"FT Mono", monospace';
 const PURPLE = '#d6bfff';
 const WHITE = '#ffffff';
@@ -226,5 +226,3 @@ export const Cost: FC = () => {
     </AbsoluteFill>
   );
 };
-
-export { AccountChapter };

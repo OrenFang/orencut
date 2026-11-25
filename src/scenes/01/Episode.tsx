@@ -1,8 +1,7 @@
 import React from 'react';
-import {AbsoluteFill, useCurrentFrame} from 'remotion';
+import {AbsoluteFill,useCurrentFrame} from 'remotion';
 import {Fonts,P,font} from './primitives';
 import {timeline,chapterAt,whiteAt,cue,ease,inCue,phase,sampled,st} from './timing';
-import {Brand} from './Brand';
 import {Captions} from './Captions';
 import {Clock,Compare,Opening,Quantity,SectionBand} from './Intro';
 import {Assembly,Materials,Publishing,Review,ScriptPage,Tabs,Topic,WavePage} from './Pipeline';
@@ -78,7 +77,6 @@ export function Episode(){
    <Fonts/>
    <LayeredScene f={f} c={c}/>
    <SectionBand f={f}/>
-   <Brand/>
    <Captions/>
  </AbsoluteFill>;
 }
