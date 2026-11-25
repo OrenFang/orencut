@@ -1,12 +1,10 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
 import {AbsoluteFill, Composition, useCurrentFrame} from 'remotion';
-import {Brand} from './Brand';
 import {Captions} from './Captions';
-import {Cost, COST_START, CHAPTER_START} from './Cost';
+import {Cost, COST_START,} from './Cost';
 import {Prelude} from './Prelude';
 import {Wall} from './Wall';
-import {useDemoFonts} from './fonts';
+import {useFredFonts} from './fonts';
 import {FullCaptions} from './full/FullCaptions';
 import {SegmentA, brandLightA} from './full/SegmentA';
 import {SegmentB, brandLightB} from './full/SegmentB';
@@ -24,10 +22,10 @@ export const FULL_SEGMENTS = [
 
 export const FullTimeline: React.FC = () => {
   const frame = useCurrentFrame();
-  useDemoFonts();
+  useFredFonts();
   const opener = frame < 900;
   const active = opener ? undefined : FULL_SEGMENTS.find(({from, to}) => from <= frame && frame < to);
-  if (!opener && !active) throw new Error(`Demo04Full: no scene for absolute frame ${frame}`);
+  if (!opener && !active) throw new Error(`FredTalk04Full: no scene for absolute frame ${frame}`);
 
   return (
     <AbsoluteFill lang="zh-CN" data-ft-frame={frame} data-ft-segment={active?.id ?? 'opening'}
@@ -35,22 +33,18 @@ export const FullTimeline: React.FC = () => {
       {active ? <>
         <active.Scene />
         <FullCaptions />
-        <Brand light={active.brandLight(frame)} />
       </> : <>
         {/* Editable Studio preview: reproduce the locked old Root's layered JSX exactly. */}
         <Wall />
         {frame < 422 ? <Prelude /> : null}
         {frame >= COST_START ? <Cost /> : null}
         <Captions />
-        <Brand light={frame >= CHAPTER_START} />
       </>}
-      {/* Studio only; production is --muted and stream-copies the original AAC once. */}
-      <></>
     </AbsoluteFill>
   );
 };
 
 export const FullRoot: React.FC = () => (
-  <Composition id="Demo04Full" component={FullTimeline} durationInFrames={7827}
+  <Composition id="FredTalk04Full" component={FullTimeline} durationInFrames={7827}
     fps={30} width={1920} height={1080} />
 );

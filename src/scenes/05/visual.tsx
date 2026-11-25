@@ -1,11 +1,10 @@
-import { DemoImage as OffthreadVideo, demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
 import type {CSSProperties, PropsWithChildren} from 'react';
-import {AbsoluteFill, Img, Sequence} from 'remotion';
+import {AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile} from 'remotion';
 
 export const W=1920,H=1080,PURPLE='#8253e2',LILAC='#d6bfff',INK='#19191c';
-export const FONT='"system-ui", "PingFang SC", Arial, sans-serif';
-export const CAPFONT='"system-ui", "system-ui", "PingFang SC", sans-serif';
+export const FONT='"FT05 Head", "PingFang SC", Arial, sans-serif';
+export const CAPFONT='"FT05 Caption", "FT05 Head", "PingFang SC", sans-serif';
 export const clamp=(x:number)=>Math.max(0,Math.min(1,x));
 export const lerp=(a:number,b:number,t:number)=>a+(b-a)*t;
 export const smooth=(t:number)=>{const p=clamp(t);return p*p*(3-2*p);};

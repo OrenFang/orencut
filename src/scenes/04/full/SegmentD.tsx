@@ -1,10 +1,9 @@
-import { demoAsset as staticFile } from '../../../demo-media';
 import type {CSSProperties, FC, SVGProps} from 'react';
-import {AbsoluteFill, Img, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Img, staticFile, useCurrentFrame} from 'remotion';
 import {FinanceCases} from './d/FinanceCases';
 import {workflowDocuments} from './d/workflowDocuments';
 
-// Demo 04 · [5296,6916), always on the source/global 30 fps clock.
+// FredTalk 04 · [5296,6916), always on the source/global 30 fps clock.
 // Frame controls below are independent of the voice, captions and corner mark.
 const T = {
   start: 5296, chapterOut: 5332, chapterEnd: 5343, quote: 5369,
@@ -20,8 +19,8 @@ const INK = '#18181a';
 const WHITE = '#fdfdfd';
 const PURPLE = '#d6beff';
 const RED = '#eb6c6b';
-const DISPLAY = '"system-ui", "PingFang SC", sans-serif';
-const TEXT = '"system-ui", "PingFang SC", sans-serif';
+const DISPLAY = '"FT Display", "PingFang SC", sans-serif';
+const TEXT = '"FT Text", "PingFang SC", sans-serif';
 const MONO = '"FT Mono", monospace';
 const rgbaBlack = 'rgba(0,0,0,.33)';
 const place = (left: number, top: number, width: number, height: number): CSSProperties => ({position: 'absolute', left, top, width, height});
@@ -272,7 +271,7 @@ const DocPage: FC<{frame: number; doc: Doc; index: number}> = ({frame, doc, inde
   const slide = smooth(frame, 6785, 6880);
   const top = 210 + on.dy;
   const firstSourceLine = Number(doc.url.match(/#L(\d+)/)?.[1] ?? 1);
-  const header = doc.caption;
+  const header = doc.caption.replace('（公开节选）', '');
   return <article data-layer={`d-public-doc-${index + 1}`} data-source={doc.url} data-sha256={doc.sha256} aria-label={`${doc.filename} · ${doc.caption}`}
     style={{...place(90 + index * 588, top, 566, 645), opacity: on.opacity, overflow: 'hidden', borderRadius: 28,
       background: '#fdfdfe', color: '#292a31', boxShadow: '0 14px 32px #0006'}}>
@@ -282,7 +281,7 @@ const DocPage: FC<{frame: number; doc: Doc; index: number}> = ({frame, doc, inde
       <i style={{display: 'block', width: 11, height: 11, borderRadius: 8, background: '#b0aeb8', flex: 'none'}} />
       <b style={{font: `600 ${index === 1 ? 15 : 20}px/1 ${MONO}`, marginLeft: 8, whiteSpace: 'nowrap'}}>{doc.filename}</b>
       <span style={{font: `500 19px/1 ${TEXT}`, color: '#5f5d67', whiteSpace: 'nowrap'}}>· {header}</span>
-      <span style={{marginLeft: 'auto', font: `900 15px/1 ${TEXT}`, color: '#594282', whiteSpace: 'nowrap'}}>示例</span>
+      <span style={{marginLeft: 'auto', font: `900 15px/1 ${TEXT}`, color: '#594282', whiteSpace: 'nowrap'}}>公开节选</span>
     </div>
     <div style={{...place(0, 50, 566, 595), overflow: 'hidden'}}>
       <div style={{position: 'absolute', left: 24, right: 24, top: 18 - (index === 0 ? 27 : 0) * slide,

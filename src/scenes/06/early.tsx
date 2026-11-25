@@ -127,5 +127,3 @@ export const Early:React.FC<SceneProps>=args=>{
  if(scene.id.startsWith('gym-'))return <Gym {...args}/>;
  return null;
 };
-
-export { GameRoles };

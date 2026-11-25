@@ -46,8 +46,25 @@ export function Titles({scene,f}:{scene:ChapterRow;f:number}){
     })}
   </div>;
 }
-export function Captions({text,f}:{text:string|null;f:number}){return null;}
-export function Brand({mode,f}:{mode:BrandRow['mode']|'white-outline'|'purple'|'dark';f:number}){return null;}
+export function Captions({text,f}:{text:string|null;f:number}){
+  const event=timeline.events.find(e=>e.type==='caption-opacity'&&e.start<=f&&f<e.end);
+  const opacity=event?.values?.[f-event.start]??1;
+  if(text===null)return null;
+  return <div data-layer="caption" style={{...xy(21,805,606,38),zIndex:12,display:'flex',alignItems:'center',justifyContent:'center',whiteSpace:'nowrap',fontFamily:type,fontSize:Math.min(26,585/Math.max(1,approx(text))),fontWeight:800,letterSpacing:'.008em',color:'#fbf8f0',lineHeight:1.10,textShadow:'0 2px 2px #0e0c09, 0 1px 5px #130e0a',opacity}}>{text}</div>;
+}
+export function Brand({mode,f}:{mode:BrandRow['mode']|'white-outline'|'purple'|'dark';f:number}){
+  if(mode==='none')return null;
+  const part=f<15320?0:f<18582?1:2;
+  const titles=['梁文锋和 DeepSeek','一千亿谁给的','接下来和封禁'];
+  const a=f<6735?'':f<9066?' / 钱不一样':f<12429?' / 路线不一样':f<15320?' / 打法不一样':'';
+  const active=mode==='white-outline'?'transparent':mode==='dark'?'#27221a':mode==='purple'?'#bc9df5':pale;
+  const stroke=mode==='white-outline'?'1px #fff8e8':undefined;
+  const row=timeline.brand.find(b=>b.start<=f&&f<b.end);
+  const opacity=row?.start===3178?ramp(f,3177,15):1;
+  return <div data-layer="chapter-brand" style={{...xy(35,139,580,39),zIndex:10,display:'flex',alignItems:'flex-start',fontSize:17.5,fontWeight:800,gap:13,lineHeight:1.2,color:active,WebkitTextStroke:stroke,opacity}}>
+    {titles.map((s,j)=><div key={s} style={{display:'flex',alignItems:'baseline',gap:8,paddingBottom:6,color:j===part?active:'#827a6b',borderBottom:j===part?`1px solid ${mode==='dark'?'#5b4b31':gold}`:undefined,whiteSpace:'nowrap'}}><span style={{color:j===part?gold:undefined,WebkitTextStroke:'0px'}}>{`0${j+1}`}</span>{j===part?<>{s}{j===0&&<span style={{fontSize:15,fontWeight:650,color:'#b3a998'}}>{a}</span>}</>:null}</div>)}
+  </div>;
+}
 export function Subchapter({id,f}:{id:string;f:number}){
   const cost=f>=13749&&f<14229, talent=f>=14529&&f<15320;
   const open=f>=20910&&f<21010;

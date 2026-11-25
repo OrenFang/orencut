@@ -1,1 +1,14 @@
-
+@font-face {
+  font-family: 'FT05 Head';
+  src: url('../../../public/fonts/noto-sc.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+}
+@font-face {
+  font-family: 'FT05 Caption';
+  src: url('../../../public/fonts/smiley.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}

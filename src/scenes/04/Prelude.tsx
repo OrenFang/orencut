@@ -1,9 +1,8 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {AbsoluteFill, Img, interpolate, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame} from 'remotion';
 
-const DISPLAY = '"system-ui", "system-ui", "PingFang SC", sans-serif';
-const TEXT = '"system-ui", "PingFang SC", sans-serif';
+const DISPLAY = '"FT Display", "FT Text", "PingFang SC", sans-serif';
+const TEXT = '"FT Text", "PingFang SC", sans-serif';
 const MONO = '"FT Mono", ui-monospace, monospace';
 const WHITE = '#fff';
 const LAVENDER = '#d6beff';
@@ -201,7 +200,7 @@ const Automation: React.FC<{frame: number}> = ({frame}) => {
         <div style={{position: 'absolute', left: 110, top: 605, width: 553, height: 123, borderRadius: 25, background: WHITE, boxShadow: '0 10px 30px #0004', transform: `translateY(${9 * (1 - cta)}px) scale(${0.9 + 0.1 * cta})`, opacity: appear(frame, 314, 320)}}>
           <svg width={553} height={123} viewBox="0 0 553 123" style={{display: 'block'}}>
             <text x={41} y={74} textLength={271} lengthAdjust="spacingAndGlyphs" fontFamily={TEXT} fontSize={34} fontWeight={600} fill="#525158">感兴趣的评论区扣</text>
-            <text x={337} y={84} textLength={174} lengthAdjust="spacingAndGlyphs" fontFamily={DISPLAY} fontSize={68} fontWeight={400} fill="#8554e8">Demo</text>
+            <text x={337} y={84} textLength={174} lengthAdjust="spacingAndGlyphs" fontFamily={DISPLAY} fontSize={68} fontWeight={400} fill="#8554e8">Fred</text>
           </svg>
         </div>
       ) : null}
@@ -228,5 +227,3 @@ export const Prelude: React.FC = () => {
     </AbsoluteFill>
   );
 };
-
-export { Headline, Analytics };

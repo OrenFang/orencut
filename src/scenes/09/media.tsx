@@ -1,6 +1,5 @@
-import { DemoImage as OffthreadVideo, demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {Freeze, Img, Sequence, useCurrentFrame} from 'remotion';
+import {Freeze, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame} from 'remotion';
 import {X,En} from './kit';
 const pictures={
   image0:staticFile('independent/image0-openai-images-2-6.webp'),

@@ -1,1 +1,36 @@
 /* Same FT01 family names, file bytes and matching weights. Local CSS imports only. */
+@font-face {
+  font-family: "FT01 Text";
+  src: url("../../../public/fonts/MiSans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "FT01 Text";
+  src: url("../../../public/fonts/MiSans-Heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "FT01 Display";
+  src: url("../../../public/fonts/RuiZi.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "FT01 Captions";
+  src: url("../../../public/fonts/SmileySans-Oblique.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "FT01 Mono";
+  src: url("../../../public/fonts/SourceCodePro-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}

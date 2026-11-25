@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../../demo-media';
 import type {CSSProperties, FC, ReactNode} from 'react';
-import {AbsoluteFill, Img, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Img, staticFile, useCurrentFrame} from 'remotion';
 import {CaseVisuals} from './e/CaseVisuals';
 
 const START = 6916;
@@ -11,8 +10,8 @@ const TAIL_OUT = 7763;
 const TITLE_IN = 7752;
 const W = 1920;
 const H = 1080;
-const DISPLAY = '"system-ui", "PingFang SC", sans-serif';
-const TEXT = '"system-ui", "PingFang SC", sans-serif';
+const DISPLAY = '"FT Display", "PingFang SC", sans-serif';
+const TEXT = '"FT Text", "PingFang SC", sans-serif';
 const MONO = '"FT Mono", monospace';
 const INK = '#18181a';
 const LILAC = '#d5bfff';
@@ -191,7 +190,7 @@ const EndTitle: FC<{frame: number}> = ({frame}) => {
   const rise = sample(frame, TITLE_IN, [27, 23, 19, 16, 13, 11, 8, 5, 3, 1, 0]);
   return (
     <svg width={W} height={H} data-layer="e-end-title" style={{...artboard, opacity, transform: `translateY(${rise}px)`}}>
-      <InkText x={268} y={576} size={102} fill={WHITE}>Demo</InkText>
+      <InkText x={268} y={576} size={102} fill={WHITE}>FredTalk</InkText>
       <InkText x={836} y={576} size={102} fill={LILAC}>全自动剪辑工作流</InkText>
     </svg>
   );
@@ -210,5 +209,3 @@ export const SegmentE: FC = () => {
     </AbsoluteFill>
   );
 };
-
-export { audience, AudiencePanel };

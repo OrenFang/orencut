@@ -22,7 +22,7 @@ export function Components({f,c}:Props){
  return <>
   <Text x={150} y={235} size={125} display style={{transform:`translateY(${(1-headline)*108}px)`}}>{word('组件',0,false)}</Text>
   <Text x={150} y={584} size={49} color={P.ink} style={{opacity:add}}><Num color={P.purple} style={{fontSize:193,marginRight:14}}>{n}</Num>个组件</Text>
-  {card>0&&<div style={{...at(778+(1-card)*201,156-(1-card)*57,1080,604),transform:`perspective(2200px) rotateY(${-12+focus*6}deg) rotateZ(${-.7+focus*.7}deg) scale(${1+.04*focus})`,transformOrigin:'center center',opacity:card}}><Media name="catalog" x={0} y={0} w={1080} h={604} shadow position="center 32%" style={{boxShadow:'0 28px 55px #20192e26'}}/><Note x={14} y={558}>Demo 官网公开组件目录 · 计数为原片自述</Note></div>}
+  {card>0&&<div style={{...at(778+(1-card)*201,156-(1-card)*57,1080,604),transform:`perspective(2200px) rotateY(${-12+focus*6}deg) rotateZ(${-.7+focus*.7}deg) scale(${1+.04*focus})`,transformOrigin:'center center',opacity:card}}><Media name="catalog" x={0} y={0} w={1080} h={604} shadow position="center 32%" style={{boxShadow:'0 28px 55px #20192e26'}}/><Note x={14} y={558}>FredTalk 官网公开组件目录 · 计数为原片自述</Note></div>}
  </>;
 }
 const rules:[string,string][]=[['11-11','大胶囊一期合计 ≤ 2 处'],['10-28','叮咚音效全部不用'],['11-11','不堆特效：满屏砸字、震屏、闪白都不用']];
@@ -33,7 +33,7 @@ export function Rules({f,c}:Props){
  return <>
   <Text x={120} y={76} size={121} display color="#fff" style={{opacity:a,clipPath:`inset(0 ${100-a*100}% 0 0)`}}>{word('规则',1,true)}</Text>
   {b>0&&<Surface x={898} y={172} w={884} h={698} dark style={{boxShadow:'0 23px 55px #0006',opacity:b,transform:`translateY(${28*(1-b)}px)`}}>
-    <div style={{height:84,paddingLeft:30,display:'flex',alignItems:'center',color:'#a2a0a6',fontFamily:font.mono,fontSize:24}}>SKILL.md · 决定表（Demo 说过的最新结论）</div>
+    <div style={{height:84,paddingLeft:30,display:'flex',alignItems:'center',color:'#a2a0a6',fontFamily:font.mono,fontSize:24}}>SKILL.md · 决定表（Fred 说过的最新结论）</div>
     {rows.map(([d,t],i)=>{
      const v=final>.42?st(f,cue('rulesFinish').start+12,19,i*8):st(f,cue('rulesRows').start,18,i*20); const h=final<=.42&&i===Math.min(2,Math.floor(phase(f,'rulesRows')*3));
      return <div key={t} style={{display:'flex',height:74,alignItems:'center',boxSizing:'border-box',paddingLeft:30,gap:31,whiteSpace:'nowrap',background:h?'#32323a':'transparent',opacity:v}}><span style={{fontFamily:font.mono,fontSize:21,color:P.lav}}>{d}</span><b style={{fontSize:31,color:'#fff'}}>{t}</b></div>;
@@ -68,7 +68,7 @@ export function Team({f,c}:Props){
   {a>0&&<PriceCard x={147} y={253} w={680} h={477} p={a*(1-b*.23)}/>}
   {a>0&&<div style={{opacity:a,transform:`translateY(${-b*59}px)`}}><Text x={894} y={303} size={39} color="#e0e2e1">外包剪辑</Text><Text x={886} y={349} display size={173} color="#fff">150–200 <span style={{fontFamily:font.body,fontWeight:900,fontSize:48}}>元 / 分钟</span></Text></div>}
   {b>0&&<div style={{opacity:b}}><Text x={894} y={549} size={39} color="#e0e2e1">自己招剪辑师</Text><Text x={891} y={599} display size={165} color={P.lav}>8000 <span style={{fontFamily:font.body,fontWeight:900,fontSize:48,color:'#fff'}}>元 / 月</span></Text></div>}
-  <Text x={148} y={754} size={24} color="#ccc7cf" style={{fontFamily:font.mono,fontWeight:600,opacity:a}}>demo-fu.com / video-editing</Text>
+  <Text x={148} y={754} size={24} color="#ccc7cf" style={{fontFamily:font.mono,fontWeight:600,opacity:a}}>fred-fu.com / video-editing</Text>
  </>;
 }
 const workers:Key[]=['studio','resolve','kdenlive','key','codex','portraitOffice'];
@@ -132,13 +132,13 @@ function EditorStage({f}:{f:number}){
 
 export function OutroTitle({f}:{f:number}){
  const e=cue('outroTitle'), cap=ease(f,'outroCta');
- const letters=Array.from('Demo 全自动剪辑 Skill');
+ const letters=Array.from('FredTalk 全自动剪辑 Skill');
  return <>
-  <div data-ft-outro-title="Demo 全自动剪辑 Skill" style={{...at(154,336,1612,140),display:'flex',justifyContent:'center',columnGap:0,fontFamily:font.title,fontSize:114,whiteSpace:'pre',lineHeight:1.15}}>{letters.map((g,i)=>{
+  <div data-ft-outro-title="FredTalk 全自动剪辑 Skill" style={{...at(154,336,1612,140),display:'flex',justifyContent:'center',columnGap:0,fontFamily:font.title,fontSize:114,whiteSpace:'pre',lineHeight:1.15}}>{letters.map((g,i)=>{
     const a=st(f,e.start,9,i*.88);
     return <span key={i} style={{whiteSpace:'pre',color:i>=9&&i<=13?P.purple:P.ink,opacity:a,margin:g===' '?'0 12px':0,transform:`translateY(${-76*(1-a)}px)`}}>{g}</span>;
   })}</div>
-  {cap>0&&<div style={{...at(512,568+20*(1-cap),896,145),borderRadius:110,background:P.black,color:'#fff',boxShadow:'16px 19px 23px #0006',display:'flex',alignItems:'center',justifyContent:'center',fontFamily:font.title,fontSize:84,opacity:cap,transform:`scale(${.94+.06*cap})`,whiteSpace:'nowrap'}}>评论区扣<span style={{color:P.lav}}>Demo</span></div>}
+  {cap>0&&<div style={{...at(512,568+20*(1-cap),896,145),borderRadius:110,background:P.black,color:'#fff',boxShadow:'16px 19px 23px #0006',display:'flex',alignItems:'center',justifyContent:'center',fontFamily:font.title,fontSize:84,opacity:cap,transform:`scale(${.94+.06*cap})`,whiteSpace:'nowrap'}}>评论区扣<span style={{color:P.lav}}>FredTalk</span></div>}
  </>;
 }
 const replayComponents=[Topic,Materials,ScriptPage,WavePage,Assembly,Publishing] as const;

@@ -214,5 +214,3 @@ export function GlobeMesh({f,start,fade=1,entryFloor=0}:{f:number;start:number;f
     <text x="537" y="718" fill="#988974" textAnchor="end" fontSize="13">传播关系示意</text>
   </svg>;
 }
-
-export { OpeningAmount };

@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../../../demo-media';
 import type {FC} from 'react';
-import {AbsoluteFill} from 'remotion';
+import {AbsoluteFill, staticFile} from 'remotion';
 import {at, box, Canvas, GRAY, Ink, INK, InsetCaption, LAVENDER, MEDIA_SHADOW,
   MONO, Photo, PURPLE, rise, settle, smooth, SOFT_SHADOW, Stamp, TEXT, WEB} from './stage';
 
@@ -142,8 +141,8 @@ const VoiceCase: FC<{frame: number; entry: number}> = ({frame, entry}) => {
   const mark = settle(frame, 4345, 4355);
   const dataAlpha = oldCut ? 1 - settle(frame, 4401, 4409) : 1;
   const mediaAlpha = oldCut ? settle(frame, 4401, 4409) : 0;
-  const sampleCaption = oldCut ? '示例画面切换' : slogan ? '字幕高亮示例' :
-    (frame >= 4218 && !replay) || frame >= 4520 ? '预览动效已就绪' : '缩略图逐项进场';
+  const sampleCaption = oldCut ? '你看左边是我几个月前的视频' : slogan ? '这个东西就是一个量变堆起质变的效果' :
+    (frame >= 4218 && !replay) || frame >= 4520 ? '而且每一条的质量都超级超级高' : '但最近一个月发了 90 期视频';
   return (
     <div style={{...box(104, 184, FACE_W, FACE_H), borderRadius: 26, background: '#fff',
       boxShadow: MEDIA_SHADOW, overflow: 'hidden', opacity: entry}}>
@@ -151,7 +150,7 @@ const VoiceCase: FC<{frame: number; entry: number}> = ({frame, entry}) => {
       {oldCut ? (
         <div data-c-old-output style={{...box(166, 73, 564, 312), borderRadius: 7, overflow: 'hidden',
           boxShadow: '0 14px 33px rgba(25,25,27,.30)', opacity: mediaAlpha}}>
-          <Photo src={WEB.output} alt="Demo 官网独立公开视频，聊天记忆实际演示页"
+          <Photo src={WEB.output} alt="FredTalk 官网独立公开视频，聊天记忆实际演示页"
             style={{filter: 'brightness(.87) saturate(.55)', objectPosition: '50% 44%'}} />
         </div>
       ) : null}
@@ -212,5 +211,3 @@ export const VoiceCloning: FC<{frame: number}> = ({frame}) => {
     </AbsoluteFill>
   );
 };
-
-export { TileWall };

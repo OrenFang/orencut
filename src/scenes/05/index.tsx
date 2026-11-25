@@ -1,7 +1,7 @@
 import React from 'react';
-import {AbsoluteFill, Composition, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Composition, registerRoot, useCurrentFrame} from 'remotion';
 import timeline from './timeline.json';
-import {Brand, Captions, ChapterBadges, FontGate} from './overlays';
+import {Captions, ChapterBadges, FontGate} from './overlays';
 import {Closing, Opening, Genie, Robots} from './front';
 import {Gemini, Space, Kling, Suno} from './middle';
 import {Domestic, Notebook, Claude} from './end';
@@ -26,9 +26,7 @@ export const Episode: React.FC = () => {
     <FontGate />
     {scene}
     <ChapterBadges />
-    <Brand />
     <Captions />
   </AbsoluteFill>;
 };
 const Root: React.FC = () => <Composition id="FT1005" component={Episode} width={1920} height={1080} fps={timeline.fps} durationInFrames={timeline.totalFrames} />;
-

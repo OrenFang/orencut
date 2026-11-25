@@ -1,2 +1,7 @@
-[data-motion-scene="02"] .ft1002 { font-family: 'system-ui', sans-serif; font-weight: 500; font-synthesis: none; }
-[data-motion-scene="02"] .ft1002 *, [data-motion-scene="02"] .ft1002 *::before, [data-motion-scene="02"] .ft1002 *::after { box-sizing: border-box; }
+@font-face { font-family: 'FT02 Display'; src: url('../../../public/fonts/RuiZi.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'FT02 Text'; src: url('../../../public/fonts/MiSans-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: 'FT02 Text'; src: url('../../../public/fonts/MiSans-Heavy.otf') format('opentype'); font-weight: 900; font-style: normal; font-display: block; }
+@font-face { font-family: 'FT02 Caption'; src: url('../../../public/fonts/SmileySans-Oblique.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: 'FT02 Code'; src: url('../../../public/fonts/SourceCodePro-Semibold.ttf') format('opentype'); font-weight: 600; font-style: normal; font-display: block; }
+.ft1002 { font-family: 'FT02 Text', sans-serif; font-weight: 500; font-synthesis: none; }
+.ft1002 *, .ft1002 *::before, .ft1002 *::after { box-sizing: border-box; }

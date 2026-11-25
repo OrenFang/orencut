@@ -123,7 +123,7 @@ export const Poll:React.FC<Core>=({tl,f,scene})=><>
  <div style={{...rect(54,1191,974),textAlign:'center',color:C.gold,fontSize:30,fontWeight:900,opacity:settle(f,anchor(tl,'poll-row',5),anchor(tl,'poll-row',5)+11)}}>评论区告诉我</div>
 </>;
 
-const OutroTitle:React.FC<{sub:number;build?:boolean}>=({sub,build=false})=><div style={{...rect(60,354,980),transform:'skewX(-4deg)'}}><div style={{fontSize:29,letterSpacing:'.26em',color:'#bfb6a7',fontWeight:800}}>本期视频由</div><div style={{marginTop:13}}><Tech size={89}>Demo <span style={{color:C.gold}}>Skill</span></Tech></div>{sub>0&&<div data-outro-output={build?'visible':undefined} style={{marginTop:18,opacity:sub}}><Tech size={53} style={{color:'#c8bcaa'}}>全自动剪辑输出</Tech></div>}</div>;
+const OutroTitle:React.FC<{sub:number;build?:boolean}>=({sub,build=false})=><div style={{...rect(60,354,980),transform:'skewX(-4deg)'}}><div style={{fontSize:29,letterSpacing:'.26em',color:'#bfb6a7',fontWeight:800}}>本期视频由</div><div style={{marginTop:13}}><Tech size={89}>FredTalk <span style={{color:C.gold}}>Skill</span></Tech></div>{sub>0&&<div data-outro-output={build?'visible':undefined} style={{marginTop:18,opacity:sub}}><Tech size={53} style={{color:'#c8bcaa'}}>全自动剪辑输出</Tech></div>}</div>;
 
 export const Credits:React.FC<Core>=({tl,scene,f})=>{
  if(scene.id==='credits-build') {
@@ -138,17 +138,17 @@ export const Credits:React.FC<Core>=({tl,scene,f})=>{
     <span style={{...rect(533,997,465),textAlign:'center',opacity:stamp,transform:`rotate(-9deg) scale(${mix(1.2,1,stamp)})`,color:'#fc654d',border:'6px solid #c95343',fontSize:54,fontWeight:900,background:'#241813',boxShadow:'0 11px 25px #0009',textShadow:'0 2px 5px #231010',padding:'13px 10px 17px'}}>手动剪辑 ×0</span>
   </>;
  }
- const typeAt=anchor(tl,'credits-comment',1),sendAt=anchor(tl,'credits-comment',3),fixed=anchor(tl,'credits-comment',4),typed='Demo'.slice(0,Math.floor(5*phase(f,typeAt,anchor(tl,'credits-comment',2))));
+ const typeAt=anchor(tl,'credits-comment',1),sendAt=anchor(tl,'credits-comment',3),fixed=anchor(tl,'credits-comment',4),typed='Fred'.slice(0,Math.floor(5*phase(f,typeAt,anchor(tl,'credits-comment',2))));
  const done=f>=fixed, send=settle(f,sendAt,fixed),call=settle(f,typeAt+2,typeAt+18),box=settle(f,scene.start,scene.start+9);
  return <><OutroTitle sub={1}/>
   <div style={{...rect(88,659,904,done?366:261),...panel,padding:'31px 36px',opacity:box,background:'#211b13',transform:`translateY(${(1-box)*19}px)`}}>
    <div style={{color:'#cfc4b1',fontSize:36,fontWeight:900}}>评论区</div>
-   {done&&<div style={{display:'flex',alignItems:'center',height:115,gap:22,marginBottom:11}}><span style={{background:C.gold,color:C.ink,borderRadius:90,width:74,height:74,display:'grid',placeItems:'center',fontSize:37,fontWeight:900}}>我</span><Tech size={54}>Demo</Tech><span style={{marginLeft:'auto',color:'#a09585',fontSize:29}}>刚刚</span></div>}
+   {done&&<div style={{display:'flex',alignItems:'center',height:115,gap:22,marginBottom:11}}><span style={{background:C.gold,color:C.ink,borderRadius:90,width:74,height:74,display:'grid',placeItems:'center',fontSize:37,fontWeight:900}}>我</span><Tech size={54}>Fred</Tech><span style={{marginLeft:'auto',color:'#a09585',fontSize:29}}>刚刚</span></div>}
    <div style={{height:103,background:'#0f0d0b',border:'1px solid #3b3225',marginTop:18,padding:'15px 16px 16px 18px',display:'flex',alignItems:'center',gap:10}}>
     <span style={{color:done||typed?C.paper:'#7e766a',marginRight:'auto'}}>{done?'':typed?<Tech size={50}>{typed}</Tech>:<span style={{fontSize:29}}>写评论…</span>}</span>
     <span style={{background:!done&&typed.length===4?'#e5b95e':'#322b22',color:!done&&typed.length===4?C.ink:'#988e80',fontWeight:900,padding:'7px 18px',fontSize:32,transform:`scale(${1-.15*send*(1-send)})`}}>发送</span>
    </div>
   </div>
-  <div style={{...rect(54,done?1103:1012,978),textAlign:'center',opacity:call,transform:'skewX(-5deg)'}}><Tech size={105}>评论区扣 <span style={{color:C.gold,marginLeft:28}}>Demo</span></Tech></div>
+  <div style={{...rect(54,done?1103:1012,978),textAlign:'center',opacity:call,transform:'skewX(-5deg)'}}><Tech size={105}>评论区扣 <span style={{color:C.gold,marginLeft:28}}>Fred</span></Tech></div>
  </>;
 };

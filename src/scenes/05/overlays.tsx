@@ -1,13 +1,23 @@
 import React, {useEffect, useState} from 'react';
 import {useCurrentFrame, useDelayRender} from 'remotion';
 import timeline from './timeline.json';
-import {FONT, CAPFONT, clamp, lerp} from './visual';
+import {CAPFONT, clamp, lerp} from './visual';
 
-export const FontGate: React.FC = () => {return null;};
+export const FontGate: React.FC = () => {
+  const {delayRender, continueRender, cancelRender} = useDelayRender();
+  const [handle] = useState(() => delayRender('FT1005 local Chinese fonts'));
+  useEffect(() => {
+    Promise.all([document.fonts.load('800 50px "FT05 Head"', '本周机器人猜想'),document.fonts.load('400 48px "FT05 Caption"', '字幕谷歌 FredTalk')])
+      .then(() => continueRender(handle)).catch(cancelRender);
+  }, [handle, continueRender, cancelRender]);
+  return null;
+};
 
-export const Brand: React.FC = () => {return null;};
-
-export const Captions: React.FC = () => {return null;};
+export const Captions: React.FC = () => {
+  const frame = useCurrentFrame();
+  const text = timeline.captions.find((r) => r.start <= frame && frame < r.end)!.text;
+  return text === null ? null : <div style={{position:'absolute',zIndex:60,left:'50%',bottom:24,transform:'translateX(-50%)',height:103,padding:'0 24px',borderRadius:16,backgroundColor:'#000',color:'#fff',fontFamily:CAPFONT,fontWeight:400,fontSize:49,lineHeight:'103px',whiteSpace:'nowrap',maxWidth:1690,textAlign:'center',pointerEvents:'none'}}>{text}</div>;
+};
 
 const badgeWidth: Record<number,number>={1:338,2:360,3:354,4:504,5:465,6:432,7:334,8:384,9:504};
 export const ChapterBadges: React.FC = () => {

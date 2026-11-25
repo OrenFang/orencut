@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {AbsoluteFill, Img, interpolate, Easing} from 'remotion';
+import {AbsoluteFill, Img, interpolate, Easing, staticFile} from 'remotion';
 export const W=1200,H=675, gold='#f4cd73', blue='#90b7f8', red='#fc6554', white='#f5f5f5';
 export const filingRef='Anthropic 424B4 招股书 · 2026-11-18';
 // No original artwork/video, no remote URL, no faux UI. One literal descriptor per offline static asset.
@@ -24,9 +23,9 @@ export type Style=React.CSSProperties;
 export const ease=(t:number,a:number,b:number)=>interpolate(t,[a,b],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.out(Easing.cubic)});
 export const linear=(t:number,a:number,b:number)=>interpolate(t,[a,b],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
 export function Box({x,y,w,h,children,style}:{x:number;y:number;w:number;h?:number;children?:React.ReactNode;style?:Style}){return <div style={{position:'absolute',left:x,top:y,width:w,height:h,...style}}>{children}</div>}
-export function Text({x=0,y=0,w=W,size=32,color=white,align='center',alpha=1,italic=false,children,style}:{x?:number;y?:number;w?:number;size?:number;color?:string;align?:Style['textAlign'];alpha?:number;italic?:boolean;children:React.ReactNode;style?:Style}){return <Box x={x} y={y} w={w} style={{fontFamily:'system-ui, system-ui, sans-serif',fontSize:size,color,textAlign:align,opacity:alpha,whiteSpace:'nowrap',lineHeight:1.10,transform:italic?'skewX(-7deg)':undefined,textShadow:'0 4px 14px #000a',...style}}>{children}</Box>}
-export function Small({x=0,y,w=W,children,color='#ffffff83',size=9,style}:{x?:number;y:number;w?:number;children:React.ReactNode;color?:string;size?:number;style?:Style}){return <Box x={x} y={y} w={w} style={{textAlign:'center',fontSize:size,letterSpacing:2,fontFamily:'system-ui,sans-serif',color,whiteSpace:'nowrap',...style}}>{children}</Box>}
-export function Foot({children,alpha=1}:{children:React.ReactNode;alpha?:number}){return <Small x={38} y={552} w={1120} size={11} color="#a3a8af" style={{fontFamily:'system-ui,Mi',letterSpacing:.25,textAlign:'left',opacity:alpha}}>{children}</Small>}
+export function Text({x=0,y=0,w=W,size=32,color=white,align='center',alpha=1,italic=false,children,style}:{x?:number;y?:number;w?:number;size?:number;color?:string;align?:Style['textAlign'];alpha?:number;italic?:boolean;children:React.ReactNode;style?:Style}){return <Box x={x} y={y} w={w} style={{fontFamily:'FredHead, FT08Mi, sans-serif',fontSize:size,color,textAlign:align,opacity:alpha,whiteSpace:'nowrap',lineHeight:1.10,transform:italic?'skewX(-7deg)':undefined,textShadow:'0 4px 14px #000a',...style}}>{children}</Box>}
+export function Small({x=0,y,w=W,children,color='#ffffff83',size=9,style}:{x?:number;y:number;w?:number;children:React.ReactNode;color?:string;size?:number;style?:Style}){return <Box x={x} y={y} w={w} style={{textAlign:'center',fontSize:size,letterSpacing:2,fontFamily:'FT08Mi,sans-serif',color,whiteSpace:'nowrap',...style}}>{children}</Box>}
+export function Foot({children,alpha=1}:{children:React.ReactNode;alpha?:number}){return <Small x={38} y={552} w={1120} size={11} color="#a3a8af" style={{fontFamily:'FredSub,FT08Mi',letterSpacing:.25,textAlign:'left',opacity:alpha}}>{children}</Small>}
 export function Ornament({x=558,y=33}:{x?:number;y?:number}){return <svg width="84" height="10" viewBox="0 0 84 10" aria-hidden="true" style={{position:'absolute',left:x,top:y-4}}><path d="M1 5H32 M52 5H83 M33 5l5-2.4 4 2.4-4 2.4z M42 5l4-2.4 5 2.4-5 2.4z M40 5l2-3.6 2 3.6-2 3.6z" fill="none" stroke="#dddedc90" strokeWidth=".7"/></svg>}
 export function Title({cn,en,t,foot,y=49,ornament=true}:{cn:string;en?:string;t:number;foot?:string;y?:number;ornament?:boolean}){const p=ease(t,-.033,.23);return <><div style={{opacity:p}}>{ornament&&<Ornament y={y-16}/>}<Text y={y+(1-p)*4} size={30} style={{letterSpacing:3.2}}>{cn}</Text>{en&&<Small y={y+44} size={13} color="#c5c9cf">{en}</Small>}</div>{foot&&<Foot alpha={p*.75}>{foot}</Foot>}</>}
 export function Asset({id,x,y,w,h,style,contain=false,moving=false,t=0,position,alt=''}:{id:string;x:number;y:number;w:number;h:number;style?:Style;contain?:boolean;moving?:boolean;t?:number;position?:string;alt?:string}){const src=files[id as keyof typeof files];if(!src)throw Error('missing static asset: '+id);const p=moving?linear(t,0,8):0;return <Box x={x} y={y} w={w} h={h} style={{overflow:'hidden',...style}}><Img alt={alt} src={src} style={{display:'block',width:'100%',height:'100%',objectFit:contain?'contain':'cover',objectPosition:position??pos[id]??'center',transform:p?`scale(${1+.055*p}) translate(${p*.9}%,${p*-.65}%)`:undefined}}/></Box>}
@@ -35,7 +34,7 @@ export function Panel({x,y,w,h,t,border='#bfa66a91',children,focus=1,delay=0}:{x
 // Opt-in whole-label deblur/fade for source-verified cues; all other pills still wipe.
 export type PillFade={alpha:number;blur?:number};
 export function Pill({x,y,w,label,t,color=gold,fade}:{x:number;y:number;w:number;label:string;t:number;color?:string;fade?:PillFade}){
- const appearance={background:color,borderRadius:4,textAlign:'center' as const,fontFamily:'system-ui',color:'#12100b',padding:'5px 0',fontSize:15,fontWeight:800};
+ const appearance={background:color,borderRadius:4,textAlign:'center' as const,fontFamily:'FT08Mi',color:'#12100b',padding:'5px 0',fontSize:15,fontWeight:800};
  if(fade)return <Box x={x} y={y} w={w} style={{opacity:fade.alpha,filter:fade.blur?`blur(${fade.blur}px)`:undefined,...appearance}}>{label}</Box>;
  const p=ease(t,0,.29);return <Box x={x} y={y} w={w} style={{opacity:p,clipPath:`inset(0 ${100*(1-p)}% 0 0)`,...appearance}}>{label}</Box>;
 }

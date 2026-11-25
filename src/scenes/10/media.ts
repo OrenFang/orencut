@@ -1,5 +1,4 @@
-import { demoAsset as staticFile } from '../../demo-media';
-
+import {staticFile} from 'remotion';
 // Generated from independently acquired originals; crop numbers are native source pixels.
 export const media = {
  "modern-hero": staticFile("early/modern-hero.png"),

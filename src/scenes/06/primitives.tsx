@@ -4,7 +4,7 @@ import {P,Pic,type Rank} from './projects';
 import {clamp,phase,settle,type Timeline,anchor} from './motion';
 
 export const C={gold:'#e5b95e',ink:'#171511',paper:'#f6f0e6',muted:'#b2a796',line:'#7e6741',green:'#8bc8a6',red:'#f27161'};
-export const F={headline:'system-ui, system-ui, sans-serif',ui:'system-ui, system-ui, sans-serif',mono:'monospace, monospace'};
+export const F={headline:'FTTitle, FTSans, sans-serif',ui:'FTSans, system-ui, sans-serif',mono:'FTCode, monospace'};
 export const W=1080,H=1920;
 export const rect=(left:number,top:number,width:number,height?:number):React.CSSProperties=>({position:'absolute',left,top,width,height});
 export const panel:React.CSSProperties={background:'linear-gradient(155deg,#30281a,#1c1915 66%)',border:'1.5px solid #605036',borderRadius:8,boxShadow:'0 14px 34px #05040370',boxSizing:'border-box'};

@@ -67,7 +67,7 @@ function Jobs({f}:{f:number}){
 const comments=['补 AI 内容','产品图去白底','删掉「性能差不多的产品」','营销顺序：先校园大使，再事件营销'];
 function Notes({f}:{f:number}){
  return <>
-  <In f={f} at={3882} d={8} dy={6}><T x={224} y={113} size={25} face="body" weight={900} color="#6a696e">Demo · 11-01 · 看完 004 影石的意见（节选）</T></In>
+  <In f={f} at={3882} d={8} dy={6}><T x={224} y={113} size={25} face="body" weight={900} color="#6a696e">Fred · 11-01 · 看完 004 影石的意见（节选）</T></In>
   {comments.map((row,i)=><In key={row} f={f} at={3887+i*12} d={12} dx={-20} dy={13}><Pill x={225} y={158+i*81} w={[235,275,464,591][i]} h={66} size={i===3?32:36} style={{fontFamily:F.body,fontWeight:900}}><Mark dark>{i+1}</Mark> {row}</Pill></In>)}
   <In f={f} at={3942} d={13} dx={24} dy={12}><Pill x={855} y={519} w={390} h={70} white size={35}><PromptIcon size={49}/>按意见改完，出 <Mark>v23</Mark></Pill></In>
  </>;
@@ -135,7 +135,7 @@ function Outro({f}:{f:number}){
    <T x={102} y={274} size={19} face="code" color="#96939d">episode / src / scenes</T>
    {files.map((a,i)=>{const j=i%5,k=Math.floor(i/5),v=enter(f,4864+i*3,4877+i*3);return <Panel key={a} x={mix(100+j*254,364+j*143,fold)} y={mix(320+k*88,346+k*37,fold)+(1-v)*17} w={mix(232,146,fold)} h={mix(73,36,fold)} r={9} style={{background:'#27272b',opacity:v,boxShadow:'0 5px 9px #0004'}}><T x={12} y={mix(21,4,fold)} size={mix(25,19,fold)} face="code">{a}</T></Panel>;})}
   </B>}
-  {f>=4929&&<Pill x={286} y={266} w={868} h={174} size={99} style={{transform:`scale(${mix(.59,1,u)})`,background:'#18181a',boxShadow:'11px 15px 18px #0006'}}>评论区扣 <Mark dark>Demo</Mark></Pill>}
+  {f>=4929&&<Pill x={286} y={266} w={868} h={174} size={99} style={{transform:`scale(${mix(.59,1,u)})`,background:'#18181a',boxShadow:'11px 15px 18px #0006'}}>评论区扣 <Mark dark>Fred</Mark></Pill>}
  </>;
 }
 export function Late({id,f}:ShotProps){
@@ -154,5 +154,3 @@ export function Late({id,f}:ShotProps){
   default:return null;
  }
 }
-
-export { Judgment };

@@ -1,6 +1,6 @@
 # OrenCut
 
-**33 个可编辑的静音 Remotion 动效，也是一个可在 Codex 里调用的 Agent Skill。** 先从预览挑动作，再把画面、文字和节奏换成自己项目的内容。横屏与竖屏示例均带 TypeScript 源码，使用系统字体和随附的示意素材。
+**33 个可编辑的静音 Remotion 动效，也是一个可在 Codex 里调用的 Agent Skill。** 先从预览挑动作，再把画面、文字和节奏换成自己项目的内容。横屏与竖屏示例均带 TypeScript 源码，保留原组件的字体、素材和动效时序，预览可以直接静音播放。
 
 [在线浏览 33 个动效](https://orenfang.github.io/orencut/)
 
@@ -35,7 +35,15 @@
 
 ## 编辑与渲染
 
-在 OrenCut 目录安装依赖并启动 Remotion Studio。
+在线组件库与本地 `index.html` 都可以直接播放预览。编辑和重新渲染需要原场景素材。
+
+从 GitHub 下载的源码可以通过以下命令导入本地已有的 01 至 10 期可编辑 ZIP。可传入多个目录或 ZIP 路径，需要 Python 3、FFmpeg 和 ffprobe。
+
+```sh
+python3 scripts/import-visual-assets.py /本地/可编辑工程目录
+```
+
+导入素材后，在 OrenCut 目录安装依赖并启动 Remotion Studio。
 
 ```sh
 npm ci
@@ -65,8 +73,8 @@ export function MyScene() {
 }
 ```
 
-父合成使用对应的 `fps` 和画幅，横屏为 1920 × 1080，竖屏为 1080 × 1920。只需要某一层时，按目录定位到对应的 TSX，复用组件或其中的动画逻辑。示意图可以换成项目自己的图片，加载方式见 `src/demo-media.tsx`。 [素材目录](public/illustrations/)
+父合成使用对应的 `fps` 和画幅，横屏为 1920 × 1080，竖屏为 1080 × 1920。只需要某一层时，按目录定位到对应的 TSX，复用组件或其中的动画逻辑。各场景源码里的 `staticFile()` 标明了原素材路径，可按需替换为自己的素材。
 
 ## 许可证
 
-[MIT](LICENSE)
+项目代码采用 [MIT](LICENSE)。本地导入的字体和第三方画面适用各自的许可证。

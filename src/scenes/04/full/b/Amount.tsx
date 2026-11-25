@@ -69,4 +69,3 @@ export const AmountB: FC<{frame: number; state: Scene}> = ({frame, state}) => {
     </svg>
   );
 };
-export { CostTimelineB };

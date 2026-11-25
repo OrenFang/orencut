@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {Img} from 'remotion';
+import {Img, staticFile} from 'remotion';
 
 export type Rank=1|2|3|4|5|6|7|8|9;
 export const ranks: Rank[]=[1,2,3,4,5,6,7,8,9];

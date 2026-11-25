@@ -1,0 +1,42 @@
+{
+  "01": {
+    "sha256": "cee47bc7bd1f30f41eca866bfc5c387a4ed5771dc007c910c767ee02605b5181",
+    "prefix": ""
+  },
+  "02": {
+    "sha256": "ff41059e1020ca7f15dfd6d46d23ca27873ed2548ef647d186d3bb2283799f7c",
+    "prefix": ""
+  },
+  "03": {
+    "sha256": "65d10e99ce46f71acaf2fb973912f737f3b1ed6fd86955658598a9a504a022e8",
+    "prefix": ""
+  },
+  "04": {
+    "sha256": "51bc717268aca3a5ac59e6e81c11687fd45956b30687c791d4c9d44c9015ce77",
+    "prefix": "FredTalk04-Full-Remotion-Final/"
+  },
+  "05": {
+    "sha256": "d5ae91eace35990ad4ceeb50271a0074fe52b625605978bb3dbdb12ffe53851e",
+    "prefix": ""
+  },
+  "06": {
+    "sha256": "2bb603142cac752f1da7fe8d530db82e10ab0c82ceaa4e79507359bf726e19ac",
+    "prefix": ""
+  },
+  "07": {
+    "sha256": "682a04c91a3e4e34f02debb7b6b67ea9ba01135b3a6aa07cb1f60602fd0da475",
+    "prefix": ""
+  },
+  "08": {
+    "sha256": "5f05fb485bb4f34ab67bf328cc4407c13a2c7e2c1d626393eab0811a4cb262be",
+    "prefix": ""
+  },
+  "09": {
+    "sha256": "c1ffcd4739068b4dd2b806d8bb404e67e4541b7d2cc0b274b08eb76f48e32fb7",
+    "prefix": ""
+  },
+  "10": {
+    "sha256": "4ff2e5b97eb3adc3060c5604221f5cd5e3791e8dcb5fa3ebf8df87f169e8fdb8",
+    "prefix": ""
+  }
+}

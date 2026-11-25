@@ -16,7 +16,7 @@ export function TimeCompare({f,c}:Props){
   <Arrow x={875} y={512} w={158} color="#eeedea" style={{opacity:b}}/>
   <Text x={1122} y={318} size={42} color="#dedcda" style={{opacity:b}}>现在 · 我只花</Text>
   <Text x={1116} y={397} size={254} display color={P.lav} style={{opacity:b,transform:`translateY(${22*(1-b)}px)`}}>30<span style={{fontFamily:font.body,fontWeight:900,fontSize:62,color:'#fff',marginLeft:20}}>分钟</span></Text>
-  <Text x={214} y={795} size={23} color="#a3a1a4" style={{fontFamily:font.mono,fontWeight:600,opacity:a}}>demo-fu.com / auto-editing · 效率对比</Text>
+  <Text x={214} y={795} size={23} color="#a3a1a4" style={{fontFamily:font.mono,fontWeight:600,opacity:a}}>fred-fu.com / auto-editing · 效率对比</Text>
  </>;
 }
 

@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../../../demo-media';
 import type {FC} from 'react';
-import {AbsoluteFill, Img} from 'remotion';
+import {AbsoluteFill, Img, staticFile} from 'remotion';
 import {Canvas, H, Ink, P, ProductMark, W, at} from './basics';
 import {chapterAt, phaseAt, rmbAt, totalAt, worksScrollAt} from './state';
 

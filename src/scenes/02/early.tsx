@@ -95,7 +95,7 @@ function FactoryBridge({f}:{f:number}){
   {f<902?<Photo id="factory" x={0} y={0} w={w} h={h} r={0} tint={.38}/>:<FilmClip id="factory" start={902} end={990} trim={2} x={0} y={0} w={w} h={h} r={0} tint={.38}/>}
   {f>=906&&f<941&&emphasize&&<><B x={0} y={h*.775} w={w*.434} h={h*.176} style={{background:'#ca4c3f',opacity:enter(f,905,909)}}/><T x={w*.024} y={h*.797} size={w*.047} face="body" weight={900} style={{fontStyle:'italic'}}>+10%</T><T x={w*.019} y={h*.731} size={w*.021} face="body" weight={900} color="#fff9e8" style={{textShadow:'0 1px 5px #000'}}>原片举例 · 非画面所示工厂业绩</T></>}
   {f>=905&&<SourceTag x={6} y={8} w={w*.31} size={Math.max(12,w*.013)} text="独立工厂实拍"/>}
-  {f<912&&<T x={23} y={h-62} size={44} style={{opacity:1-smooth(f,903,912),textShadow:'0 2px 5px #000'}}>01 示例画面</T>}
+  {f<912&&<T x={23} y={h-62} size={44} style={{opacity:1-smooth(f,903,912),textShadow:'0 2px 5px #000'}}>01 真实画面</T>}
  </B>;
 }
 function Fault({f}:{f:number}){
@@ -111,7 +111,7 @@ function Fault({f}:{f:number}){
      <Panel x={0} y={0} w={w} h={h} r={22} style={{transform:`rotateY(${transformed}deg)`,background:'#18181a'}}>
       {flip<.5?<><T x={0} y={86} w={w} align="center" color="#77767b" size={42}>{i?'02':'01'}</T><T x={0} y={146} w={w} align="center" size={65}>{i?'动画是套的':'画面是假的'}</T></>:<>
        {i===0?<Photo id="factory" x={0} y={0} w={w} h={h} r={0} tint={.38}/>:<Graphic kind="capital" x={0} y={0} w={w} h={h} r={0} f={70}/>}
-       <T x={22} y={h-67} size={49} style={{textShadow:'0 2px 4px #000'}}>{i?'02 组件':'01 示例画面'}</T></>}
+       <T x={22} y={h-67} size={49} style={{textShadow:'0 2px 4px #000'}}>{i?'02 组件':'01 真实画面'}</T></>}
      </Panel>
      {f>=783+i*15&&<Check x={484} y={-32} yes={flip>.5} d={67}/>} 
     </B>
@@ -144,7 +144,7 @@ function NextFootageExample({f}:{f:number}){
  return <div data-ft-footage-example={market?'market':'equipment'} style={{position:'absolute',left:300,top:141,width:840,height:474}}>
   <Photo id={market?'trading':'datacenter'} x={0} y={0} w={840} h={474} tint={market?.20:.25} focus={market?'54% 48%':'54% 56%'}/>
   <SourceTag x={14} y={17} w={market?205:237} text={market?'独立交易场景 · 非原案例':'独立设备场景 · 非原报道'}/>
-  <T x={18} y={357} size={57} face="body" weight={900} color="#f6dfab" style={{textShadow:'0 3px 9px #000'}}>Demo</T><T x={18} y={415} size={24} face="body" weight={900}>财经新闻 · AI 剪辑</T>
+  <T x={18} y={357} size={57} face="body" weight={900} color="#f6dfab" style={{textShadow:'0 3px 9px #000'}}>FredTalk</T><T x={18} y={415} size={24} face="body" weight={900}>财经新闻 · AI 剪辑</T>
  </div>;
 }
 function Footage({f}:{f:number}){
@@ -153,7 +153,7 @@ function Footage({f}:{f:number}){
   {f<960?<FactoryBridge f={f}/>:f<990?<NextFootageExample f={f}/>:<>
    {f<1062?<Photo id={media} x={300} y={141} w={840} h={474} tint={.29} focus={media==='press'?'51% 39%':'50% 50%'}/>:<FilmClip id="factory" start={1062} end={1107} trim={84} x={300} y={141} w={840} h={474} tint={.34}/>}
    <SourceTag x={312} y={574} w={media==='press'?220:187} text={media==='press'?'独立图像 · 并非受访当事人':'独立场景 · 非原报道'}/>
-   {f<1033&&<><T x={316} y={498} size={57} face="body" weight={900} color="#f6dfab" style={{textShadow:'0 3px 9px #000'}}>Demo</T><T x={318} y={556} size={24} face="body" weight={900}>财经新闻 · AI 剪辑</T></>}
+   {f<1033&&<><T x={316} y={498} size={57} face="body" weight={900} color="#f6dfab" style={{textShadow:'0 3px 9px #000'}}>FredTalk</T><T x={318} y={556} size={24} face="body" weight={900}>财经新闻 · AI 剪辑</T></>}
   </>}
   <Meter f={f}/>
   {['新闻','发布会','工厂'].map((name,i)=><In key={name} f={f} at={1037+i*12} d={10} dy={-9}><Pill x={[465,644,856][i]} y={155} w={[118,152,118][i]} h={61} white size={40}>{name}</Pill></In>)}
@@ -231,7 +231,7 @@ export function Early({id,f,start,end}:ShotProps){
    const kind:GraphicKind=f<1381?'gold':'yield';
    return <>
     <Graphic kind={kind} x={299} y={140} w={844} h={471} f={f-(kind==='yield'?1417:1300)+7}/>
-    {f>=1381&&f<1417&&<Panel x={389} y={220} w={660} h={301} white><T x={37} y={25} size={24} face="body" color="#67656e">独立数据来源 · 公开原始时间序列</T><T x={37} y={93} size={44} color="#1d1d25">Federal Reserve / DEMO</T><T x={37} y={160} size={22} face="code" color="#69636d">DGS10 · 2025-01-02 — 2025-06-30</T><T x={37} y={224} size={25} face="body">美国 10 年期国债收益率（%）</T></Panel>}
+    {f>=1381&&f<1417&&<Panel x={389} y={220} w={660} h={301} white><T x={37} y={25} size={24} face="body" color="#67656e">独立数据来源 · 公开原始时间序列</T><T x={37} y={93} size={44} color="#1d1d25">Federal Reserve / FRED</T><T x={37} y={160} size={22} face="code" color="#69636d">DGS10 · 2025-01-02 — 2025-06-30</T><T x={37} y={224} size={25} face="body">美国 10 年期国债收益率（%）</T></Panel>}
     {f>=1429&&<DataRule f={f}/>}
    </>;
   }
@@ -251,5 +251,3 @@ export function Early({id,f,start,end}:ShotProps){
   default:return null;
  }
 }
-
-export { Opening, Fault };

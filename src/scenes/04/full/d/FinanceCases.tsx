@@ -1,10 +1,9 @@
-import { demoAsset as staticFile } from '../../../../demo-media';
 import type {CSSProperties, FC, SVGProps} from 'react';
-import {Img} from 'remotion';
+import {Img, staticFile} from 'remotion';
 
-const DISPLAY = '"system-ui", "PingFang SC", sans-serif';
-const TEXT = '"system-ui", "PingFang SC", sans-serif';
-const CAPTION = '"system-ui", "PingFang SC", sans-serif';
+const DISPLAY = '"FT Display", "PingFang SC", sans-serif';
+const TEXT = '"FT Text", "PingFang SC", sans-serif';
+const CAPTION = '"FT Caption", "PingFang SC", sans-serif';
 const MONO = '"FT Mono", monospace';
 const WHITE = '#f3f3f5';
 const LILAC = '#d7bcff';

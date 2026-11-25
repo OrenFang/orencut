@@ -1,6 +1,5 @@
-import { demoAsset as staticFile } from '../../demo-media';
 import React from 'react';
-import {AbsoluteFill, Img, interpolate, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame} from 'remotion';
 
 const BACK = '#17171a';
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -76,5 +75,3 @@ export const Wall: React.FC = () => {
     </AbsoluteFill>
   );
 };
-
-export { LANES };

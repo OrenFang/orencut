@@ -2,7 +2,7 @@ import React from 'react';
 
 export const W=1440, H=810;
 export const DARK='#18181a', INK='#19191c', P='#8554e8', L='#d6beff', GOLD='#ddb363';
-export const F={display:'"system-ui", "system-ui", sans-serif',body:'"system-ui", sans-serif',caption:'"system-ui", "system-ui", sans-serif',code:'"monospace", monospace'};
+export const F={display:'"FT02 Display", "FT02 Text", sans-serif',body:'"FT02 Text", sans-serif',caption:'"FT02 Caption", "FT02 Text", sans-serif',code:'"FT02 Code", monospace'};
 export type Style=React.CSSProperties;
 export type XY={x:number;y:number;w?:number;h?:number};
 export type Rect=Required<XY>;

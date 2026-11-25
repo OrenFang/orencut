@@ -128,7 +128,7 @@ export function Skill() {
      <text x="652" y="211" textLength="244" lengthAdjust="spacingAndGlyphs" fontSize="46"
       transform={fitItalicInk(652,194,.80)} fill="url(#skill-title-silver)">本期视频由</text>
      <text x="652" y="320" textLength="829" lengthAdjust="spacingAndGlyphs" fontSize="89"
-      transform={fitItalicInk(652,291,.79)} fill="url(#skill-title-gold)">Demo Skill</text>
+      transform={fitItalicInk(652,291,.79)} fill="url(#skill-title-gold)">FredTalk Skill</text>
      <text x="650" y="418" textLength="435" lengthAdjust="spacingAndGlyphs" fontSize="58"
       transform={fitItalicInk(650,400,.84)} fill="url(#skill-title-silver)">全自动剪辑输出</text>
     </g>
@@ -136,7 +136,7 @@ export function Skill() {
      const active=fitPhase(f,[[onset-1,0],[onset,.41],[onset+2,1]]);
      return <g key={label} opacity={mix(.31,1,active)}>
       <rect x={x} y="474" width={width} height="53" rx="10" fill="url(#skill-pill-dark)" stroke="#89744c" strokeWidth="1.5"/>
-      <text x={x+width/2} y="514" textAnchor="middle" fontFamily="system-ui,sans-serif" fontSize="27"
+      <text x={x+width/2} y="514" textAnchor="middle" fontFamily="FT07CN,sans-serif" fontSize="27"
        letterSpacing=".7" fontWeight="880" fill="#f0e5c5">{label}</text>
      </g>;
     })}
@@ -149,7 +149,7 @@ export function Skill() {
    background:'linear-gradient(180deg,#ef6b52,#b42e24)',boxShadow:'0 3px 19px #b6433760'}}>
    <svg width="780" height="89" viewBox="0 0 780 89" style={pos(0,0)}>
     <text x="389" y="61" textAnchor="middle" textLength="689" lengthAdjust="spacingAndGlyphs"
-     fontSize="46" style={displayFont} transform={fitItalicInk(389,43,.84)} fill="#fff3eb">有兴趣　·　评论区扣 Demo</text>
+     fontSize="46" style={displayFont} transform={fitItalicInk(389,43,.84)} fill="#fff3eb">有兴趣　·　评论区扣 Fred</text>
    </svg>
   </div>}
  </>;
@@ -175,7 +175,7 @@ const revenueDigits = [
  'M10 1H133Q143 1 143 12V132Q143 143 132 143H2V111H93V93H11Q1 93 1 82V12Q1 1 10 1ZM50 32V63H93V32Z',
 ] as const;
 
-const displayFont = {fontFamily:'system-ui,system-ui,sans-serif',fontWeight:900};
+const displayFont = {fontFamily:'FT07Display,FT07CN,sans-serif',fontWeight:900};
 function fitItalicInk(x:number,y:number,scale=.82) {
  return `translate(${x} ${y}) skewX(-12) scale(1 ${scale}) translate(${-x} ${-y})`;
 }
@@ -241,14 +241,14 @@ export function LaunchReel() {
     <text x="959" y="152" textAnchor="middle" textLength="580" lengthAdjust="spacingAndGlyphs"
      fontSize="56" transform={fitItalicInk(959,132,.78)} fill="url(#revenue-title-silver)">GTA6　首日流水估算</text>
     <text x="959" y="198" textAnchor="middle" textLength="636" lengthAdjust="spacingAndGlyphs"
-     fontFamily="system-ui,sans-serif" fontWeight="650" fontSize="23" fill="#9497a4">DAY-ONE LAUNCH ESTIMATE · NOV 19, 2026</text>
+     fontFamily="FT07CN,sans-serif" fontWeight="650" fontSize="23" fill="#9497a4">DAY-ONE LAUNCH ESTIMATE · NOV 19, 2026</text>
     <text x="506" y="526" textAnchor="middle" textLength="78" lengthAdjust="spacingAndGlyphs"
      fontSize="90" transform={fitItalicInk(506,494,.89)} fill="#e2b45d"
      style={{filter:'drop-shadow(0 0 13px #f4b75d65)'}}>$</text>
     <text x="1309" y="555" textAnchor="middle" textLength="281" lengthAdjust="spacingAndGlyphs"
      fontSize="85" transform={fitItalicInk(1309,519,.94)} opacity={unit} fill="url(#revenue-unit-gold)">亿美元</text>
    </g>
-   <g opacity={notes} fontFamily="system-ui,sans-serif" textAnchor="middle">
+   <g opacity={notes} fontFamily="FT07CN,sans-serif" textAnchor="middle">
     <path d="M385 735H497 M1423 735H1535" stroke="#a2885f" strokeOpacity=".50" strokeWidth="1"/>
     <text x="955" y="746" textLength="874" lengthAdjust="spacingAndGlyphs"
      fontSize="31" fontWeight="740" fill="#e1deeb">含预购在内约 2460 万份（Sensor Tower 第三方估算）</text>
@@ -346,5 +346,3 @@ export function PartTwo({carry=false}:{carry?:boolean}) {
   <HeroText a="今天的 AI" b="做到哪一步" sub="PART 2 · WHERE AI STANDS TODAY" y={298} size={carry?105:119} lineGap={carry?18:29} p1={p*exit} p2={q*exit}/>
  </>;
 }
-
-export { RevenueWheels };

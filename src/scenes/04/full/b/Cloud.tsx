@@ -114,13 +114,13 @@ export const ConsoleB: FC<{frame: number; opacity: number}> = ({frame, opacity})
         <div style={{...box(0, 0, 910, 29), backgroundColor: '#eeeeef', borderBottom: '1px solid #eeeeef'}} aria-hidden>
           {['#ed786e', '#e5b267', '#69bc8e'].map((color, i) => <div key={color} style={{...box(9 + i * 14, 9, 8, 8), borderRadius: '50%', backgroundColor: color}} />)}
           <div style={{...box(70, 4, 246, 25), backgroundColor: '#fafafa', borderRadius: '8px 8px 0 0', paddingLeft: 12,
-            font: '500 13px "system-ui", sans-serif', lineHeight: '24px', color: '#555558'}}>公开文档 · 非执行记录</div>
+            font: '500 13px "FT Text", sans-serif', lineHeight: '24px', color: '#555558'}}>公开文档 · 非执行记录</div>
         </div>
         <svg width={910} height={108} style={{...box(0, 0, 910, 108), display: 'block'}}>
           <Ink x={30} y={83} size={22} fill="#171719">出片前自动检查 · assemble30.py</Ink>
         </svg>
         <div data-layer="b-console-viewport" style={{...box(31, 105, 848, 352), overflow: 'hidden', backgroundColor: '#f1f4f5'}}>
-          <ImageLayer asset="full-web/render-console.jpg" alt="Demo 公开渲染源码 assemble30.py，不是后台执行记录"
+          <ImageLayer asset="full-web/render-console.jpg" alt="FredTalk 公开渲染源码 assemble30.py，不是后台执行记录"
             style={{...box(mix(0, -20, stopMix), mix(0, -9, stopMix), 810, 405), objectFit: 'contain',
               objectPosition: '50% 0%'}} />
         </div>

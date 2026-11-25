@@ -1,6 +1,6 @@
 import React from 'react';
 import {useCurrentFrame} from 'remotion';
-import {FT_FONTS, useDemoFonts} from '../fonts';
+import {FT_FONTS, useFredFonts} from '../fonts';
 import cueData from './captions-full.json';
 
 export type FullCaptionCue = Readonly<{
@@ -21,8 +21,8 @@ export const fullCaptionAtFrame = (frame: number): FullCaptionCue | undefined =>
 export const FullCaptions: React.FC = () => {
   const frame = useCurrentFrame();
   const cue = fullCaptionAtFrame(frame);
-  useDemoFonts();
-  if (!cue?.text) return null;
+  useFredFonts();
+  if (!cue) return null;
 
   const solidInk = cue.solidInkFromFrame !== undefined && frame >= cue.solidInkFromFrame;
   return (

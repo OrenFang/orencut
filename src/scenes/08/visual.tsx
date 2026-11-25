@@ -9,14 +9,23 @@ import {Late} from './late';
 
 const warm=new Set(['profit','teardown','chapters','part2','lossA','lossB','lossC','funding','safe','matrix','part4','coffee']);
 const clear:Record<string,number>={opening:.87,ipo:.87,paradox:.81,teardown:.87,part2:.67,part3a:.81,part3b:.85,outro:.82};
-const wash:Record<string,number>={filing:.54,profit:.54,ranking:.56,demo:.74,part1:.84,ownership:.61,control:.49,lossA:.57,lossB:.57,lossC:.57};
+const wash:Record<string,number>={filing:.54,profit:.54,ranking:.56,fred:.74,part1:.84,ownership:.61,control:.49,lossA:.57,lossB:.57,lossC:.57};
 const blurSettings:Record<string,number>={opening:.8,ipo:1.1,paradox:1.5,teardown:.85,lost:7,lossA:9,lossB:9,lossC:9,part1:7,part2:14,part3a:1,part3b:1,outro:.8,quarters:9};
 const overlaps:Record<string,{prior:string;first:number;end:number}>={
  revenue:{prior:'part1',first:1173,end:1176},lossA:{prior:'part2',first:2567,end:2572},ownership:{prior:'part4',first:6022,end:6026},
 };
-const tailWash:Record<string,number>={chapters:11,demo:8,lossA:9,margin:9,claim:5,contracts:7,when:6,compute:8,control:7,summary:8,watch:7};
-function Caption({frame}:{frame:number}){return null;}
-function Brand({frame}:{frame:number}){return null;}
+const tailWash:Record<string,number>={chapters:11,fred:8,lossA:9,margin:9,claim:5,contracts:7,when:6,compute:8,control:7,summary:8,watch:7};
+function Caption({frame}:{frame:number}){
+ const cue=captionAt(frame); if(cue.text===null)return null;
+ const phase=cue.fadeEase==='out-cubic'?ease:linear;
+ const opacity=cue.fadeFrames&&cue.firstOpacity!==undefined?cue.firstOpacity+(1-cue.firstOpacity)*phase(frame,cue.start,cue.start+cue.fadeFrames):1;
+ return <div data-captions="active" style={{position:'absolute',left:49,width:1102,top:573.5,textAlign:'center',fontFamily:'FredSub,FT08Mi,sans-serif',fontWeight:400,fontSize:37.5,lineHeight:1.16,color:'#fff',whiteSpace:'nowrap',textShadow:'0 2px 3px #000,0 1px 7px #0009',opacity,pointerEvents:'none'}}>{cue.text}</div>;
+}
+function Brand({frame}:{frame:number}){
+ const {mode}=brandAt(frame); if(mode==='none')return null;
+ const colors={white:'#fff','white-outline':'#fff',purple:'#8554e8',dark:'#19191c'};
+ return <div data-brand-mode={mode} style={{position:'absolute',left:33,top:27,font:'bold 31px FT08Mi, sans-serif',color:colors[mode],WebkitTextStroke:mode==='white-outline'?'1px #171717':undefined,pointerEvents:'none'}}>FredTalk</div>;
+}
 function VisualScene({cut,frame}:{cut:Chapter;frame:number}){
  const t=(frame-cut.start)/timeline.fps, id=cut.id;
  const opacity=id==='opening'?linear(frame,0,13)
@@ -42,5 +51,3 @@ export function EpisodeFrame({frame}:{frame:number}){
   </div>
  </AbsoluteFill>;
 }
-
-export { VisualScene };

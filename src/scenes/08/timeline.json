@@ -75,11 +75,11 @@
       "bg": "cash"
     },
     {
-      "id": "demo",
+      "id": "fred",
       "start": 952,
       "end": 1105,
       "stage": "early",
-      "label": "Demo Skill · 全自动剪辑输出",
+      "label": "FredTalk Skill · 全自动剪辑输出",
       "bg": "laptop"
     },
     {
@@ -135,7 +135,7 @@
       "start": 2020,
       "end": 2194,
       "stage": "early",
-      "label": "Demo 的日常",
+      "label": "Fred 的日常",
       "bg": "laptop"
     },
     {
@@ -380,31 +380,31 @@
     {
       "start": 15,
       "end": 90,
-      "text": "",
+      "text": "11 月 19 号史上最大的 IPO",
       "firstOpacity": 0.34,
       "fadeFrames": 2
     },
     {
       "start": 90,
       "end": 149,
-      "text": ""
+      "text": "Anthropic 终于上市了"
     },
     {
       "start": 149,
       "end": 210,
-      "text": "",
+      "text": "一口气募了 813 亿美元",
       "firstOpacity": 0.63,
       "fadeFrames": 1
     },
     {
       "start": 210,
       "end": 259,
-      "text": ""
+      "text": "比 SpaceX 还多"
     },
     {
       "start": 259,
       "end": 306,
-      "text": "",
+      "text": "可你要是翻开它的招股书",
       "firstOpacity": 0.47,
       "fadeFrames": 2,
       "fadeEase": "out-cubic"
@@ -412,52 +412,52 @@
     {
       "start": 306,
       "end": 363,
-      "text": ""
+      "text": "会看到一个特别反常的数字"
     },
     {
       "start": 363,
       "end": 449,
-      "text": ""
+      "text": "今年前九个月它收入 332 亿美元"
     },
     {
       "start": 449,
       "end": 516,
-      "text": ""
+      "text": "亏损一千零四十亿"
     },
     {
       "start": 516,
       "end": 571,
-      "text": ""
+      "text": "亏的钱是赚的三倍"
     },
     {
       "start": 571,
       "end": 638,
-      "text": ""
+      "text": "就这么一家公司市场给它的估值"
     },
     {
       "start": 638,
       "end": 684,
-      "text": ""
+      "text": "超过一万亿美元"
     },
     {
       "start": 684,
       "end": 737,
-      "text": ""
+      "text": "更离谱的是它亏这么多"
     },
     {
       "start": 737,
       "end": 789,
-      "text": ""
+      "text": "恰恰是因为它太值钱了"
     },
     {
       "start": 789,
       "end": 847,
-      "text": ""
+      "text": "今天咱就把这本账本拆开看看"
     },
     {
       "start": 847,
       "end": 943,
-      "text": ""
+      "text": "钱从哪来亏在哪真正的风险又藏在哪"
     },
     {
       "start": 943,
@@ -468,74 +468,74 @@
     {
       "start": 953,
       "end": 977,
-      "text": "",
+      "text": "本期视频由",
       "firstOpacity": 0.39,
       "fadeFrames": 2
     },
     {
       "start": 977,
       "end": 1040,
-      "text": ""
+      "text": "FredTalk Skill 全自动剪辑输出"
     },
     {
       "start": 1040,
       "end": 1107,
-      "text": ""
+      "text": "有兴趣的评论区扣 Fred"
     },
     {
       "start": 1107,
       "end": 1174,
-      "text": ""
+      "text": "先看收入这是一条火箭"
     },
     {
       "start": 1174,
       "end": 1204,
-      "text": ""
+      "text": "2023 年"
     },
     {
       "start": 1204,
       "end": 1254,
-      "text": ""
+      "text": "Anthropic 一整年的收入"
     },
     {
       "start": 1254,
       "end": 1306,
-      "text": ""
+      "text": "只有四千一百万美元"
     },
     {
       "start": 1306,
       "end": 1379,
-      "text": ""
+      "text": "2024 年三亿八千多万"
     },
     {
       "start": 1379,
       "end": 1439,
-      "text": ""
+      "text": "2025 年四十五亿"
     },
     {
       "start": 1439,
       "end": 1541,
-      "text": ""
+      "text": "到了今年第三季度一个季度就是 170 亿"
     },
     {
       "start": 1541,
       "end": 1584,
-      "text": ""
+      "text": "它自己算了一个年化收入"
     },
     {
       "start": 1584,
       "end": 1634,
-      "text": ""
+      "text": "到 10 月底按当时的速度"
     },
     {
       "start": 1634,
       "end": 1693,
-      "text": ""
+      "text": "一年大约 810 亿美元"
     },
     {
       "start": 1693,
       "end": 1800,
-      "text": ""
+      "text": "你看跟这次 IPO 募的钱几乎一样多"
     },
     {
       "start": 1800,
@@ -546,69 +546,69 @@
     {
       "start": 1801,
       "end": 1841,
-      "text": "",
+      "text": "谁在付这笔钱",
       "firstOpacity": 0.39,
       "fadeFrames": 2
     },
     {
       "start": 1841,
       "end": 1883,
-      "text": ""
+      "text": "大头是企业"
     },
     {
       "start": 1883,
       "end": 1932,
-      "text": ""
+      "text": "招股书里重点讲的产品"
     },
     {
       "start": 1932,
       "end": 1959,
-      "text": ""
+      "text": "是 Claude Code"
     },
     {
       "start": 1959,
       "end": 2022,
-      "text": ""
+      "text": "一个帮程序员写代码的 AI"
     },
     {
       "start": 2022,
       "end": 2063,
-      "text": ""
+      "text": "我自己做 FredTalk"
     },
     {
       "start": 2063,
       "end": 2113,
-      "text": ""
+      "text": "每天就开着 Claude Code 干活"
     },
     {
       "start": 2113,
       "end": 2197,
-      "text": ""
+      "text": "这期视频的剪辑流程就是用它跑出来的"
     },
     {
       "start": 2197,
       "end": 2235,
-      "text": ""
+      "text": "还有一个数字更夸张"
     },
     {
       "start": 2235,
       "end": 2335,
-      "text": ""
+      "text": "企业客户的净收入留存率大约 900%"
     },
     {
       "start": 2335,
       "end": 2389,
-      "text": ""
+      "text": "意思是同一批企业客户"
     },
     {
       "start": 2389,
       "end": 2439,
-      "text": ""
+      "text": "这个季度在它这儿花的钱"
     },
     {
       "start": 2439,
       "end": 2500,
-      "text": ""
+      "text": "是去年同期的九倍"
     },
     {
       "start": 2500,
@@ -619,219 +619,219 @@
     {
       "start": 2501,
       "end": 2557,
-      "text": "",
+      "text": "那问题来了收入涨这么猛",
       "firstOpacity": 0.3,
       "fadeFrames": 2
     },
     {
       "start": 2557,
       "end": 2599,
-      "text": ""
+      "text": "怎么还亏了一千多亿"
     },
     {
       "start": 2599,
       "end": 2686,
-      "text": ""
+      "text": "先看真正做生意的亏损也就是营业亏损"
     },
     {
       "start": 2686,
       "end": 2763,
-      "text": ""
+      "text": "今年前九个月只有 12 亿多"
     },
     {
       "start": 2763,
       "end": 2837,
-      "text": ""
+      "text": "第三季度营业利润率是负 3%"
     },
     {
       "start": 2837,
       "end": 2922,
-      "text": ""
+      "text": "去年同期是负 224%"
     },
     {
       "start": 2922,
       "end": 2979,
-      "text": ""
+      "text": "也就是说卖 Claude 这门生意"
     },
     {
       "start": 2979,
       "end": 3030,
-      "text": ""
+      "text": "已经快打平了"
     },
     {
       "start": 3030,
       "end": 3088,
-      "text": ""
+      "text": "那剩下的一千多亿去哪了"
     },
     {
       "start": 3088,
       "end": 3170,
-      "text": ""
+      "text": "有 943 亿是一笔账面亏损"
     },
     {
       "start": 3170,
       "end": 3230,
-      "text": ""
+      "text": "这几年 Anthropic 找投资人拿钱"
     },
     {
       "start": 3230,
       "end": 3299,
-      "text": ""
+      "text": "很多不是直接卖股票而是打欠条"
     },
     {
       "start": 3299,
       "end": 3381,
-      "text": ""
+      "text": "可转债、SAFE 说白了就是先拿钱"
     },
     {
       "start": 3381,
       "end": 3445,
-      "text": ""
+      "text": "以后按公司的估值换成股份"
     },
     {
       "start": 3445,
       "end": 3470,
-      "text": ""
+      "text": "公司越值钱"
     },
     {
       "start": 3470,
       "end": 3545,
-      "text": ""
+      "text": "这些欠条将来能换的股份就越值钱"
     },
     {
       "start": 3545,
       "end": 3613,
-      "text": ""
+      "text": "会计上就得记成公司的亏损"
     },
     {
       "start": 3613,
       "end": 3669,
-      "text": ""
+      "text": "就像你开店时借了朋友一笔钱"
     },
     {
       "start": 3669,
       "end": 3735,
-      "text": ""
+      "text": "约好以后按店的价值换股份"
     },
     {
       "start": 3735,
       "end": 3807,
-      "text": ""
+      "text": "店越火你账上欠他的就越多"
     },
     {
       "start": 3807,
       "end": 3876,
-      "text": ""
+      "text": "它在今年的 H 轮融资后估值暴涨"
     },
     {
       "start": 3876,
       "end": 3935,
-      "text": "",
+      "text": "所以二季度这笔亏损最大",
       "firstOpacity": 0.28,
       "fadeFrames": 2
     },
     {
       "start": 3935,
       "end": 4012,
-      "text": "",
+      "text": "按招股书的说法这些欠条换成股票以后",
       "firstOpacity": 0.39,
       "fadeFrames": 2
     },
     {
       "start": 4012,
       "end": 4065,
-      "text": ""
+      "text": "就不会再记这种亏损了"
     },
     {
       "start": 4065,
       "end": 4105,
-      "text": "",
+      "text": "所以那一千零四十亿",
       "firstOpacity": 0.39,
       "fadeFrames": 2
     },
     {
       "start": 4105,
       "end": 4153,
-      "text": ""
+      "text": "大部分不是烧掉的现金"
     },
     {
       "start": 4153,
       "end": 4220,
-      "text": ""
+      "text": "是公司变贵了的副作用"
     },
     {
       "start": 4220,
       "end": 4302,
-      "text": "",
+      "text": "那是不是说这本账就没问题了",
       "firstOpacity": 0.23,
       "fadeFrames": 2
     },
     {
       "start": 4302,
       "end": 4334,
-      "text": ""
+      "text": "也不是"
     },
     {
       "start": 4334,
       "end": 4413,
-      "text": ""
+      "text": "真正的风险在另一个数字"
     },
     {
       "start": 4413,
       "end": 4431,
-      "text": ""
+      "text": "九千亿"
     },
     {
       "start": 4431,
       "end": 4465,
-      "text": "",
+      "text": "很多视频说",
       "firstOpacity": 0.45,
       "fadeFrames": 2
     },
     {
       "start": 4465,
       "end": 4511,
-      "text": ""
+      "text": "Anthropic 负债九千亿"
     },
     {
       "start": 4511,
       "end": 4548,
-      "text": ""
+      "text": "这个说法不对"
     },
     {
       "start": 4548,
       "end": 4635,
-      "text": ""
+      "text": "招股书里写的是采购和租赁承诺"
     },
     {
       "start": 4635,
       "end": 4695,
-      "text": ""
+      "text": "大约 9009 亿美元"
     },
     {
       "start": 4695,
       "end": 4760,
-      "text": ""
+      "text": "几乎全是算力和数据中心"
     },
     {
       "start": 4760,
       "end": 4852,
-      "text": ""
+      "text": "就是它跟云厂商、芯片公司签好的长期合同"
     },
     {
       "start": 4852,
       "end": 4913,
-      "text": ""
+      "text": "不管用不用钱都得付"
     },
     {
       "start": 4913,
       "end": 4952,
-      "text": ""
+      "text": "其中四千五百多亿"
     },
     {
       "start": 4952,
       "end": 5028,
-      "text": ""
+      "text": "要在 2030 年底之前付掉"
     },
     {
       "start": 5028,
@@ -842,149 +842,149 @@
     {
       "start": 5029,
       "end": 5084,
-      "text": "",
+      "text": "现在这笔账单已经开始来了",
       "firstOpacity": 0.38,
       "fadeFrames": 2
     },
     {
       "start": 5084,
       "end": 5188,
-      "text": ""
+      "text": "第三季度算力和基础设施的开支是 99 亿"
     },
     {
       "start": 5188,
       "end": 5257,
-      "text": ""
+      "text": "一个季度就花掉了收入的一半多"
     },
     {
       "start": 5257,
       "end": 5312,
-      "text": ""
+      "text": "算力是提前几年就订好的"
     },
     {
       "start": 5312,
       "end": 5374,
-      "text": ""
+      "text": "不会因为生意变差就少付"
     },
     {
       "start": 5374,
       "end": 5462,
-      "text": ""
+      "text": "所以收入一直涨这些合同就是护城河"
     },
     {
       "start": 5462,
       "end": 5542,
-      "text": ""
+      "text": "收入要是涨不动了它们就是包袱"
     },
     {
       "start": 5542,
       "end": 5580,
-      "text": ""
+      "text": "招股书自己也写了"
     },
     {
       "start": 5580,
       "end": 5618,
-      "text": ""
+      "text": "收入增速会下降"
     },
     {
       "start": 5618,
       "end": 5702,
-      "text": ""
+      "text": "而且可能降得比预期更快、更猛"
     },
     {
       "start": 5702,
       "end": 5754,
-      "text": ""
+      "text": "这次 IPO 加同时的私募"
     },
     {
       "start": 5754,
       "end": 5822,
-      "text": ""
+      "text": "到手大约 1048 亿美元"
     },
     {
       "start": 5822,
       "end": 5908,
-      "text": ""
+      "text": "听着很多可放在九千亿的算力合同面前"
     },
     {
       "start": 5908,
       "end": 5955,
-      "text": ""
+      "text": "也就一成多"
     },
     {
       "start": 5955,
       "end": 5983,
-      "text": ""
+      "text": "最后一个问题"
     },
     {
       "start": 5983,
       "end": 6044,
-      "text": ""
+      "text": "这家公司到底谁说了算"
     },
     {
       "start": 6044,
       "end": 6151,
-      "text": ""
+      "text": "亚马逊持股 14.6% 谷歌持股 13.4%"
     },
     {
       "start": 6151,
       "end": 6191,
-      "text": ""
+      "text": "加起来接近三成"
     },
     {
       "start": 6191,
       "end": 6270,
-      "text": ""
+      "text": "可它们拿的大部分是没有投票权的股票"
     },
     {
       "start": 6270,
       "end": 6328,
-      "text": ""
+      "text": "真正说了算的是两拨人"
     },
     {
       "start": 6328,
       "end": 6366,
-      "text": ""
+      "text": "一拨是创始人"
     },
     {
       "start": 6366,
       "end": 6413,
-      "text": ""
+      "text": "创始人拿着一种特殊股票"
     },
     {
       "start": 6413,
       "end": 6518,
-      "text": ""
+      "text": "在一般的股东事项上握着 50.1% 的投票权"
     },
     {
       "start": 6518,
       "end": 6604,
-      "text": ""
+      "text": "另一拨是一个叫长期利益信托的机构"
     },
     {
       "start": 6604,
       "end": 6696,
-      "text": ""
+      "text": "它不分钱但有权任免董事会的多数席位"
     },
     {
       "start": 6696,
       "end": 6758,
-      "text": ""
+      "text": "它的任务是让公司在赚钱的同时"
     },
     {
       "start": 6758,
       "end": 6833,
-      "text": ""
+      "text": "别偏离 AI 安全和公共利益"
     },
     {
       "start": 6833,
       "end": 6936,
-      "text": ""
+      "text": "所以散户买到的 ANT 一股一票能分到钱"
     },
     {
       "start": 6936,
       "end": 6992,
-      "text": ""
+      "text": "但大事不归你管"
     },
     {
       "start": 6992,
@@ -995,66 +995,66 @@
     {
       "start": 6993,
       "end": 7015,
-      "text": "",
+      "text": "回到开头",
       "firstOpacity": 0.37,
       "fadeFrames": 2
     },
     {
       "start": 7015,
       "end": 7105,
-      "text": ""
+      "text": "史上最大的 IPO 配上一千多亿的亏损"
     },
     {
       "start": 7105,
       "end": 7140,
-      "text": ""
+      "text": "其实不矛盾"
     },
     {
       "start": 7140,
       "end": 7169,
-      "text": ""
+      "text": "那一千多亿"
     },
     {
       "start": 7169,
       "end": 7256,
-      "text": ""
+      "text": "大多是公司变贵了留下的账面数字"
     },
     {
       "start": 7256,
       "end": 7280,
-      "text": ""
+      "text": "真正要盯的"
     },
     {
       "start": 7280,
       "end": 7383,
-      "text": ""
+      "text": "是收入能不能一直跑赢那九千亿的算力账单"
     },
     {
       "start": 7383,
       "end": 7461,
-      "text": ""
+      "text": "接下来每个季度的财报咱就看两个数"
     },
     {
       "start": 7461,
       "end": 7557,
-      "text": ""
+      "text": "收入还涨不涨算力账单还压不压得住"
     },
     {
       "start": 7557,
       "end": 7614,
-      "text": "",
+      "text": "你觉得 Anthropic 值一万亿吗",
       "firstOpacity": 0.42,
       "fadeFrames": 2
     },
     {
       "start": 7614,
       "end": 7650,
-      "text": ""
+      "text": "评论区聊聊"
     },
     {
       "start": 7650,
       "end": 7694,
-      "text": ""
+      "text": "OK 我是 Fred 我们下期再见"
     },
     {
       "start": 7694,
