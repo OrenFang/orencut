@@ -1,0 +1,1789 @@
+{
+  "fps": 30,
+  "totalFrames": 5840,
+  "chapters": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 284
+    },
+    {
+      "id": "quantity",
+      "start": 284,
+      "end": 611
+    },
+    {
+      "id": "compare",
+      "start": 611,
+      "end": 847
+    },
+    {
+      "id": "chapter01",
+      "start": 847,
+      "end": 894
+    },
+    {
+      "id": "clock",
+      "start": 894,
+      "end": 1281
+    },
+    {
+      "id": "topic",
+      "start": 1281,
+      "end": 1499
+    },
+    {
+      "id": "materials",
+      "start": 1499,
+      "end": 1720
+    },
+    {
+      "id": "script",
+      "start": 1720,
+      "end": 1840
+    },
+    {
+      "id": "wave",
+      "start": 1840,
+      "end": 2044
+    },
+    {
+      "id": "assembly",
+      "start": 2044,
+      "end": 2197
+    },
+    {
+      "id": "review",
+      "start": 2197,
+      "end": 2316
+    },
+    {
+      "id": "publishing",
+      "start": 2316,
+      "end": 2495
+    },
+    {
+      "id": "timeCompare",
+      "start": 2495,
+      "end": 2628
+    },
+    {
+      "id": "chapter02",
+      "start": 2628,
+      "end": 2673
+    },
+    {
+      "id": "news",
+      "start": 2673,
+      "end": 2752
+    },
+    {
+      "id": "rail",
+      "start": 2752,
+      "end": 3024
+    },
+    {
+      "id": "phone",
+      "start": 3024,
+      "end": 3200
+    },
+    {
+      "id": "benefits",
+      "start": 3200,
+      "end": 3423
+    },
+    {
+      "id": "chapter03",
+      "start": 3423,
+      "end": 3463
+    },
+    {
+      "id": "keys",
+      "start": 3463,
+      "end": 3530
+    },
+    {
+      "id": "components",
+      "start": 3530,
+      "end": 3830
+    },
+    {
+      "id": "rules",
+      "start": 3830,
+      "end": 4160
+    },
+    {
+      "id": "chapter04",
+      "start": 4160,
+      "end": 4202
+    },
+    {
+      "id": "audienceList",
+      "start": 4202,
+      "end": 4325
+    },
+    {
+      "id": "team",
+      "start": 4325,
+      "end": 4540
+    },
+    {
+      "id": "labor",
+      "start": 4540,
+      "end": 4644
+    },
+    {
+      "id": "catalog",
+      "start": 4644,
+      "end": 4734
+    },
+    {
+      "id": "genres",
+      "start": 4734,
+      "end": 4885
+    },
+    {
+      "id": "soloTitle",
+      "start": 4885,
+      "end": 4980
+    },
+    {
+      "id": "solo",
+      "start": 4980,
+      "end": 5209
+    },
+    {
+      "id": "editorTitle",
+      "start": 5209,
+      "end": 5288
+    },
+    {
+      "id": "desk",
+      "start": 5288,
+      "end": 5370
+    },
+    {
+      "id": "editor",
+      "start": 5370,
+      "end": 5554
+    },
+    {
+      "id": "replay",
+      "start": 5554,
+      "end": 5674
+    },
+    {
+      "id": "outro",
+      "start": 5674,
+      "end": 5840
+    }
+  ],
+  "brand": [
+    {
+      "start": 0,
+      "end": 284,
+      "mode": "white-outline"
+    },
+    {
+      "start": 284,
+      "end": 886,
+      "mode": "purple"
+    },
+    {
+      "start": 886,
+      "end": 1281,
+      "mode": "white-outline"
+    },
+    {
+      "start": 1281,
+      "end": 2628,
+      "mode": "purple"
+    },
+    {
+      "start": 2628,
+      "end": 3200,
+      "mode": "white"
+    },
+    {
+      "start": 3200,
+      "end": 3423,
+      "mode": "white-outline"
+    },
+    {
+      "start": 3423,
+      "end": 3830,
+      "mode": "purple"
+    },
+    {
+      "start": 3830,
+      "end": 4202,
+      "mode": "white"
+    },
+    {
+      "start": 4202,
+      "end": 5554,
+      "mode": "white-outline"
+    },
+    {
+      "start": 5554,
+      "end": 5840,
+      "mode": "purple"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": null
+    },
+    {
+      "start": 3,
+      "end": 83,
+      "text": ""
+    },
+    {
+      "start": 83,
+      "end": 161,
+      "text": ""
+    },
+    {
+      "start": 161,
+      "end": 240,
+      "text": ""
+    },
+    {
+      "start": 240,
+      "end": 284,
+      "text": ""
+    },
+    {
+      "start": 284,
+      "end": 285,
+      "text": null
+    },
+    {
+      "start": 285,
+      "end": 360,
+      "text": ""
+    },
+    {
+      "start": 360,
+      "end": 429,
+      "text": ""
+    },
+    {
+      "start": 429,
+      "end": 509,
+      "text": ""
+    },
+    {
+      "start": 509,
+      "end": 611,
+      "text": ""
+    },
+    {
+      "start": 611,
+      "end": 677,
+      "text": ""
+    },
+    {
+      "start": 677,
+      "end": 742,
+      "text": ""
+    },
+    {
+      "start": 742,
+      "end": 847,
+      "text": ""
+    },
+    {
+      "start": 847,
+      "end": 848,
+      "text": null
+    },
+    {
+      "start": 848,
+      "end": 916,
+      "text": ""
+    },
+    {
+      "start": 916,
+      "end": 987,
+      "text": ""
+    },
+    {
+      "start": 987,
+      "end": 1036,
+      "text": ""
+    },
+    {
+      "start": 1036,
+      "end": 1087,
+      "text": ""
+    },
+    {
+      "start": 1087,
+      "end": 1187,
+      "text": ""
+    },
+    {
+      "start": 1187,
+      "end": 1275,
+      "text": ""
+    },
+    {
+      "start": 1275,
+      "end": 1310,
+      "text": ""
+    },
+    {
+      "start": 1310,
+      "end": 1311,
+      "text": null
+    },
+    {
+      "start": 1311,
+      "end": 1355,
+      "text": ""
+    },
+    {
+      "start": 1355,
+      "end": 1422,
+      "text": ""
+    },
+    {
+      "start": 1422,
+      "end": 1491,
+      "text": ""
+    },
+    {
+      "start": 1491,
+      "end": 1538,
+      "text": ""
+    },
+    {
+      "start": 1538,
+      "end": 1628,
+      "text": ""
+    },
+    {
+      "start": 1628,
+      "end": 1712,
+      "text": ""
+    },
+    {
+      "start": 1712,
+      "end": 1756,
+      "text": ""
+    },
+    {
+      "start": 1756,
+      "end": 1832,
+      "text": ""
+    },
+    {
+      "start": 1832,
+      "end": 1878,
+      "text": ""
+    },
+    {
+      "start": 1878,
+      "end": 1964,
+      "text": ""
+    },
+    {
+      "start": 1964,
+      "end": 2044,
+      "text": ""
+    },
+    {
+      "start": 2044,
+      "end": 2089,
+      "text": ""
+    },
+    {
+      "start": 2089,
+      "end": 2138,
+      "text": ""
+    },
+    {
+      "start": 2138,
+      "end": 2200,
+      "text": ""
+    },
+    {
+      "start": 2200,
+      "end": 2309,
+      "text": ""
+    },
+    {
+      "start": 2309,
+      "end": 2369,
+      "text": ""
+    },
+    {
+      "start": 2369,
+      "end": 2448,
+      "text": ""
+    },
+    {
+      "start": 2448,
+      "end": 2495,
+      "text": ""
+    },
+    {
+      "start": 2495,
+      "end": 2557,
+      "text": ""
+    },
+    {
+      "start": 2557,
+      "end": 2628,
+      "text": ""
+    },
+    {
+      "start": 2628,
+      "end": 2673,
+      "text": ""
+    },
+    {
+      "start": 2673,
+      "end": 2737,
+      "text": ""
+    },
+    {
+      "start": 2737,
+      "end": 2811,
+      "text": ""
+    },
+    {
+      "start": 2811,
+      "end": 2903,
+      "text": ""
+    },
+    {
+      "start": 2903,
+      "end": 2960,
+      "text": ""
+    },
+    {
+      "start": 2960,
+      "end": 3026,
+      "text": ""
+    },
+    {
+      "start": 3026,
+      "end": 3076,
+      "text": ""
+    },
+    {
+      "start": 3076,
+      "end": 3131,
+      "text": ""
+    },
+    {
+      "start": 3131,
+      "end": 3200,
+      "text": ""
+    },
+    {
+      "start": 3200,
+      "end": 3230,
+      "text": ""
+    },
+    {
+      "start": 3230,
+      "end": 3296,
+      "text": ""
+    },
+    {
+      "start": 3296,
+      "end": 3330,
+      "text": ""
+    },
+    {
+      "start": 3330,
+      "end": 3423,
+      "text": ""
+    },
+    {
+      "start": 3423,
+      "end": 3488,
+      "text": ""
+    },
+    {
+      "start": 3488,
+      "end": 3530,
+      "text": ""
+    },
+    {
+      "start": 3530,
+      "end": 3573,
+      "text": ""
+    },
+    {
+      "start": 3573,
+      "end": 3655,
+      "text": ""
+    },
+    {
+      "start": 3655,
+      "end": 3762,
+      "text": ""
+    },
+    {
+      "start": 3762,
+      "end": 3830,
+      "text": ""
+    },
+    {
+      "start": 3830,
+      "end": 3831,
+      "text": null
+    },
+    {
+      "start": 3831,
+      "end": 3871,
+      "text": ""
+    },
+    {
+      "start": 3871,
+      "end": 3952,
+      "text": ""
+    },
+    {
+      "start": 3952,
+      "end": 4031,
+      "text": ""
+    },
+    {
+      "start": 4031,
+      "end": 4085,
+      "text": ""
+    },
+    {
+      "start": 4085,
+      "end": 4160,
+      "text": ""
+    },
+    {
+      "start": 4160,
+      "end": 4161,
+      "text": null
+    },
+    {
+      "start": 4161,
+      "end": 4231,
+      "text": ""
+    },
+    {
+      "start": 4231,
+      "end": 4284,
+      "text": ""
+    },
+    {
+      "start": 4284,
+      "end": 4345,
+      "text": ""
+    },
+    {
+      "start": 4345,
+      "end": 4384,
+      "text": ""
+    },
+    {
+      "start": 4384,
+      "end": 4449,
+      "text": ""
+    },
+    {
+      "start": 4449,
+      "end": 4532,
+      "text": ""
+    },
+    {
+      "start": 4532,
+      "end": 4587,
+      "text": ""
+    },
+    {
+      "start": 4587,
+      "end": 4641,
+      "text": ""
+    },
+    {
+      "start": 4641,
+      "end": 4710,
+      "text": ""
+    },
+    {
+      "start": 4710,
+      "end": 4770,
+      "text": ""
+    },
+    {
+      "start": 4770,
+      "end": 4835,
+      "text": ""
+    },
+    {
+      "start": 4835,
+      "end": 4885,
+      "text": ""
+    },
+    {
+      "start": 4885,
+      "end": 4982,
+      "text": ""
+    },
+    {
+      "start": 4982,
+      "end": 5068,
+      "text": ""
+    },
+    {
+      "start": 5068,
+      "end": 5128,
+      "text": ""
+    },
+    {
+      "start": 5128,
+      "end": 5209,
+      "text": ""
+    },
+    {
+      "start": 5209,
+      "end": 5288,
+      "text": ""
+    },
+    {
+      "start": 5288,
+      "end": 5370,
+      "text": ""
+    },
+    {
+      "start": 5370,
+      "end": 5450,
+      "text": ""
+    },
+    {
+      "start": 5450,
+      "end": 5554,
+      "text": ""
+    },
+    {
+      "start": 5554,
+      "end": 5643,
+      "text": ""
+    },
+    {
+      "start": 5643,
+      "end": 5660,
+      "text": ""
+    },
+    {
+      "start": 5660,
+      "end": 5742,
+      "text": ""
+    },
+    {
+      "start": 5742,
+      "end": 5780,
+      "text": ""
+    },
+    {
+      "start": 5780,
+      "end": 5816,
+      "text": ""
+    },
+    {
+      "start": 5816,
+      "end": 5840,
+      "text": null
+    }
+  ],
+  "whitePageWindows": [
+    {
+      "start": 284,
+      "end": 847,
+      "mode": "purple",
+      "pageStyle": "white"
+    },
+    {
+      "start": 889,
+      "end": 894,
+      "mode": "white-outline",
+      "pageStyle": "white-reveal"
+    },
+    {
+      "start": 1275,
+      "end": 1281,
+      "mode": "white-outline",
+      "pageStyle": "white-reveal"
+    },
+    {
+      "start": 1281,
+      "end": 1290,
+      "mode": "purple",
+      "pageStyle": "white-reveal"
+    },
+    {
+      "start": 1290,
+      "end": 2489,
+      "mode": "purple",
+      "pageStyle": "white-rail"
+    },
+    {
+      "start": 2489,
+      "end": 2506,
+      "mode": "purple",
+      "pageStyle": "white-reveal"
+    },
+    {
+      "start": 3463,
+      "end": 3476,
+      "mode": "purple",
+      "pageStyle": "white-reveal"
+    },
+    {
+      "start": 3476,
+      "end": 3830,
+      "mode": "purple",
+      "pageStyle": "white"
+    },
+    {
+      "start": 5554,
+      "end": 5840,
+      "mode": "purple",
+      "pageStyle": "white"
+    }
+  ],
+  "events": [
+    {
+      "id": "openingTitle",
+      "start": 5,
+      "end": 23
+    },
+    {
+      "id": "openingCount",
+      "start": 14,
+      "end": 28
+    },
+    {
+      "id": "openingStats",
+      "start": 81,
+      "end": 89
+    },
+    {
+      "id": "openingGrowth",
+      "start": 81,
+      "end": 113,
+      "points": [
+        [
+          81,
+          0
+        ],
+        [
+          82,
+          0
+        ],
+        [
+          83,
+          1056
+        ],
+        [
+          84,
+          6080
+        ],
+        [
+          86,
+          14586
+        ],
+        [
+          87,
+          17974
+        ],
+        [
+          88,
+          20793
+        ],
+        [
+          113,
+          31593
+        ]
+      ]
+    },
+    {
+      "id": "openingFollow",
+      "start": 115,
+      "end": 131
+    },
+    {
+      "id": "openingInvite",
+      "start": 178,
+      "end": 191
+    },
+    {
+      "id": "openingOut",
+      "start": 232,
+      "end": 246
+    },
+    {
+      "id": "openingQuestion",
+      "start": 238,
+      "end": 259
+    },
+    {
+      "id": "countOld",
+      "start": 284,
+      "end": 307,
+      "points": [
+        [
+          284,
+          0
+        ],
+        [
+          300,
+          76
+        ],
+        [
+          303,
+          78
+        ],
+        [
+          304,
+          79
+        ],
+        [
+          305,
+          79
+        ],
+        [
+          307,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "countNew",
+      "start": 359,
+      "end": 407,
+      "points": [
+        [
+          359,
+          0
+        ],
+        [
+          360,
+          0
+        ],
+        [
+          361,
+          0
+        ],
+        [
+          406,
+          90
+        ],
+        [
+          407,
+          90
+        ]
+      ]
+    },
+    {
+      "id": "quantityNewLabel",
+      "start": 358,
+      "end": 365,
+      "points": [
+        [
+          358,
+          0
+        ],
+        [
+          359,
+          0.14
+        ],
+        [
+          360,
+          0.48
+        ],
+        [
+          361,
+          0.76
+        ],
+        [
+          365,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "quantityConverge",
+      "start": 408,
+      "end": 509,
+      "points": [
+        [
+          408,
+          0
+        ],
+        [
+          460,
+          0.74
+        ],
+        [
+          509,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "qualityCall",
+      "start": 508,
+      "end": 548
+    },
+    {
+      "id": "quantityCheck",
+      "start": 545,
+      "end": 562
+    },
+    {
+      "id": "compareLeft",
+      "start": 610,
+      "end": 623
+    },
+    {
+      "id": "compareSlide",
+      "start": 666,
+      "end": 684
+    },
+    {
+      "id": "compareRight",
+      "start": 676,
+      "end": 688
+    },
+    {
+      "id": "compareLabels",
+      "start": 742,
+      "end": 773
+    },
+    {
+      "id": "compareMotion",
+      "start": 688,
+      "end": 847
+    },
+    {
+      "id": "compareSwap",
+      "start": 743,
+      "end": 847
+    },
+    {
+      "id": "band01",
+      "start": 847,
+      "end": 902
+    },
+    {
+      "id": "band01Reveal",
+      "start": 888,
+      "end": 902,
+      "points": [
+        [
+          888,
+          1080
+        ],
+        [
+          889,
+          1064
+        ],
+        [
+          890,
+          1024
+        ],
+        [
+          891,
+          956
+        ],
+        [
+          892,
+          852
+        ],
+        [
+          893,
+          718
+        ],
+        [
+          894,
+          574
+        ],
+        [
+          895,
+          422
+        ],
+        [
+          896,
+          305
+        ],
+        [
+          897,
+          203
+        ],
+        [
+          898,
+          110
+        ],
+        [
+          899,
+          37
+        ],
+        [
+          901,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "clockSlice",
+      "start": 923,
+      "end": 930
+    },
+    {
+      "id": "clockReject",
+      "start": 1036,
+      "end": 1087,
+      "points": [
+        [
+          1036,
+          0
+        ],
+        [
+          1054,
+          1
+        ],
+        [
+          1075,
+          1
+        ],
+        [
+          1086,
+          0.44
+        ],
+        [
+          1087,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "clockRejectCopy",
+      "start": 1044,
+      "end": 1060
+    },
+    {
+      "id": "clockRing",
+      "start": 1087,
+      "end": 1229
+    },
+    {
+      "id": "clockResult",
+      "start": 1194,
+      "end": 1219
+    },
+    {
+      "id": "toTopic",
+      "start": 1275,
+      "end": 1291,
+      "points": [
+        [
+          1275,
+          0.025
+        ],
+        [
+          1276,
+          0.085
+        ],
+        [
+          1277,
+          0.15
+        ],
+        [
+          1278,
+          0.24
+        ],
+        [
+          1279,
+          0.32
+        ],
+        [
+          1280,
+          0.43
+        ],
+        [
+          1281,
+          0.54
+        ],
+        [
+          1282,
+          0.65
+        ],
+        [
+          1283,
+          0.76
+        ],
+        [
+          1284,
+          0.83
+        ],
+        [
+          1285,
+          0.91
+        ],
+        [
+          1286,
+          0.94
+        ],
+        [
+          1290,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "topicOpen",
+      "start": 1320,
+      "end": 1330
+    },
+    {
+      "id": "topicTabs",
+      "start": 1275,
+      "end": 1281,
+      "points": [
+        [
+          1275,
+          0
+        ],
+        [
+          1279,
+          0.68
+        ],
+        [
+          1280,
+          0.92
+        ],
+        [
+          1281,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "topicStats",
+      "start": 1371,
+      "end": 1401
+    },
+    {
+      "id": "topicList",
+      "start": 1422,
+      "end": 1443
+    },
+    {
+      "id": "topicConfirm",
+      "start": 1447,
+      "end": 1462
+    },
+    {
+      "id": "topicToMaterials",
+      "start": 1490,
+      "end": 1505
+    },
+    {
+      "id": "materialReveal",
+      "start": 1514,
+      "end": 1611
+    },
+    {
+      "id": "materialFile",
+      "start": 1590,
+      "end": 1616
+    },
+    {
+      "id": "materialCuts",
+      "start": 1628,
+      "end": 1673
+    },
+    {
+      "id": "materialsToScript",
+      "start": 1712,
+      "end": 1730
+    },
+    {
+      "id": "scriptCard",
+      "start": 1713,
+      "end": 1730
+    },
+    {
+      "id": "scriptText",
+      "start": 1720,
+      "end": 1791
+    },
+    {
+      "id": "scriptRevision",
+      "start": 1817,
+      "end": 1835
+    },
+    {
+      "id": "scriptToWave",
+      "start": 1832,
+      "end": 1848
+    },
+    {
+      "id": "waveCard",
+      "start": 1833,
+      "end": 1849
+    },
+    {
+      "id": "waveCursor",
+      "start": 1851,
+      "end": 2044
+    },
+    {
+      "id": "waveDetails",
+      "start": 1878,
+      "end": 1916
+    },
+    {
+      "id": "assemblyRows",
+      "start": 2056,
+      "end": 2085
+    },
+    {
+      "id": "assemblyExtras",
+      "start": 2138,
+      "end": 2173
+    },
+    {
+      "id": "assemblyToReview",
+      "start": 2197,
+      "end": 2210
+    },
+    {
+      "id": "reviewChecks",
+      "start": 2239,
+      "end": 2289
+    },
+    {
+      "id": "reviewToPublish",
+      "start": 2309,
+      "end": 2330
+    },
+    {
+      "id": "coverFan",
+      "start": 2310,
+      "end": 2352
+    },
+    {
+      "id": "publishDoc",
+      "start": 2369,
+      "end": 2414
+    },
+    {
+      "id": "publishVideoRow",
+      "start": 2393,
+      "end": 2399,
+      "points": [
+        [
+          2393,
+          0
+        ],
+        [
+          2394,
+          0.04
+        ],
+        [
+          2395,
+          0.49
+        ],
+        [
+          2396,
+          0.8
+        ],
+        [
+          2397,
+          0.95
+        ],
+        [
+          2399,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "publishSocialRow",
+      "start": 2412,
+      "end": 2419,
+      "points": [
+        [
+          2412,
+          0
+        ],
+        [
+          2413,
+          0.04
+        ],
+        [
+          2414,
+          0.43
+        ],
+        [
+          2415,
+          0.73
+        ],
+        [
+          2416,
+          0.88
+        ],
+        [
+          2417,
+          0.96
+        ],
+        [
+          2419,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "publishCheck",
+      "start": 2448,
+      "end": 2466
+    },
+    {
+      "id": "toTime",
+      "start": 2489,
+      "end": 2505
+    },
+    {
+      "id": "timeOld",
+      "start": 2491,
+      "end": 2515
+    },
+    {
+      "id": "timeNew",
+      "start": 2542,
+      "end": 2562
+    },
+    {
+      "id": "band02",
+      "start": 2628,
+      "end": 2681
+    },
+    {
+      "id": "newsArticle",
+      "start": 2672,
+      "end": 2691
+    },
+    {
+      "id": "newsShrink",
+      "start": 2737,
+      "end": 2752
+    },
+    {
+      "id": "railClock",
+      "start": 2748,
+      "end": 2763
+    },
+    {
+      "id": "railResearch",
+      "start": 2809,
+      "end": 2825
+    },
+    {
+      "id": "railOriginal",
+      "start": 2828,
+      "end": 2842
+    },
+    {
+      "id": "railWriting",
+      "start": 2849,
+      "end": 2863
+    },
+    {
+      "id": "railWave",
+      "start": 2870,
+      "end": 2885
+    },
+    {
+      "id": "railFinish",
+      "start": 2903,
+      "end": 2918
+    },
+    {
+      "id": "railPost",
+      "start": 2960,
+      "end": 2975
+    },
+    {
+      "id": "phoneShrink",
+      "start": 3032,
+      "end": 3062
+    },
+    {
+      "id": "phoneAppear",
+      "start": 3023,
+      "end": 3046
+    },
+    {
+      "id": "phoneAnalytics",
+      "start": 3130,
+      "end": 3161
+    },
+    {
+      "id": "benefit1",
+      "start": 3230,
+      "end": 3255
+    },
+    {
+      "id": "benefit2",
+      "start": 3271,
+      "end": 3295
+    },
+    {
+      "id": "benefit3",
+      "start": 3318,
+      "end": 3342
+    },
+    {
+      "id": "band03",
+      "start": 3423,
+      "end": 3475
+    },
+    {
+      "id": "band03Reveal",
+      "start": 3463,
+      "end": 3475,
+      "points": [
+        [
+          3463,
+          1074
+        ],
+        [
+          3464,
+          1050
+        ],
+        [
+          3465,
+          992
+        ],
+        [
+          3466,
+          908
+        ],
+        [
+          3467,
+          786
+        ],
+        [
+          3468,
+          650
+        ],
+        [
+          3469,
+          498
+        ],
+        [
+          3470,
+          352
+        ],
+        [
+          3471,
+          222
+        ],
+        [
+          3472,
+          118
+        ],
+        [
+          3473,
+          46
+        ],
+        [
+          3474,
+          8
+        ],
+        [
+          3475,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "keysItem1",
+      "start": 3456,
+      "end": 3474
+    },
+    {
+      "id": "keysItem2",
+      "start": 3469,
+      "end": 3476
+    },
+    {
+      "id": "componentsHead",
+      "start": 3530,
+      "end": 3547
+    },
+    {
+      "id": "componentsCard",
+      "start": 3569,
+      "end": 3600
+    },
+    {
+      "id": "componentsCount",
+      "start": 3572,
+      "end": 3653,
+      "points": [
+        [
+          3572,
+          0
+        ],
+        [
+          3573,
+          0
+        ],
+        [
+          3599,
+          397
+        ],
+        [
+          3600,
+          399
+        ],
+        [
+          3601,
+          400
+        ],
+        [
+          3653,
+          402
+        ]
+      ]
+    },
+    {
+      "id": "componentsFocus",
+      "start": 3732,
+      "end": 3791
+    },
+    {
+      "id": "rulesHead",
+      "start": 3831,
+      "end": 3849
+    },
+    {
+      "id": "rulesCard",
+      "start": 3871,
+      "end": 3895
+    },
+    {
+      "id": "rulesRows",
+      "start": 3880,
+      "end": 3981
+    },
+    {
+      "id": "rulesFinish",
+      "start": 4031,
+      "end": 4145
+    },
+    {
+      "id": "band04",
+      "start": 4160,
+      "end": 4211
+    },
+    {
+      "id": "band04Reveal",
+      "start": 4198,
+      "end": 4209,
+      "points": [
+        [
+          4198,
+          1080
+        ],
+        [
+          4199,
+          1008
+        ],
+        [
+          4200,
+          912
+        ],
+        [
+          4201,
+          792
+        ],
+        [
+          4203,
+          464
+        ],
+        [
+          4206,
+          110
+        ],
+        [
+          4208,
+          12
+        ],
+        [
+          4209,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "audienceList",
+      "start": 4200,
+      "end": 4244
+    },
+    {
+      "id": "audienceFocus",
+      "start": 4284,
+      "end": 4313
+    },
+    {
+      "id": "teamRate",
+      "start": 4344,
+      "end": 4381
+    },
+    {
+      "id": "teamHire",
+      "start": 4446,
+      "end": 4475
+    },
+    {
+      "id": "teamTiles",
+      "start": 4532,
+      "end": 4587
+    },
+    {
+      "id": "teamSave",
+      "start": 4587,
+      "end": 4608
+    },
+    {
+      "id": "teamToLabor",
+      "start": 4532,
+      "end": 4555
+    },
+    {
+      "id": "laborToCatalog",
+      "start": 4636,
+      "end": 4667
+    },
+    {
+      "id": "genre1",
+      "start": 4744,
+      "end": 4762
+    },
+    {
+      "id": "genre2",
+      "start": 4774,
+      "end": 4793
+    },
+    {
+      "id": "genre3",
+      "start": 4797,
+      "end": 4811
+    },
+    {
+      "id": "genre4",
+      "start": 4816,
+      "end": 4834
+    },
+    {
+      "id": "soloItem1",
+      "start": 4977,
+      "end": 4996
+    },
+    {
+      "id": "soloItem2",
+      "start": 5011,
+      "end": 5028
+    },
+    {
+      "id": "soloItem3",
+      "start": 5041,
+      "end": 5056
+    },
+    {
+      "id": "soloItem4",
+      "start": 5071,
+      "end": 5074
+    },
+    {
+      "id": "soloResult",
+      "start": 5128,
+      "end": 5158
+    },
+    {
+      "id": "editorDesk",
+      "start": 5288,
+      "end": 5315
+    },
+    {
+      "id": "editorWall",
+      "start": 5369,
+      "end": 5403
+    },
+    {
+      "id": "editorNotes",
+      "start": 5450,
+      "end": 5472
+    },
+    {
+      "id": "replayStep1",
+      "start": 5555,
+      "end": 5581
+    },
+    {
+      "id": "replayStep2",
+      "start": 5596,
+      "end": 5607
+    },
+    {
+      "id": "replayStep3",
+      "start": 5617,
+      "end": 5622
+    },
+    {
+      "id": "replayStep4",
+      "start": 5622,
+      "end": 5633
+    },
+    {
+      "id": "replayStep5",
+      "start": 5634,
+      "end": 5648
+    },
+    {
+      "id": "replayStep6",
+      "start": 5647,
+      "end": 5659
+    },
+    {
+      "id": "replayTopic",
+      "start": 5584,
+      "end": 5596
+    },
+    {
+      "id": "replayFade",
+      "start": 5660,
+      "end": 5674
+    },
+    {
+      "id": "outroTitle",
+      "start": 5658,
+      "end": 5685
+    },
+    {
+      "id": "outroCta",
+      "start": 5773,
+      "end": 5789
+    }
+  ]
+}

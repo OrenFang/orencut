@@ -1,0 +1,2489 @@
+{
+  "fps": 60,
+  "totalFrames": 24832,
+  "chapters": [
+    {
+      "id": "capitol",
+      "start": 0,
+      "end": 81,
+      "title": "国会山·开场",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "notice",
+      "start": 81,
+      "end": 186,
+      "title": "联邦禁令·公告",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "removed",
+      "start": 186,
+      "end": 305,
+      "title": "联邦文职机构·红章",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "two-days",
+      "start": 305,
+      "end": 346,
+      "title": "两天后",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "funding-hook",
+      "start": 346,
+      "end": 525,
+      "title": "0 到 1000 亿",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "investor-trio",
+      "start": 525,
+      "end": 774,
+      "title": "腾讯／宁德时代／芯片资本",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "press-wall",
+      "start": 774,
+      "end": 915,
+      "title": "整个 AI 圈都疯了",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "giving",
+      "start": 915,
+      "end": 1239,
+      "title": "别人卖的，它直接送",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "founders",
+      "start": 1239,
+      "end": 1386,
+      "title": "同样做大模型",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "red-packet",
+      "start": 1386,
+      "end": 1623,
+      "title": "补贴与现金红包",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "three-traits",
+      "start": 1623,
+      "end": 1971,
+      "title": "三项特点·递进",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "agenda",
+      "start": 1971,
+      "end": 2664,
+      "title": "全片三件事",
+      "kind": "agenda",
+      "transition": "cut"
+    },
+    {
+      "id": "part-one",
+      "start": 2664,
+      "end": 2742,
+      "title": "01 梁文锋是谁",
+      "kind": "chapter",
+      "transition": "warm-lift"
+    },
+    {
+      "id": "town",
+      "start": 2742,
+      "end": 2904,
+      "title": "广东湛江·吴川",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "college",
+      "start": 2904,
+      "end": 3051,
+      "title": "梁文锋·浙江大学本科",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "thesis",
+      "start": 3051,
+      "end": 3186,
+      "title": "浙江大学硕士",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "quant-timeline",
+      "start": 3186,
+      "end": 3903,
+      "title": "2008 → 2015 → 2021",
+      "kind": "rail-horizontal",
+      "transition": "cut"
+    },
+    {
+      "id": "quant-1000",
+      "start": 3903,
+      "end": 4119,
+      "title": "幻方量化管理规模",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "vision",
+      "start": 4119,
+      "end": 4347,
+      "title": "守望相助·突破极限",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "gpu-money",
+      "start": 4347,
+      "end": 4998,
+      "title": "萤火一号／二号",
+      "kind": "bar",
+      "transition": "cut"
+    },
+    {
+      "id": "gpu-claim",
+      "start": 4998,
+      "end": 5253,
+      "title": "炒股的／买显卡",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "origin-rail",
+      "start": 5253,
+      "end": 5586,
+      "title": "幻方宣布做 AGI 到 DeepSeek",
+      "kind": "rail",
+      "transition": "cut"
+    },
+    {
+      "id": "r1-news",
+      "start": 5586,
+      "end": 5823,
+      "title": "全球科技股新闻",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "nvidia",
+      "start": 5823,
+      "end": 6069,
+      "title": "英伟达下跌与市值变化",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "origin-recap",
+      "start": 6069,
+      "end": 6432,
+      "title": "资金与算力的时间线",
+      "kind": "rail",
+      "transition": "cut"
+    },
+    {
+      "id": "why-different",
+      "start": 6432,
+      "end": 6735,
+      "title": "钱、路线、打法",
+      "kind": "steps",
+      "transition": "cut"
+    },
+    {
+      "id": "funding-map",
+      "start": 6735,
+      "end": 6969,
+      "title": "资金路径·四组对照",
+      "kind": "funding",
+      "transition": "cut"
+    },
+    {
+      "id": "openai",
+      "start": 6969,
+      "end": 7155,
+      "title": "OpenAI 资本路径",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "anthropic",
+      "start": 7155,
+      "end": 7290,
+      "title": "Anthropic 资本路径",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "funding-map-two",
+      "start": 7290,
+      "end": 7380,
+      "title": "资本路径·风投与母公司",
+      "kind": "funding",
+      "transition": "cut"
+    },
+    {
+      "id": "parents",
+      "start": 7380,
+      "end": 7629,
+      "title": "阿里与字节",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "funding-map-three",
+      "start": 7629,
+      "end": 7881,
+      "title": "资本路径·路线并列",
+      "kind": "funding",
+      "transition": "cut"
+    },
+    {
+      "id": "minimax",
+      "start": 7881,
+      "end": 8070,
+      "title": "MiniMax 上市",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "funding-map-cross",
+      "start": 8070,
+      "end": 8364,
+      "title": "幻方供血·外部融资打叉",
+      "kind": "funding",
+      "transition": "cut"
+    },
+    {
+      "id": "vc-proof",
+      "start": 8364,
+      "end": 8481,
+      "title": "梁文锋采访报道",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "vc-quote",
+      "start": 8481,
+      "end": 8715,
+      "title": "VC 与长期研究的张力",
+      "kind": "quote",
+      "transition": "cut"
+    },
+    {
+      "id": "funding-map-final",
+      "start": 8715,
+      "end": 9066,
+      "title": "没上市，没风投",
+      "kind": "funding",
+      "transition": "cut"
+    },
+    {
+      "id": "open-door",
+      "start": 9066,
+      "end": 9201,
+      "title": "第二个不一样：开源",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "license-grid",
+      "start": 9201,
+      "end": 9783,
+      "title": "模型开放方式对比矩阵",
+      "kind": "comparison",
+      "transition": "cut"
+    },
+    {
+      "id": "license-proof",
+      "start": 9783,
+      "end": 9876,
+      "title": "许可原文·Kimi",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "license-grid-return",
+      "start": 9876,
+      "end": 10038,
+      "title": "对比矩阵·MIT 一列",
+      "kind": "comparison",
+      "transition": "cut"
+    },
+    {
+      "id": "mit",
+      "start": 10038,
+      "end": 10125,
+      "title": "MIT 许可原文",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "license-grid-final",
+      "start": 10125,
+      "end": 10269,
+      "title": "对比矩阵·三列完成",
+      "kind": "comparison",
+      "transition": "cut"
+    },
+    {
+      "id": "network",
+      "start": 10269,
+      "end": 10542,
+      "title": "衍生模型网络",
+      "kind": "network",
+      "transition": "cut"
+    },
+    {
+      "id": "earn-question",
+      "start": 10542,
+      "end": 10623,
+      "title": "它靠什么赚钱",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "api-tree",
+      "start": 10623,
+      "end": 11013,
+      "title": "模型文件与 API 服务两路",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "api-bars",
+      "start": 11013,
+      "end": 11466,
+      "title": "主力模型 API 输出价",
+      "kind": "api",
+      "transition": "cut"
+    },
+    {
+      "id": "revenue",
+      "start": 11466,
+      "end": 11751,
+      "title": "DeepSeek 7 月营收",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "liang-quote",
+      "start": 11751,
+      "end": 12279,
+      "title": "闭源护城河与开源引语",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "dont-hide",
+      "start": 12279,
+      "end": 12429,
+      "title": "不靠藏模型赚钱",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "chess",
+      "start": 12429,
+      "end": 12567,
+      "title": "第三个不一样：打法",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "subsidy",
+      "start": 12567,
+      "end": 12924,
+      "title": "千问／豆包补贴证据",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "no-subsidy",
+      "start": 12924,
+      "end": 13035,
+      "title": "很少大手笔补贴",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "appstore",
+      "start": 13035,
+      "end": 13179,
+      "title": "靠模型本身",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "mau",
+      "start": 13179,
+      "end": 13489,
+      "title": "AI App 全球月活",
+      "kind": "mau",
+      "transition": "cut"
+    },
+    {
+      "id": "two-ways",
+      "start": 13489,
+      "end": 13749,
+      "title": "降成本、人才",
+      "kind": "steps",
+      "transition": "cut"
+    },
+    {
+      "id": "low-cost",
+      "start": 13749,
+      "end": 14229,
+      "title": "模型架构改进·价格对比",
+      "kind": "bar",
+      "transition": "cut"
+    },
+    {
+      "id": "pdd",
+      "start": 14229,
+      "end": 14346,
+      "title": "AI 界拼多多·截图引用",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "price-follows",
+      "start": 14346,
+      "end": 14529,
+      "title": "价格打下来／同行跟进",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "talent-proof",
+      "start": 14529,
+      "end": 14721,
+      "title": "人才·采访节选",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "talent-quote",
+      "start": 14721,
+      "end": 15063,
+      "title": "并没有什么高深莫测的奇才",
+      "kind": "quote",
+      "transition": "cut"
+    },
+    {
+      "id": "office",
+      "start": 15063,
+      "end": 15192,
+      "title": "应届生、在读博士、年轻人",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "talent-rule",
+      "start": 15192,
+      "end": 15312,
+      "title": "热爱 和 好奇心",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "part-two",
+      "start": 15312,
+      "end": 15435,
+      "title": "02 一千亿是谁给的",
+      "kind": "chapter",
+      "transition": "warm-lift"
+    },
+    {
+      "id": "cash",
+      "start": 15435,
+      "end": 15577,
+      "title": "突然开始大笔融资",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "first-round",
+      "start": 15577,
+      "end": 16140,
+      "title": "首轮融资·分拆金额",
+      "kind": "stack",
+      "transition": "cut"
+    },
+    {
+      "id": "second-round",
+      "start": 16140,
+      "end": 16416,
+      "title": "两轮融资·估值",
+      "kind": "stack",
+      "transition": "cut"
+    },
+    {
+      "id": "source-investors",
+      "start": 16416,
+      "end": 16986,
+      "title": "第二轮投资方·芯片产业互联网",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "factories",
+      "start": 16986,
+      "end": 17346,
+      "title": "AI 产业实景轮播",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "investor-network",
+      "start": 17346,
+      "end": 17706,
+      "title": "三类投资方接入",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "industry-wall",
+      "start": 17706,
+      "end": 18066,
+      "title": "半条中国产业链",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "steering",
+      "start": 18066,
+      "end": 18186,
+      "title": "方向盘还在梁文锋手里",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "control",
+      "start": 18186,
+      "end": 18582,
+      "title": "梁文锋控制权／两支持股线",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "part-three",
+      "start": 18582,
+      "end": 18774,
+      "title": "03 DeepSeek 接下来要干什么",
+      "kind": "chapter",
+      "transition": "warm-lift"
+    },
+    {
+      "id": "next-two",
+      "start": 18774,
+      "end": 18891,
+      "title": "推算力、准备上市",
+      "kind": "agenda",
+      "transition": "cut"
+    },
+    {
+      "id": "huawei-proof",
+      "start": 18891,
+      "end": 19029,
+      "title": "华为 AI 芯片订单报道",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "huawei-count",
+      "start": 19029,
+      "end": 19161,
+      "title": "昇腾 950 芯片订单",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "grass",
+      "start": 19161,
+      "end": 19263,
+      "title": "内蒙古草原·实景",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "data-center",
+      "start": 19263,
+      "end": 19374,
+      "title": "内蒙古·大型数据中心",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ipo-proof",
+      "start": 19374,
+      "end": 19488,
+      "title": "中信证券辅导上市报道",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ipo-broll",
+      "start": 19488,
+      "end": 19626,
+      "title": "科创板实景",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "guesses",
+      "start": 19626,
+      "end": 19743,
+      "title": "三个猜测",
+      "kind": "agenda",
+      "transition": "cut"
+    },
+    {
+      "id": "compute-tree",
+      "start": 19743,
+      "end": 20280,
+      "title": "把国产算力走通",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "deepinfer",
+      "start": 20280,
+      "end": 20466,
+      "title": "DeepInfer／昇腾 950",
+      "kind": "tree",
+      "transition": "cut"
+    },
+    {
+      "id": "industry-grid",
+      "start": 20466,
+      "end": 20592,
+      "title": "进产业·四个格位",
+      "kind": "comparison",
+      "transition": "cut"
+    },
+    {
+      "id": "industry-media",
+      "start": 20592,
+      "end": 20937,
+      "title": "宁德／吉利／美的／美团",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "open-radar",
+      "start": 20937,
+      "end": 21075,
+      "title": "继续开源·网络",
+      "kind": "network",
+      "transition": "cut"
+    },
+    {
+      "id": "globe",
+      "start": 21075,
+      "end": 21201,
+      "title": "世界夜景",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "tokens",
+      "start": 21201,
+      "end": 21555,
+      "title": "OpenRouter 厂商 token 用量份额",
+      "kind": "waffle",
+      "transition": "cut"
+    },
+    {
+      "id": "biggest-chip",
+      "start": 21555,
+      "end": 21672,
+      "title": "开源＝最大的筹码",
+      "kind": "network",
+      "transition": "cut"
+    },
+    {
+      "id": "ban-original",
+      "start": 21672,
+      "end": 21786,
+      "title": "回到禁令",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ban-question",
+      "start": 21786,
+      "end": 21909,
+      "title": "美国能封掉 DeepSeek 吗",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ban-proof",
+      "start": 21909,
+      "end": 22128,
+      "title": "DHS 禁令节选",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ban-scope",
+      "start": 22128,
+      "end": 22608,
+      "title": "联邦民用机构范围",
+      "kind": "stamp",
+      "transition": "cut"
+    },
+    {
+      "id": "street",
+      "start": 22608,
+      "end": 22740,
+      "title": "普通行人·街景",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ban-rail",
+      "start": 22740,
+      "end": 23139,
+      "title": "签发后版本时间线",
+      "kind": "rail",
+      "transition": "cut"
+    },
+    {
+      "id": "fireworks",
+      "start": 23139,
+      "end": 23241,
+      "title": "Fireworks 支持 DeepSeek",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "reach",
+      "start": 23241,
+      "end": 23337,
+      "title": "公开帖阅读量",
+      "kind": "counter",
+      "transition": "cut"
+    },
+    {
+      "id": "file",
+      "start": 23337,
+      "end": 23493,
+      "title": "DeepSeek 模型文件·可公开取得",
+      "kind": "document",
+      "transition": "cut"
+    },
+    {
+      "id": "globe-return",
+      "start": 23493,
+      "end": 23622,
+      "title": "世界夜景回接",
+      "kind": "media",
+      "transition": "cut"
+    },
+    {
+      "id": "ban-company",
+      "start": 23622,
+      "end": 23874,
+      "title": "封得住一家公司",
+      "kind": "network",
+      "transition": "cut"
+    },
+    {
+      "id": "verdict",
+      "start": 23874,
+      "end": 24402,
+      "title": "AI 竞争最后比什么",
+      "kind": "hero",
+      "transition": "cut"
+    },
+    {
+      "id": "closing",
+      "start": 24402,
+      "end": 24832,
+      "title": "能走多远，我们接着看",
+      "kind": "network",
+      "transition": "cut"
+    }
+  ],
+  "brand": [
+    {
+      "start": 0,
+      "end": 3178,
+      "mode": "none"
+    },
+    {
+      "start": 3178,
+      "end": 4118,
+      "mode": "white"
+    },
+    {
+      "start": 4118,
+      "end": 4200,
+      "mode": "none"
+    },
+    {
+      "start": 4200,
+      "end": 7881,
+      "mode": "white"
+    },
+    {
+      "start": 7881,
+      "end": 8070,
+      "mode": "none"
+    },
+    {
+      "start": 8070,
+      "end": 9112,
+      "mode": "white"
+    },
+    {
+      "start": 9112,
+      "end": 9200,
+      "mode": "none"
+    },
+    {
+      "start": 9200,
+      "end": 10038,
+      "mode": "white"
+    },
+    {
+      "start": 10038,
+      "end": 10125,
+      "mode": "none"
+    },
+    {
+      "start": 10125,
+      "end": 11751,
+      "mode": "white"
+    },
+    {
+      "start": 11751,
+      "end": 12279,
+      "mode": "none"
+    },
+    {
+      "start": 12279,
+      "end": 12480,
+      "mode": "white"
+    },
+    {
+      "start": 12480,
+      "end": 12567,
+      "mode": "none"
+    },
+    {
+      "start": 12567,
+      "end": 15063,
+      "mode": "white"
+    },
+    {
+      "start": 15063,
+      "end": 15192,
+      "mode": "none"
+    },
+    {
+      "start": 15192,
+      "end": 15320,
+      "mode": "white"
+    },
+    {
+      "start": 15320,
+      "end": 15577,
+      "mode": "none"
+    },
+    {
+      "start": 15577,
+      "end": 16986,
+      "mode": "white"
+    },
+    {
+      "start": 16986,
+      "end": 17360,
+      "mode": "none"
+    },
+    {
+      "start": 17360,
+      "end": 17662,
+      "mode": "white"
+    },
+    {
+      "start": 17662,
+      "end": 18186,
+      "mode": "none"
+    },
+    {
+      "start": 18186,
+      "end": 18582,
+      "mode": "white"
+    },
+    {
+      "start": 18582,
+      "end": 18774,
+      "mode": "none"
+    },
+    {
+      "start": 18774,
+      "end": 19161,
+      "mode": "white"
+    },
+    {
+      "start": 19161,
+      "end": 19374,
+      "mode": "none"
+    },
+    {
+      "start": 19374,
+      "end": 19488,
+      "mode": "white"
+    },
+    {
+      "start": 19488,
+      "end": 19626,
+      "mode": "none"
+    },
+    {
+      "start": 19626,
+      "end": 21010,
+      "mode": "white"
+    },
+    {
+      "start": 21010,
+      "end": 21196,
+      "mode": "none"
+    },
+    {
+      "start": 21196,
+      "end": 21786,
+      "mode": "white"
+    },
+    {
+      "start": 21786,
+      "end": 21909,
+      "mode": "none"
+    },
+    {
+      "start": 21909,
+      "end": 22608,
+      "mode": "white"
+    },
+    {
+      "start": 22608,
+      "end": 22740,
+      "mode": "none"
+    },
+    {
+      "start": 22740,
+      "end": 23493,
+      "mode": "white"
+    },
+    {
+      "start": 23493,
+      "end": 23543,
+      "mode": "none"
+    },
+    {
+      "start": 23543,
+      "end": 24773,
+      "mode": "white"
+    },
+    {
+      "start": 24773,
+      "end": 24832,
+      "mode": "none"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 20,
+      "text": null
+    },
+    {
+      "start": 20,
+      "end": 80,
+      "text": ""
+    },
+    {
+      "start": 80,
+      "end": 160,
+      "text": ""
+    },
+    {
+      "start": 160,
+      "end": 220,
+      "text": ""
+    },
+    {
+      "start": 220,
+      "end": 320,
+      "text": ""
+    },
+    {
+      "start": 320,
+      "end": 360,
+      "text": ""
+    },
+    {
+      "start": 360,
+      "end": 460,
+      "text": ""
+    },
+    {
+      "start": 460,
+      "end": 560,
+      "text": ""
+    },
+    {
+      "start": 560,
+      "end": 670,
+      "text": ""
+    },
+    {
+      "start": 670,
+      "end": 770,
+      "text": ""
+    },
+    {
+      "start": 770,
+      "end": 777,
+      "text": ""
+    },
+    {
+      "start": 777,
+      "end": 780,
+      "text": ""
+    },
+    {
+      "start": 780,
+      "end": 920,
+      "text": ""
+    },
+    {
+      "start": 920,
+      "end": 940,
+      "text": null
+    },
+    {
+      "start": 940,
+      "end": 1040,
+      "text": ""
+    },
+    {
+      "start": 1040,
+      "end": 1200,
+      "text": ""
+    },
+    {
+      "start": 1200,
+      "end": 1270,
+      "text": ""
+    },
+    {
+      "start": 1270,
+      "end": 1340,
+      "text": ""
+    },
+    {
+      "start": 1340,
+      "end": 1439,
+      "text": ""
+    },
+    {
+      "start": 1439,
+      "end": 1600,
+      "text": ""
+    },
+    {
+      "start": 1600,
+      "end": 1720,
+      "text": ""
+    },
+    {
+      "start": 1720,
+      "end": 1770,
+      "text": ""
+    },
+    {
+      "start": 1770,
+      "end": 1940,
+      "text": ""
+    },
+    {
+      "start": 1940,
+      "end": 1990,
+      "text": ""
+    },
+    {
+      "start": 1990,
+      "end": 2100,
+      "text": ""
+    },
+    {
+      "start": 2100,
+      "end": 2180,
+      "text": ""
+    },
+    {
+      "start": 2180,
+      "end": 2290,
+      "text": ""
+    },
+    {
+      "start": 2290,
+      "end": 2430,
+      "text": ""
+    },
+    {
+      "start": 2430,
+      "end": 2450,
+      "text": ""
+    },
+    {
+      "start": 2450,
+      "end": 2540,
+      "text": ""
+    },
+    {
+      "start": 2540,
+      "end": 2690,
+      "text": ""
+    },
+    {
+      "start": 2690,
+      "end": 2810,
+      "text": ""
+    },
+    {
+      "start": 2810,
+      "end": 2880,
+      "text": ""
+    },
+    {
+      "start": 2880,
+      "end": 2920,
+      "text": ""
+    },
+    {
+      "start": 2920,
+      "end": 3060,
+      "text": ""
+    },
+    {
+      "start": 3060,
+      "end": 3180,
+      "text": ""
+    },
+    {
+      "start": 3180,
+      "end": 3190,
+      "text": ""
+    },
+    {
+      "start": 3190,
+      "end": 3210,
+      "text": ""
+    },
+    {
+      "start": 3210,
+      "end": 3320,
+      "text": ""
+    },
+    {
+      "start": 3320,
+      "end": 3480,
+      "text": ""
+    },
+    {
+      "start": 3480,
+      "end": 3600,
+      "text": ""
+    },
+    {
+      "start": 3600,
+      "end": 3630,
+      "text": ""
+    },
+    {
+      "start": 3630,
+      "end": 3790,
+      "text": ""
+    },
+    {
+      "start": 3790,
+      "end": 3839,
+      "text": ""
+    },
+    {
+      "start": 3839,
+      "end": 3980,
+      "text": ""
+    },
+    {
+      "start": 3980,
+      "end": 4112,
+      "text": ""
+    },
+    {
+      "start": 4112,
+      "end": 4120,
+      "text": ""
+    },
+    {
+      "start": 4120,
+      "end": 4190,
+      "text": ""
+    },
+    {
+      "start": 4190,
+      "end": 4360,
+      "text": ""
+    },
+    {
+      "start": 4360,
+      "end": 4470,
+      "text": ""
+    },
+    {
+      "start": 4470,
+      "end": 4550,
+      "text": ""
+    },
+    {
+      "start": 4550,
+      "end": 4630,
+      "text": ""
+    },
+    {
+      "start": 4630,
+      "end": 4750,
+      "text": ""
+    },
+    {
+      "start": 4750,
+      "end": 4830,
+      "text": ""
+    },
+    {
+      "start": 4830,
+      "end": 4920,
+      "text": ""
+    },
+    {
+      "start": 4920,
+      "end": 5010,
+      "text": ""
+    },
+    {
+      "start": 5010,
+      "end": 5070,
+      "text": ""
+    },
+    {
+      "start": 5070,
+      "end": 5150,
+      "text": ""
+    },
+    {
+      "start": 5150,
+      "end": 5270,
+      "text": ""
+    },
+    {
+      "start": 5270,
+      "end": 5320,
+      "text": ""
+    },
+    {
+      "start": 5320,
+      "end": 5440,
+      "text": ""
+    },
+    {
+      "start": 5440,
+      "end": 5550,
+      "text": ""
+    },
+    {
+      "start": 5550,
+      "end": 5640,
+      "text": ""
+    },
+    {
+      "start": 5640,
+      "end": 5770,
+      "text": ""
+    },
+    {
+      "start": 5770,
+      "end": 5910,
+      "text": ""
+    },
+    {
+      "start": 5910,
+      "end": 6040,
+      "text": ""
+    },
+    {
+      "start": 6040,
+      "end": 6100,
+      "text": ""
+    },
+    {
+      "start": 6100,
+      "end": 6160,
+      "text": ""
+    },
+    {
+      "start": 6160,
+      "end": 6270,
+      "text": ""
+    },
+    {
+      "start": 6270,
+      "end": 6440,
+      "text": ""
+    },
+    {
+      "start": 6440,
+      "end": 6450,
+      "text": null
+    },
+    {
+      "start": 6450,
+      "end": 6540,
+      "text": ""
+    },
+    {
+      "start": 6540,
+      "end": 6630,
+      "text": ""
+    },
+    {
+      "start": 6630,
+      "end": 6790,
+      "text": ""
+    },
+    {
+      "start": 6790,
+      "end": 6880,
+      "text": ""
+    },
+    {
+      "start": 6880,
+      "end": 6950,
+      "text": ""
+    },
+    {
+      "start": 6950,
+      "end": 7020,
+      "text": ""
+    },
+    {
+      "start": 7020,
+      "end": 7120,
+      "text": ""
+    },
+    {
+      "start": 7120,
+      "end": 7250,
+      "text": ""
+    },
+    {
+      "start": 7250,
+      "end": 7370,
+      "text": ""
+    },
+    {
+      "start": 7370,
+      "end": 7500,
+      "text": ""
+    },
+    {
+      "start": 7500,
+      "end": 7640,
+      "text": ""
+    },
+    {
+      "start": 7640,
+      "end": 7740,
+      "text": ""
+    },
+    {
+      "start": 7740,
+      "end": 7820,
+      "text": ""
+    },
+    {
+      "start": 7820,
+      "end": 7920,
+      "text": ""
+    },
+    {
+      "start": 7920,
+      "end": 8040,
+      "text": ""
+    },
+    {
+      "start": 8040,
+      "end": 8140,
+      "text": ""
+    },
+    {
+      "start": 8140,
+      "end": 8220,
+      "text": ""
+    },
+    {
+      "start": 8220,
+      "end": 8320,
+      "text": ""
+    },
+    {
+      "start": 8320,
+      "end": 8430,
+      "text": ""
+    },
+    {
+      "start": 8430,
+      "end": 8520,
+      "text": ""
+    },
+    {
+      "start": 8520,
+      "end": 8580,
+      "text": ""
+    },
+    {
+      "start": 8580,
+      "end": 8670,
+      "text": ""
+    },
+    {
+      "start": 8670,
+      "end": 8760,
+      "text": ""
+    },
+    {
+      "start": 8760,
+      "end": 8830,
+      "text": ""
+    },
+    {
+      "start": 8830,
+      "end": 8900,
+      "text": ""
+    },
+    {
+      "start": 8900,
+      "end": 9030,
+      "text": ""
+    },
+    {
+      "start": 9030,
+      "end": 9100,
+      "text": ""
+    },
+    {
+      "start": 9100,
+      "end": 9210,
+      "text": ""
+    },
+    {
+      "start": 9210,
+      "end": 9320,
+      "text": ""
+    },
+    {
+      "start": 9320,
+      "end": 9430,
+      "text": ""
+    },
+    {
+      "start": 9430,
+      "end": 9470,
+      "text": ""
+    },
+    {
+      "start": 9470,
+      "end": 9580,
+      "text": ""
+    },
+    {
+      "start": 9580,
+      "end": 9680,
+      "text": ""
+    },
+    {
+      "start": 9680,
+      "end": 9780,
+      "text": ""
+    },
+    {
+      "start": 9780,
+      "end": 9880,
+      "text": ""
+    },
+    {
+      "start": 9880,
+      "end": 9950,
+      "text": ""
+    },
+    {
+      "start": 9950,
+      "end": 10030,
+      "text": ""
+    },
+    {
+      "start": 10030,
+      "end": 10110,
+      "text": ""
+    },
+    {
+      "start": 10110,
+      "end": 10230,
+      "text": ""
+    },
+    {
+      "start": 10230,
+      "end": 10240,
+      "text": null
+    },
+    {
+      "start": 10240,
+      "end": 10330,
+      "text": ""
+    },
+    {
+      "start": 10330,
+      "end": 10410,
+      "text": ""
+    },
+    {
+      "start": 10410,
+      "end": 10500,
+      "text": ""
+    },
+    {
+      "start": 10500,
+      "end": 10510,
+      "text": null
+    },
+    {
+      "start": 10510,
+      "end": 10580,
+      "text": ""
+    },
+    {
+      "start": 10580,
+      "end": 10720,
+      "text": ""
+    },
+    {
+      "start": 10720,
+      "end": 10790,
+      "text": ""
+    },
+    {
+      "start": 10790,
+      "end": 10860,
+      "text": ""
+    },
+    {
+      "start": 10860,
+      "end": 10930,
+      "text": ""
+    },
+    {
+      "start": 10930,
+      "end": 10950,
+      "text": null
+    },
+    {
+      "start": 10950,
+      "end": 11010,
+      "text": ""
+    },
+    {
+      "start": 11010,
+      "end": 11020,
+      "text": null
+    },
+    {
+      "start": 11020,
+      "end": 11090,
+      "text": ""
+    },
+    {
+      "start": 11090,
+      "end": 11200,
+      "text": ""
+    },
+    {
+      "start": 11200,
+      "end": 11300,
+      "text": ""
+    },
+    {
+      "start": 11300,
+      "end": 11410,
+      "text": ""
+    },
+    {
+      "start": 11410,
+      "end": 11430,
+      "text": ""
+    },
+    {
+      "start": 11430,
+      "end": 11450,
+      "text": null
+    },
+    {
+      "start": 11450,
+      "end": 11550,
+      "text": ""
+    },
+    {
+      "start": 11550,
+      "end": 11680,
+      "text": ""
+    },
+    {
+      "start": 11680,
+      "end": 11740,
+      "text": ""
+    },
+    {
+      "start": 11740,
+      "end": 11870,
+      "text": ""
+    },
+    {
+      "start": 11870,
+      "end": 11960,
+      "text": ""
+    },
+    {
+      "start": 11960,
+      "end": 12090,
+      "text": ""
+    },
+    {
+      "start": 12090,
+      "end": 12190,
+      "text": ""
+    },
+    {
+      "start": 12190,
+      "end": 12250,
+      "text": ""
+    },
+    {
+      "start": 12250,
+      "end": 12350,
+      "text": ""
+    },
+    {
+      "start": 12350,
+      "end": 12450,
+      "text": ""
+    },
+    {
+      "start": 12450,
+      "end": 12590,
+      "text": ""
+    },
+    {
+      "start": 12590,
+      "end": 12730,
+      "text": ""
+    },
+    {
+      "start": 12730,
+      "end": 12810,
+      "text": ""
+    },
+    {
+      "start": 12810,
+      "end": 12890,
+      "text": ""
+    },
+    {
+      "start": 12890,
+      "end": 12960,
+      "text": ""
+    },
+    {
+      "start": 12960,
+      "end": 13020,
+      "text": ""
+    },
+    {
+      "start": 13020,
+      "end": 13180,
+      "text": ""
+    },
+    {
+      "start": 13180,
+      "end": 13200,
+      "text": null
+    },
+    {
+      "start": 13200,
+      "end": 13250,
+      "text": ""
+    },
+    {
+      "start": 13250,
+      "end": 13300,
+      "text": ""
+    },
+    {
+      "start": 13300,
+      "end": 13400,
+      "text": ""
+    },
+    {
+      "start": 13400,
+      "end": 13470,
+      "text": ""
+    },
+    {
+      "start": 13470,
+      "end": 13500,
+      "text": null
+    },
+    {
+      "start": 13500,
+      "end": 13620,
+      "text": ""
+    },
+    {
+      "start": 13620,
+      "end": 13660,
+      "text": ""
+    },
+    {
+      "start": 13660,
+      "end": 13720,
+      "text": ""
+    },
+    {
+      "start": 13720,
+      "end": 13750,
+      "text": ""
+    },
+    {
+      "start": 13750,
+      "end": 13780,
+      "text": ""
+    },
+    {
+      "start": 13780,
+      "end": 13800,
+      "text": ""
+    },
+    {
+      "start": 13800,
+      "end": 13920,
+      "text": ""
+    },
+    {
+      "start": 13920,
+      "end": 14000,
+      "text": ""
+    },
+    {
+      "start": 14000,
+      "end": 14100,
+      "text": ""
+    },
+    {
+      "start": 14100,
+      "end": 14240,
+      "text": ""
+    },
+    {
+      "start": 14240,
+      "end": 14350,
+      "text": ""
+    },
+    {
+      "start": 14350,
+      "end": 14450,
+      "text": ""
+    },
+    {
+      "start": 14450,
+      "end": 14530,
+      "text": ""
+    },
+    {
+      "start": 14530,
+      "end": 14620,
+      "text": ""
+    },
+    {
+      "start": 14620,
+      "end": 14730,
+      "text": ""
+    },
+    {
+      "start": 14730,
+      "end": 14840,
+      "text": ""
+    },
+    {
+      "start": 14840,
+      "end": 14970,
+      "text": ""
+    },
+    {
+      "start": 14970,
+      "end": 15030,
+      "text": ""
+    },
+    {
+      "start": 15030,
+      "end": 15130,
+      "text": ""
+    },
+    {
+      "start": 15130,
+      "end": 15230,
+      "text": ""
+    },
+    {
+      "start": 15230,
+      "end": 15320,
+      "text": ""
+    },
+    {
+      "start": 15320,
+      "end": 15330,
+      "text": null
+    },
+    {
+      "start": 15330,
+      "end": 15360,
+      "text": ""
+    },
+    {
+      "start": 15360,
+      "end": 15470,
+      "text": ""
+    },
+    {
+      "start": 15470,
+      "end": 15580,
+      "text": ""
+    },
+    {
+      "start": 15580,
+      "end": 15740,
+      "text": ""
+    },
+    {
+      "start": 15740,
+      "end": 15770,
+      "text": ""
+    },
+    {
+      "start": 15770,
+      "end": 15890,
+      "text": ""
+    },
+    {
+      "start": 15890,
+      "end": 16010,
+      "text": ""
+    },
+    {
+      "start": 16010,
+      "end": 16100,
+      "text": ""
+    },
+    {
+      "start": 16100,
+      "end": 16190,
+      "text": ""
+    },
+    {
+      "start": 16190,
+      "end": 16310,
+      "text": ""
+    },
+    {
+      "start": 16310,
+      "end": 16420,
+      "text": ""
+    },
+    {
+      "start": 16420,
+      "end": 16520,
+      "text": ""
+    },
+    {
+      "start": 16520,
+      "end": 16600,
+      "text": ""
+    },
+    {
+      "start": 16600,
+      "end": 16660,
+      "text": ""
+    },
+    {
+      "start": 16660,
+      "end": 16770,
+      "text": ""
+    },
+    {
+      "start": 16770,
+      "end": 16880,
+      "text": ""
+    },
+    {
+      "start": 16880,
+      "end": 16950,
+      "text": ""
+    },
+    {
+      "start": 16950,
+      "end": 17030,
+      "text": ""
+    },
+    {
+      "start": 17030,
+      "end": 17150,
+      "text": ""
+    },
+    {
+      "start": 17150,
+      "end": 17220,
+      "text": ""
+    },
+    {
+      "start": 17220,
+      "end": 17330,
+      "text": ""
+    },
+    {
+      "start": 17330,
+      "end": 17390,
+      "text": ""
+    },
+    {
+      "start": 17390,
+      "end": 17460,
+      "text": ""
+    },
+    {
+      "start": 17460,
+      "end": 17550,
+      "text": ""
+    },
+    {
+      "start": 17550,
+      "end": 17680,
+      "text": ""
+    },
+    {
+      "start": 17680,
+      "end": 17720,
+      "text": ""
+    },
+    {
+      "start": 17720,
+      "end": 17860,
+      "text": ""
+    },
+    {
+      "start": 17860,
+      "end": 17960,
+      "text": ""
+    },
+    {
+      "start": 17960,
+      "end": 18040,
+      "text": ""
+    },
+    {
+      "start": 18040,
+      "end": 18050,
+      "text": null
+    },
+    {
+      "start": 18050,
+      "end": 18100,
+      "text": ""
+    },
+    {
+      "start": 18100,
+      "end": 18200,
+      "text": ""
+    },
+    {
+      "start": 18200,
+      "end": 18220,
+      "text": ""
+    },
+    {
+      "start": 18220,
+      "end": 18330,
+      "text": ""
+    },
+    {
+      "start": 18330,
+      "end": 18430,
+      "text": ""
+    },
+    {
+      "start": 18430,
+      "end": 18510,
+      "text": ""
+    },
+    {
+      "start": 18510,
+      "end": 18600,
+      "text": ""
+    },
+    {
+      "start": 18600,
+      "end": 18610,
+      "text": ""
+    },
+    {
+      "start": 18610,
+      "end": 18680,
+      "text": ""
+    },
+    {
+      "start": 18680,
+      "end": 18780,
+      "text": ""
+    },
+    {
+      "start": 18780,
+      "end": 18860,
+      "text": ""
+    },
+    {
+      "start": 18860,
+      "end": 19010,
+      "text": ""
+    },
+    {
+      "start": 19010,
+      "end": 19120,
+      "text": ""
+    },
+    {
+      "start": 19120,
+      "end": 19199,
+      "text": ""
+    },
+    {
+      "start": 19199,
+      "end": 19290,
+      "text": ""
+    },
+    {
+      "start": 19290,
+      "end": 19360,
+      "text": ""
+    },
+    {
+      "start": 19360,
+      "end": 19480,
+      "text": ""
+    },
+    {
+      "start": 19480,
+      "end": 19620,
+      "text": ""
+    },
+    {
+      "start": 19620,
+      "end": 19710,
+      "text": ""
+    },
+    {
+      "start": 19710,
+      "end": 19860,
+      "text": ""
+    },
+    {
+      "start": 19860,
+      "end": 19950,
+      "text": ""
+    },
+    {
+      "start": 19950,
+      "end": 20030,
+      "text": ""
+    },
+    {
+      "start": 20030,
+      "end": 20200,
+      "text": ""
+    },
+    {
+      "start": 20200,
+      "end": 20250,
+      "text": ""
+    },
+    {
+      "start": 20250,
+      "end": 20320,
+      "text": ""
+    },
+    {
+      "start": 20320,
+      "end": 20410,
+      "text": ""
+    },
+    {
+      "start": 20410,
+      "end": 20550,
+      "text": ""
+    },
+    {
+      "start": 20550,
+      "end": 20670,
+      "text": ""
+    },
+    {
+      "start": 20670,
+      "end": 20770,
+      "text": ""
+    },
+    {
+      "start": 20770,
+      "end": 20810,
+      "text": ""
+    },
+    {
+      "start": 20810,
+      "end": 20890,
+      "text": ""
+    },
+    {
+      "start": 20890,
+      "end": 21010,
+      "text": ""
+    },
+    {
+      "start": 21010,
+      "end": 21090,
+      "text": ""
+    },
+    {
+      "start": 21090,
+      "end": 21180,
+      "text": ""
+    },
+    {
+      "start": 21180,
+      "end": 21200,
+      "text": null
+    },
+    {
+      "start": 21200,
+      "end": 21310,
+      "text": ""
+    },
+    {
+      "start": 21310,
+      "end": 21360,
+      "text": ""
+    },
+    {
+      "start": 21360,
+      "end": 21440,
+      "text": ""
+    },
+    {
+      "start": 21440,
+      "end": 21510,
+      "text": ""
+    },
+    {
+      "start": 21510,
+      "end": 21530,
+      "text": null
+    },
+    {
+      "start": 21530,
+      "end": 21670,
+      "text": ""
+    },
+    {
+      "start": 21670,
+      "end": 21760,
+      "text": ""
+    },
+    {
+      "start": 21760,
+      "end": 21870,
+      "text": ""
+    },
+    {
+      "start": 21870,
+      "end": 21970,
+      "text": ""
+    },
+    {
+      "start": 21970,
+      "end": 22100,
+      "text": ""
+    },
+    {
+      "start": 22100,
+      "end": 22150,
+      "text": ""
+    },
+    {
+      "start": 22150,
+      "end": 22230,
+      "text": ""
+    },
+    {
+      "start": 22230,
+      "end": 22340,
+      "text": ""
+    },
+    {
+      "start": 22340,
+      "end": 22430,
+      "text": ""
+    },
+    {
+      "start": 22430,
+      "end": 22570,
+      "text": ""
+    },
+    {
+      "start": 22570,
+      "end": 22640,
+      "text": ""
+    },
+    {
+      "start": 22640,
+      "end": 22750,
+      "text": ""
+    },
+    {
+      "start": 22750,
+      "end": 22820,
+      "text": ""
+    },
+    {
+      "start": 22820,
+      "end": 22960,
+      "text": ""
+    },
+    {
+      "start": 22960,
+      "end": 23060,
+      "text": ""
+    },
+    {
+      "start": 23060,
+      "end": 23140,
+      "text": ""
+    },
+    {
+      "start": 23140,
+      "end": 23220,
+      "text": ""
+    },
+    {
+      "start": 23220,
+      "end": 23280,
+      "text": ""
+    },
+    {
+      "start": 23280,
+      "end": 23360,
+      "text": ""
+    },
+    {
+      "start": 23360,
+      "end": 23480,
+      "text": ""
+    },
+    {
+      "start": 23480,
+      "end": 23570,
+      "text": ""
+    },
+    {
+      "start": 23570,
+      "end": 23680,
+      "text": ""
+    },
+    {
+      "start": 23680,
+      "end": 23750,
+      "text": ""
+    },
+    {
+      "start": 23750,
+      "end": 23840,
+      "text": ""
+    },
+    {
+      "start": 23840,
+      "end": 23930,
+      "text": null
+    },
+    {
+      "start": 23930,
+      "end": 23990,
+      "text": ""
+    },
+    {
+      "start": 23990,
+      "end": 24000,
+      "text": null
+    },
+    {
+      "start": 24000,
+      "end": 24140,
+      "text": ""
+    },
+    {
+      "start": 24140,
+      "end": 24150,
+      "text": null
+    },
+    {
+      "start": 24150,
+      "end": 24290,
+      "text": ""
+    },
+    {
+      "start": 24290,
+      "end": 24300,
+      "text": null
+    },
+    {
+      "start": 24300,
+      "end": 24400,
+      "text": ""
+    },
+    {
+      "start": 24400,
+      "end": 24410,
+      "text": null
+    },
+    {
+      "start": 24410,
+      "end": 24460,
+      "text": ""
+    },
+    {
+      "start": 24460,
+      "end": 24470,
+      "text": ""
+    },
+    {
+      "start": 24470,
+      "end": 24480,
+      "text": ""
+    },
+    {
+      "start": 24480,
+      "end": 24503,
+      "text": ""
+    },
+    {
+      "start": 24503,
+      "end": 24832,
+      "text": null
+    }
+  ],
+  "whitePageWindows": [],
+  "events": [
+    {
+      "type": "caption-opacity",
+      "start": 777,
+      "end": 780,
+      "values": [
+        0.4,
+        0.61,
+        0.82
+      ]
+    },
+    {
+      "type": "caption-opacity",
+      "start": 3839,
+      "end": 3840,
+      "values": [
+        0.35
+      ]
+    },
+    {
+      "type": "caption-opacity",
+      "start": 4112,
+      "end": 4120,
+      "values": [
+        0.16,
+        0.35,
+        0.55,
+        0.76,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "suppress-ocr-title",
+      "start": 13735,
+      "end": 13749,
+      "sceneId": "two-ways",
+      "text": "力气花在另外两个地方"
+    },
+    {
+      "type": "caption-opacity",
+      "start": 18600,
+      "end": 18610,
+      "values": [
+        0.03,
+        0.25,
+        0.46,
+        0.67,
+        0.88,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

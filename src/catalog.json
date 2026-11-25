@@ -1,0 +1,800 @@
+[
+  {
+    "id": "01",
+    "slot": "04",
+    "title": "斜向缩略图墙、标题逐字落下，标题移到左侧让出图表",
+    "group": "缩略图墙与选中卡移动",
+    "fps": 30,
+    "frames": 186,
+    "window": [
+      25,
+      211
+    ],
+    "portrait": false,
+    "seconds": 6.2,
+    "sources": [
+      {
+        "label": "斜向墙",
+        "file": "src/Wall.tsx",
+        "symbol": "LANES"
+      },
+      {
+        "label": "落字",
+        "file": "src/Prelude.tsx",
+        "symbol": "Headline"
+      },
+      {
+        "label": "标题移位与图表",
+        "file": "src/Prelude.tsx",
+        "symbol": "Analytics"
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "slot": "04",
+    "title": "双墙切入，右侧计数跟着长满",
+    "group": "缩略图墙与选中卡移动",
+    "fps": 30,
+    "frames": 84,
+    "window": [
+      4438,
+      4522
+    ],
+    "portrait": false,
+    "seconds": 2.8,
+    "sources": [
+      {
+        "label": "作品墙与计数",
+        "file": "src/full/c/voice.tsx",
+        "symbol": "TileWall"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "slot": "05",
+    "title": "画面缩到右下，回到 3×3 卡墙",
+    "group": "缩略图墙与选中卡移动",
+    "fps": 30,
+    "frames": 83,
+    "window": [
+      3706,
+      3789
+    ],
+    "portrait": false,
+    "seconds": 2.7666666666666666,
+    "sources": [
+      {
+        "label": "卡墙收束",
+        "file": "src/front.tsx",
+        "symbol": "Closing"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "slot": "10",
+    "title": "倒序快闪后落成宽首卡＋3×3，首卡接入正片",
+    "group": "缩略图墙与选中卡移动",
+    "fps": 30,
+    "frames": 278,
+    "window": [
+      0,
+      278
+    ],
+    "portrait": true,
+    "seconds": 9.266666666666667,
+    "sources": [
+      {
+        "label": "Flash",
+        "file": "src/ranking.tsx",
+        "symbol": "Flash"
+      },
+      {
+        "label": "Board",
+        "file": "src/ranking.tsx",
+        "symbol": "Board"
+      },
+      {
+        "label": "RankIntro",
+        "file": "src/ranking.tsx",
+        "symbol": "RankIntro"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "slot": "01",
+    "title": "斜向缩略图墙分排滑动，标题逐字落下",
+    "group": "缩略图墙与选中卡移动",
+    "fps": 30,
+    "frames": 284,
+    "window": [
+      0,
+      284
+    ],
+    "portrait": false,
+    "seconds": 9.466666666666667,
+    "sources": [
+      {
+        "label": "背景墙",
+        "file": "src/Intro.tsx",
+        "symbol": "FilmWall"
+      },
+      {
+        "label": "开场标题与滚数",
+        "file": "src/Intro.tsx",
+        "symbol": "Opening"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "slot": "04",
+    "title": "黑栏推进、紫色大章节号落下、白页标题揭示",
+    "group": "章节落版与双行大字",
+    "fps": 30,
+    "frames": 59,
+    "window": [
+      857,
+      916
+    ],
+    "portrait": false,
+    "seconds": 1.9666666666666666,
+    "sources": [
+      {
+        "label": "AccountChapter",
+        "file": "src/Cost.tsx",
+        "symbol": "AccountChapter"
+      },
+      {
+        "label": "续到正文",
+        "file": "src/full/a/accounts.tsx",
+        "symbol": "AChapter"
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "slot": "08",
+    "title": "片尾金字提问，CTA 定格后退光",
+    "group": "章节落版与双行大字",
+    "fps": 30,
+    "frames": 218,
+    "window": [
+      7565,
+      7783
+    ],
+    "portrait": false,
+    "seconds": 7.266666666666667,
+    "sources": [
+      {
+        "label": "片尾布局",
+        "file": "src/late.tsx",
+        "symbol": "Late"
+      },
+      {
+        "label": "全局字幕与叠层",
+        "file": "src/visual.tsx",
+        "symbol": "VisualScene"
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "slot": "09",
+    "title": "白字先出，金字再出，交给片尾问答",
+    "group": "章节落版与双行大字",
+    "fps": 30,
+    "frames": 90,
+    "window": [
+      14399,
+      14489
+    ],
+    "portrait": false,
+    "seconds": 3.0,
+    "sources": [
+      {
+        "label": "宣言双行字",
+        "file": "src/feature.tsx",
+        "symbol": "Feature"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "slot": "02",
+    "title": "白底黑胶囊上移，双卡入场后翻面",
+    "group": "章节落版与双行大字",
+    "fps": 30,
+    "frames": 163,
+    "window": [
+      708,
+      871
+    ],
+    "portrait": false,
+    "seconds": 5.433333333333334,
+    "sources": [
+      {
+        "label": "胶囊与双卡",
+        "file": "src/early.tsx",
+        "symbol": "Fault"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "slot": "02",
+    "title": "判断大字分拍切换，划线让出紫色结论",
+    "group": "章节落版与双行大字",
+    "fps": 30,
+    "frames": 145,
+    "window": [
+      4715,
+      4860
+    ],
+    "portrait": false,
+    "seconds": 4.833333333333333,
+    "sources": [
+      {
+        "label": "大字和结论",
+        "file": "src/late.tsx",
+        "symbol": "Judgment"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "slot": "07",
+    "title": "黑金 Skill 名牌，六枚工序标签逐项点亮",
+    "group": "章节落版与双行大字",
+    "fps": 30,
+    "frames": 159,
+    "window": [
+      1417,
+      1576
+    ],
+    "portrait": false,
+    "seconds": 5.3,
+    "sources": [
+      {
+        "label": "斜体渐变与工序标签",
+        "file": "src/early.tsx",
+        "symbol": "Skill"
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "slot": "02",
+    "title": "暗底画板与时间轴大数字快速滚动",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 54,
+    "window": [
+      0,
+      54
+    ],
+    "portrait": false,
+    "seconds": 1.8,
+    "sources": [
+      {
+        "label": "开场舞台与滚数",
+        "file": "src/early.tsx",
+        "symbol": "Opening"
+      },
+      {
+        "label": "数值表",
+        "file": "src/graphics.tsx",
+        "symbol": "playValues"
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "slot": "04",
+    "title": "金额滚数与三段轨道依次填满",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 212,
+    "window": [
+      3370,
+      3582
+    ],
+    "portrait": false,
+    "seconds": 7.066666666666666,
+    "sources": [
+      {
+        "label": "金额轨道",
+        "file": "src/full/b/Amount.tsx",
+        "symbol": "CostTimelineB"
+      },
+      {
+        "label": "金额舞台",
+        "file": "src/full/b/Amount.tsx",
+        "symbol": "AmountB"
+      },
+      {
+        "label": "金额时钟",
+        "file": "src/full/b/timing.ts",
+        "symbol": "tenMinuteCents"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "slot": "04",
+    "title": "账单滚入、左移，右侧接结论",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 280,
+    "window": [
+      4960,
+      5240
+    ],
+    "portrait": false,
+    "seconds": 9.333333333333334,
+    "sources": [
+      {
+        "label": "账单动效",
+        "file": "src/full/c/settlement.tsx",
+        "symbol": "Receipt"
+      },
+      {
+        "label": "场景接续",
+        "file": "src/full/c/settlement.tsx",
+        "symbol": "Conclusion"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "slot": "05",
+    "title": "紫色进度环随右侧数字滚动",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 154,
+    "window": [
+      826,
+      980
+    ],
+    "portrait": false,
+    "seconds": 5.133333333333334,
+    "sources": [
+      {
+        "label": "进度环与数值",
+        "file": "src/front.tsx",
+        "symbol": "Ring"
+      },
+      {
+        "label": "右侧放置",
+        "file": "src/front.tsx",
+        "symbol": "Robots"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "slot": "05",
+    "title": "先出黑色基准条，再出紫色对照条和旁注",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 126,
+    "window": [
+      1418,
+      1544
+    ],
+    "portrait": false,
+    "seconds": 4.2,
+    "sources": [
+      {
+        "label": "成本对照条",
+        "file": "src/middle.tsx",
+        "symbol": "Cost"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "slot": "07",
+    "title": "左折线逐段绘制，右侧四条价格依次点亮",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 502,
+    "window": [
+      6764,
+      7266
+    ],
+    "portrait": false,
+    "seconds": 16.733333333333334,
+    "sources": [
+      {
+        "label": "PriceChart",
+        "file": "src/late.tsx",
+        "symbol": "PriceChart"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "slot": "08",
+    "title": "黑金面板内蓝红双横条先后伸长",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 209,
+    "window": [
+      361,
+      570
+    ],
+    "portrait": false,
+    "seconds": 6.966666666666667,
+    "sources": [
+      {
+        "label": "财务双条",
+        "file": "src/early.tsx",
+        "symbol": "Early"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "slot": "08",
+    "title": "七柱横排，末柱跳升、滚数并亮金签",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 129,
+    "window": [
+      3805,
+      3934
+    ],
+    "portrait": false,
+    "seconds": 4.3,
+    "sources": [
+      {
+        "label": "单柱聚焦",
+        "file": "src/loss-charts.tsx",
+        "symbol": "QuarterlyLoss"
+      },
+      {
+        "label": "数值关键帧",
+        "file": "src/finance.ts",
+        "symbol": "quarterlyLossMillions"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "slot": "09",
+    "title": "蓝金横条榜，榜首单独增长和滚数",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 241,
+    "window": [
+      10891,
+      11132
+    ],
+    "portrait": false,
+    "seconds": 8.033333333333333,
+    "sources": [
+      {
+        "label": "横条榜",
+        "file": "src/graphs.tsx",
+        "symbol": "survey"
+      },
+      {
+        "label": "榜首数值",
+        "file": "src/graphs.tsx",
+        "symbol": "Bars"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "slot": "03",
+    "title": "竖屏蓝白斜体大数字滚到 1000，黄签补入",
+    "group": "滚数、环形进度与图表",
+    "fps": 60,
+    "frames": 107,
+    "window": [
+      346,
+      453
+    ],
+    "portrait": true,
+    "seconds": 1.7833333333333334,
+    "sources": [
+      {
+        "label": "滚数场景",
+        "file": "src/Charts.tsx",
+        "symbol": "FundingHook"
+      },
+      {
+        "label": "蓝白数字",
+        "file": "src/Charts.tsx",
+        "symbol": "OpeningAmount"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "slot": "07",
+    "title": "奶金额三列独立翻滚，美元单位后入场",
+    "group": "滚数、环形进度与图表",
+    "fps": 30,
+    "frames": 111,
+    "window": [
+      1576,
+      1687
+    ],
+    "portrait": false,
+    "seconds": 3.7,
+    "sources": [
+      {
+        "label": "金额卡和单位",
+        "file": "src/early.tsx",
+        "symbol": "LaunchReel"
+      },
+      {
+        "label": "独立数字轮",
+        "file": "src/early.tsx",
+        "symbol": "RevenueWheels"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "slot": "05",
+    "title": "全屏素材缩成左窗，右侧浮层入场，两层一起下移",
+    "group": "素材缩窗、文件聚焦与空间定位",
+    "fps": 30,
+    "frames": 68,
+    "window": [
+      398,
+      466
+    ],
+    "portrait": false,
+    "seconds": 2.2666666666666666,
+    "sources": [
+      {
+        "label": "缩窗与信息卡",
+        "file": "src/front.tsx",
+        "symbol": "Genie"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "slot": "08",
+    "title": "模糊文件渐清、黄色横框扫出证据",
+    "group": "素材缩窗、文件聚焦与空间定位",
+    "fps": 30,
+    "frames": 104,
+    "window": [
+      257,
+      361
+    ],
+    "portrait": false,
+    "seconds": 3.466666666666667,
+    "sources": [
+      {
+        "label": "文件聚焦",
+        "file": "src/early.tsx",
+        "symbol": "Early"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "slot": "09",
+    "title": "地图固定，楼层与 L3 金签逐层定位",
+    "group": "素材缩窗、文件聚焦与空间定位",
+    "fps": 30,
+    "frames": 194,
+    "window": [
+      1557,
+      1751
+    ],
+    "portrait": false,
+    "seconds": 6.466666666666667,
+    "sources": [
+      {
+        "label": "地图视角",
+        "file": "src/map.tsx",
+        "symbol": "MapScene"
+      },
+      {
+        "label": "楼层标签",
+        "file": "src/map.tsx",
+        "symbol": "FloorMarker"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "slot": "03",
+    "title": "竖屏画面固定，红色新闻条贴边揭示",
+    "group": "素材缩窗、文件聚焦与空间定位",
+    "fps": 60,
+    "frames": 57,
+    "window": [
+      24,
+      81
+    ],
+    "portrait": true,
+    "seconds": 0.95,
+    "sources": [
+      {
+        "label": "红色信息条",
+        "file": "src/Charts.tsx",
+        "symbol": "OpeningBanStrip"
+      },
+      {
+        "label": "场景路由",
+        "file": "src/Stage.tsx",
+        "symbol": "Support"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "slot": "09",
+    "title": "标签矩阵散开，中央问号渐显",
+    "group": "素材缩窗、文件聚焦与空间定位",
+    "fps": 30,
+    "frames": 112,
+    "window": [
+      0,
+      112
+    ],
+    "portrait": false,
+    "seconds": 3.7333333333333334,
+    "sources": [
+      {
+        "label": "标签与问号",
+        "file": "src/feature.tsx",
+        "symbol": "Opener"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "slot": "09",
+    "title": "工具地图镜头拉远，一楼随讲解点亮",
+    "group": "素材缩窗、文件聚焦与空间定位",
+    "fps": 30,
+    "frames": 128,
+    "window": [
+      1747,
+      1875
+    ],
+    "portrait": false,
+    "seconds": 4.266666666666667,
+    "sources": [
+      {
+        "label": "地图镜头与高亮",
+        "file": "src/map.tsx",
+        "symbol": "MapScene"
+      },
+      {
+        "label": "楼层指示",
+        "file": "src/map.tsx",
+        "symbol": "FloorMarker"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "slot": "04",
+    "title": "四行受众先列出，单行贴边，示例随焦点换",
+    "group": "列表、引文与投票逐项揭示",
+    "fps": 30,
+    "frames": 245,
+    "window": [
+      7180,
+      7425
+    ],
+    "portrait": false,
+    "seconds": 8.166666666666666,
+    "sources": [
+      {
+        "label": "受众列表",
+        "file": "src/full/SegmentE.tsx",
+        "symbol": "audience"
+      },
+      {
+        "label": "选中行与示例",
+        "file": "src/full/SegmentE.tsx",
+        "symbol": "AudiencePanel"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "slot": "08",
+    "title": "黑金引文板先入，两行引文按拍揭示",
+    "group": "列表、引文与投票逐项揭示",
+    "fps": 30,
+    "frames": 130,
+    "window": [
+      3934,
+      4064
+    ],
+    "portrait": false,
+    "seconds": 4.333333333333333,
+    "sources": [
+      {
+        "label": "引文板",
+        "file": "src/middle.tsx",
+        "symbol": "Quote"
+      },
+      {
+        "label": "全局叠层",
+        "file": "src/visual.tsx",
+        "symbol": "VisualScene"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "slot": "10",
+    "title": "十张投票卡交错滑入两列五行",
+    "group": "列表、引文与投票逐项揭示",
+    "fps": 30,
+    "frames": 75,
+    "window": [
+      6017,
+      6092
+    ],
+    "portrait": true,
+    "seconds": 2.5,
+    "sources": [
+      {
+        "label": "Poll",
+        "file": "src/ranking.tsx",
+        "symbol": "Poll"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "slot": "06",
+    "title": "竖屏双数字滚动，六格角色卡依次亮起",
+    "group": "列表、引文与投票逐项揭示",
+    "fps": 30,
+    "frames": 99,
+    "window": [
+      1194,
+      1293
+    ],
+    "portrait": true,
+    "seconds": 3.3,
+    "sources": [
+      {
+        "label": "角色列表",
+        "file": "src/early.tsx",
+        "symbol": "GameRoles"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "slot": "06",
+    "title": "竖屏流程卡依次打勾，红章落下",
+    "group": "列表、引文与投票逐项揭示",
+    "fps": 30,
+    "frames": 87,
+    "window": [
+      6674,
+      6761
+    ],
+    "portrait": true,
+    "seconds": 2.9,
+    "sources": [
+      {
+        "label": "流程与盖章",
+        "file": "src/bookends.tsx",
+        "symbol": "Credits"
+      }
+    ]
+  }
+]

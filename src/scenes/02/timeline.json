@@ -1,0 +1,861 @@
+{
+  "fps": 30,
+  "totalFrames": 5023,
+  "chapters": [
+    {
+      "start": 0,
+      "end": 929,
+      "id": "none"
+    },
+    {
+      "start": 929,
+      "end": 1303,
+      "id": "画面"
+    },
+    {
+      "start": 1303,
+      "end": 1834,
+      "id": "图表"
+    },
+    {
+      "start": 1834,
+      "end": 2615,
+      "id": "组件"
+    },
+    {
+      "start": 2615,
+      "end": 3165,
+      "id": "审美"
+    },
+    {
+      "start": 3165,
+      "end": 5023,
+      "id": "none"
+    }
+  ],
+  "brand": [
+    {
+      "start": 0,
+      "end": 278,
+      "mode": "none"
+    },
+    {
+      "start": 278,
+      "end": 499,
+      "mode": "white-outline"
+    },
+    {
+      "start": 499,
+      "end": 909,
+      "mode": "purple"
+    },
+    {
+      "start": 909,
+      "end": 921,
+      "mode": "none"
+    },
+    {
+      "start": 921,
+      "end": 3165,
+      "mode": "white-outline"
+    },
+    {
+      "start": 3165,
+      "end": 5023,
+      "mode": "purple"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 3,
+      "end": 81,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 81,
+      "end": 169,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 169,
+      "end": 204,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 204,
+      "end": 278,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 278,
+      "end": 330,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 330,
+      "end": 422,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 422,
+      "end": 492,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 492,
+      "end": 564,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 564,
+      "end": 618,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 618,
+      "end": 619,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 619,
+      "end": 642,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 642,
+      "end": 726,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 726,
+      "end": 762,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 762,
+      "end": 828,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 828,
+      "end": 921,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 921,
+      "end": 960,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 960,
+      "end": 1008,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1008,
+      "end": 1104,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1104,
+      "end": 1206,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1206,
+      "end": 1292,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1292,
+      "end": 1332,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1332,
+      "end": 1426,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1426,
+      "end": 1488,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1488,
+      "end": 1560,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1560,
+      "end": 1614,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1614,
+      "end": 1704,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1704,
+      "end": 1774,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1774,
+      "end": 1825,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1825,
+      "end": 1884,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1884,
+      "end": 1917,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1917,
+      "end": 1956,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 1956,
+      "end": 2028,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2028,
+      "end": 2118,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2118,
+      "end": 2214,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2214,
+      "end": 2274,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2274,
+      "end": 2340,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2340,
+      "end": 2424,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2424,
+      "end": 2484,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2484,
+      "end": 2544,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2544,
+      "end": 2608,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2608,
+      "end": 2640,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2640,
+      "end": 2712,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2712,
+      "end": 2766,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2766,
+      "end": 2832,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2832,
+      "end": 2898,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2898,
+      "end": 2964,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 2964,
+      "end": 3072,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3072,
+      "end": 3172,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3172,
+      "end": 3264,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3264,
+      "end": 3342,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3342,
+      "end": 3384,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3384,
+      "end": 3414,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3414,
+      "end": 3504,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3504,
+      "end": 3588,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3588,
+      "end": 3690,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3690,
+      "end": 3780,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3780,
+      "end": 3816,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3816,
+      "end": 3888,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3888,
+      "end": 3972,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 3972,
+      "end": 4050,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4050,
+      "end": 4146,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4146,
+      "end": 4236,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4236,
+      "end": 4278,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4278,
+      "end": 4356,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4356,
+      "end": 4464,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4464,
+      "end": 4548,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4548,
+      "end": 4632,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4632,
+      "end": 4716,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4716,
+      "end": 4795,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4795,
+      "end": 4848,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4848,
+      "end": 4920,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4920,
+      "end": 4999,
+      "text": "",
+      "visible": true
+    },
+    {
+      "start": 4999,
+      "end": 5023,
+      "text": null,
+      "visible": false
+    }
+  ],
+  "whitePageWindows": [
+    {
+      "start": 499,
+      "end": 909,
+      "mode": "purple"
+    },
+    {
+      "start": 3165,
+      "end": 5023,
+      "mode": "purple"
+    }
+  ],
+  "shots": [
+    {
+      "start": 0,
+      "end": 81,
+      "id": "open",
+      "label": "开场：播放数字与 DeepSeek 时间轴",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 81,
+      "end": 168,
+      "id": "hook",
+      "label": "开场标题逐组落定",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 168,
+      "end": 204,
+      "id": "news",
+      "label": "新闻拼贴",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 204,
+      "end": 218,
+      "id": "map-in",
+      "label": "地图闪卡",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 218,
+      "end": 232,
+      "id": "bars-in",
+      "label": "图表闪卡",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 232,
+      "end": 257,
+      "id": "city",
+      "label": "新闻画面闪卡",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 257,
+      "end": 274,
+      "id": "relate",
+      "label": "人物关系闪卡",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 274,
+      "end": 333,
+      "id": "wall",
+      "label": "独立案例墙、逐词标题",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 333,
+      "end": 425,
+      "id": "example",
+      "label": "同一城市卡拉近并保留",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 425,
+      "end": 499,
+      "id": "stack",
+      "label": "画面、图表、组件、审美四层",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 499,
+      "end": 642,
+      "id": "cheap",
+      "label": "白页：你用 AI 剪的视频",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 642,
+      "end": 909,
+      "id": "fault",
+      "label": "两张反例与独立场景翻面",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 909,
+      "end": 1107,
+      "id": "footage",
+      "label": "厂房卡扩屏、收回、实拍比例及三个素材标签",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 1107,
+      "end": 1167,
+      "id": "hunt",
+      "label": "014 期素材下载计数",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 1167,
+      "end": 1300,
+      "id": "reuse",
+      "label": "素材的查重与使用",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 1300,
+      "end": 1478,
+      "id": "data",
+      "label": "图表、数据日期及来源",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 1478,
+      "end": 1606,
+      "id": "bars",
+      "label": "轨道数据柱与白卡评价",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 1606,
+      "end": 1819,
+      "id": "code",
+      "label": "100 元案例和原生代码窗",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 1819,
+      "end": 2024,
+      "id": "lego",
+      "label": "原卡收拢、模块拼装",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2024,
+      "end": 2118,
+      "id": "nodes",
+      "label": "人物关系网／资金流向",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2118,
+      "end": 2265,
+      "id": "map",
+      "label": "地理相机／横条排名",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2265,
+      "end": 2340,
+      "id": "panels",
+      "label": "107 个组件",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2340,
+      "end": 2421,
+      "id": "strip",
+      "label": "同源组件墙拆分",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2421,
+      "end": 2492,
+      "id": "posters",
+      "label": "财经题材封面墙",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2492,
+      "end": 2608,
+      "id": "rails",
+      "label": "上限与下限",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2608,
+      "end": 2733,
+      "id": "manual",
+      "label": "星哥说 · 决定表",
+      "startEvidence": "first-known-new-state-PTS"
+    },
+    {
+      "start": 2733,
+      "end": 2976,
+      "id": "rules",
+      "label": "颜色／不用／节奏",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 2976,
+      "end": 3083,
+      "id": "audit",
+      "label": "014 交付说明",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3083,
+      "end": 3172,
+      "id": "contact",
+      "label": "联系表→中心收帧→圆形白场",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3172,
+      "end": 3388,
+      "id": "versions",
+      "label": "联系表延续成四个样片版本",
+      "startEvidence": "PTS"
+    },
+    {
+      "start": 3388,
+      "end": 3699,
+      "id": "score",
+      "label": "头部财经账号拆片→自己的片子",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3699,
+      "end": 3767,
+      "id": "stairs",
+      "label": "版本上阶梯",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3767,
+      "end": 3814,
+      "id": "me",
+      "label": "那我做什么？",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3814,
+      "end": 3882,
+      "id": "jobs",
+      "label": "定题／改稿／看成片",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3882,
+      "end": 3993,
+      "id": "notes",
+      "label": "审片四条意见与 v23",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 3993,
+      "end": 4157,
+      "id": "iteration",
+      "label": "逐字稿联动 v24.1 / v24.2",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 4157,
+      "end": 4470,
+      "id": "routes",
+      "label": "曲线：剪辑软件；直线：写代码",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 4470,
+      "end": 4715,
+      "id": "split",
+      "label": "两极分化",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 4715,
+      "end": 4846,
+      "id": "judgment",
+      "label": "拼的不是剪辑，是选题和判断",
+      "startEvidence": "assembly-anchor"
+    },
+    {
+      "start": 4846,
+      "end": 5023,
+      "id": "outro",
+      "label": "TSX 组件折拢，评论区扣 Demo",
+      "startEvidence": "assembly-anchor"
+    }
+  ],
+  "events": [
+    {
+      "start": 77,
+      "end": 108,
+      "id": "timeline-to-hook"
+    },
+    {
+      "start": 900,
+      "end": 936,
+      "id": "factory-continuity"
+    },
+    {
+      "start": 933,
+      "end": 978,
+      "id": "footage-meter"
+    },
+    {
+      "start": 1107,
+      "end": 1113,
+      "id": "speaker-counter-overlap"
+    },
+    {
+      "start": 3161,
+      "end": 3172,
+      "id": "contact-iris"
+    },
+    {
+      "start": 4929,
+      "end": 4941,
+      "id": "cta-settle"
+    },
+    {
+      "start": 1303,
+      "end": 1307,
+      "id": "chapter-roll",
+      "outgoing": "画面",
+      "incoming": "图表"
+    },
+    {
+      "start": 1834,
+      "end": 1839,
+      "id": "chapter-roll",
+      "outgoing": "图表",
+      "incoming": "组件"
+    },
+    {
+      "start": 2615,
+      "end": 2620,
+      "id": "chapter-roll",
+      "outgoing": "组件",
+      "incoming": "审美"
+    }
+  ]
+}
