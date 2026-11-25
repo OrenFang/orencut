@@ -1,0 +1,322 @@
+{
+  "assets": [
+    {
+      "id": "gtavi-gallery-weights",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-nightclub",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-night-car",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-pink-car",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-wetlands",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-beach",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-harbor",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-gallery-night-skyline",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "ps5-slim-white",
+      "width": 1600,
+      "height": 900,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "ps5-slim-midnight-black",
+      "width": 1600,
+      "height": 900,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "ps5-slim-dark",
+      "width": 900,
+      "height": 900,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtav-character",
+      "width": 1024,
+      "height": 576,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtav-vinewood-sunset",
+      "width": 1600,
+      "height": 900,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-bench",
+      "width": 1280,
+      "height": 576,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-bench-still",
+      "width": 1920,
+      "height": 864,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-store",
+      "width": 1280,
+      "height": 576,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-store-still",
+      "width": 1920,
+      "height": 864,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-nightclub",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-nightclub-still",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-neon-car",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-neon-car-still",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-pink-street",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-pink-street-still",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-flamingos",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-beach-crowd",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-speedboats",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-night-aerial",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-night-aerial-still",
+      "width": 1920,
+      "height": 1080,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-night-street",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gtavi-end-close",
+      "width": 1280,
+      "height": 720,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "ps5-slim-hero-motion",
+      "width": 1280,
+      "height": 500,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "gamesradar-zelnick-title",
+      "width": 1466,
+      "height": 780,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-japan-old-street",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 1.376375,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-forest-mammoth",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 2.460792,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-silhouette-waterfall",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 1.334667,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-white-boat-canal",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 3.003,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-volcano-dark",
+      "width": 1080,
+      "height": 1080,
+      "durationSec": 2.544208,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-volcano-buggy",
+      "width": 1280,
+      "height": 704,
+      "durationSec": 56.375,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "genie3-hinsdale-street",
+      "width": 1280,
+      "height": 704,
+      "durationSec": 57.0,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "microsoft-hot-aisle",
+      "width": 1920,
+      "height": 1281,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "microsoft-ai-gb200-aisle",
+      "width": 1920,
+      "height": 958,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "skhynix-ddr5-rdimm",
+      "width": 882,
+      "height": 246,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "google-mayes-aisle",
+      "width": 2560,
+      "height": 1707,
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "font-cn",
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    },
+    {
+      "id": "font-disp",
+      "path": "illustrations/app.svg",
+      "mediaType": "image/svg+xml"
+    }
+  ]
+}

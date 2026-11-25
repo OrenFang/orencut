@@ -1,0 +1,48 @@
+import { demoAsset as staticFile } from '../../demo-media';
+import React from 'react';
+import {AbsoluteFill, Img, interpolate, Easing} from 'remotion';
+export const W=1200,H=675, gold='#f4cd73', blue='#90b7f8', red='#fc6554', white='#f5f5f5';
+export const filingRef='Anthropic 424B4 招股书 · 2026-11-18';
+// No original artwork/video, no remote URL, no faux UI. One literal descriptor per offline static asset.
+const files={
+  bell:staticFile('media/photos/bell.jpg'), market:staticFile('media/photos/market.jpg'),
+  cash:staticFile('media/photos/cash.jpg'), fan:staticFile('media/photos/fan.jpg'),
+  server:staticFile('media/photos/server.jpg'), campus:staticFile('media/photos/campus.jpg'),
+  hall:staticFile('media/photos/hall.jpg'), tracks:staticFile('media/photos/tracks.jpg'),
+  coffee:staticFile('media/photos/coffee.jpg'), founder:staticFile('media/photos/founder.jpg'),
+  trust:staticFile('media/photos/trust.jpg'), retail:staticFile('media/photos/retail.jpg'),
+  analyst:staticFile('media/photos/analyst.jpg'), panel:staticFile('media/photos/panel.jpg'),
+  reader:staticFile('media/photos/reader.jpg'), laptop:staticFile('media/photos/laptop.jpg'),
+  listing:staticFile('media/official/nasdaq-listing-street.webp'), tower:staticFile('media/official/nasdaq-listing-tower.webp'),
+  filing:staticFile('media/official/prospectus-cover.jpg'), terminal:staticFile('media/official/claude-code-terminal.png'),
+  vscode:staticFile('media/official/claude-code-vscode.jpg'), anthropic:staticFile('media/official/anthropic-wordmark-slate.svg'),
+  spark:staticFile('media/official/claude-spark-clay.svg'),
+};
+export const assetIds=Object.keys(files);
+const pos:Record<string,string>={bell:'center 70%',market:'center 43%',cash:'center 47%',fan:'center 39%',tracks:'center 43%',founder:'center 34%',trust:'center 45%',analyst:'center 43%',panel:'center 45%',reader:'center 42%',listing:'center 48%'};
+export type Style=React.CSSProperties;
+export const ease=(t:number,a:number,b:number)=>interpolate(t,[a,b],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.out(Easing.cubic)});
+export const linear=(t:number,a:number,b:number)=>interpolate(t,[a,b],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+export function Box({x,y,w,h,children,style}:{x:number;y:number;w:number;h?:number;children?:React.ReactNode;style?:Style}){return <div style={{position:'absolute',left:x,top:y,width:w,height:h,...style}}>{children}</div>}
+export function Text({x=0,y=0,w=W,size=32,color=white,align='center',alpha=1,italic=false,children,style}:{x?:number;y?:number;w?:number;size?:number;color?:string;align?:Style['textAlign'];alpha?:number;italic?:boolean;children:React.ReactNode;style?:Style}){return <Box x={x} y={y} w={w} style={{fontFamily:'system-ui, system-ui, sans-serif',fontSize:size,color,textAlign:align,opacity:alpha,whiteSpace:'nowrap',lineHeight:1.10,transform:italic?'skewX(-7deg)':undefined,textShadow:'0 4px 14px #000a',...style}}>{children}</Box>}
+export function Small({x=0,y,w=W,children,color='#ffffff83',size=9,style}:{x?:number;y:number;w?:number;children:React.ReactNode;color?:string;size?:number;style?:Style}){return <Box x={x} y={y} w={w} style={{textAlign:'center',fontSize:size,letterSpacing:2,fontFamily:'system-ui,sans-serif',color,whiteSpace:'nowrap',...style}}>{children}</Box>}
+export function Foot({children,alpha=1}:{children:React.ReactNode;alpha?:number}){return <Small x={38} y={552} w={1120} size={11} color="#a3a8af" style={{fontFamily:'system-ui,Mi',letterSpacing:.25,textAlign:'left',opacity:alpha}}>{children}</Small>}
+export function Ornament({x=558,y=33}:{x?:number;y?:number}){return <svg width="84" height="10" viewBox="0 0 84 10" aria-hidden="true" style={{position:'absolute',left:x,top:y-4}}><path d="M1 5H32 M52 5H83 M33 5l5-2.4 4 2.4-4 2.4z M42 5l4-2.4 5 2.4-5 2.4z M40 5l2-3.6 2 3.6-2 3.6z" fill="none" stroke="#dddedc90" strokeWidth=".7"/></svg>}
+export function Title({cn,en,t,foot,y=49,ornament=true}:{cn:string;en?:string;t:number;foot?:string;y?:number;ornament?:boolean}){const p=ease(t,-.033,.23);return <><div style={{opacity:p}}>{ornament&&<Ornament y={y-16}/>}<Text y={y+(1-p)*4} size={30} style={{letterSpacing:3.2}}>{cn}</Text>{en&&<Small y={y+44} size={13} color="#c5c9cf">{en}</Small>}</div>{foot&&<Foot alpha={p*.75}>{foot}</Foot>}</>}
+export function Asset({id,x,y,w,h,style,contain=false,moving=false,t=0,position,alt=''}:{id:string;x:number;y:number;w:number;h:number;style?:Style;contain?:boolean;moving?:boolean;t?:number;position?:string;alt?:string}){const src=files[id as keyof typeof files];if(!src)throw Error('missing static asset: '+id);const p=moving?linear(t,0,8):0;return <Box x={x} y={y} w={w} h={h} style={{overflow:'hidden',...style}}><Img alt={alt} src={src} style={{display:'block',width:'100%',height:'100%',objectFit:contain?'contain':'cover',objectPosition:position??pos[id]??'center',transform:p?`scale(${1+.055*p}) translate(${p*.9}%,${p*-.65}%)`:undefined}}/></Box>}
+export function Background({id,t,visibility=.58,blur=7,animate=false,tone='cool'}:{id:string;t:number;visibility?:number;blur?:number;animate?:boolean;tone?:'cool'|'warm'|'neutral'}){return <AbsoluteFill style={{backgroundColor:tone==='warm'?'#100e0a':'#0a0d10',overflow:'hidden'}}><Asset id={id} x={-20} y={-14} w={1240} h={703} moving={animate} t={t} style={{filter:`blur(${blur}px) saturate(${tone==='warm'?.86:.74})`,opacity:visibility,transform:`scale(${1+Math.max(0,Math.min(t,16))*.0022})`}}/><AbsoluteFill style={{background:'radial-gradient(ellipse at 50% 35%,transparent 17%,#0004 66%,#000d 100%),linear-gradient(180deg,#0006 0%,transparent 22%,transparent 56%,#030303cc 87%,#040404f4 100%)'}}/></AbsoluteFill>}
+export function Panel({x,y,w,h,t,border='#bfa66a91',children,focus=1,delay=0}:{x:number;y:number;w:number;h:number;t:number;border?:string;children:React.ReactNode;focus?:number;delay?:number}){const a=ease(t,delay,delay+.43);return <Box x={x} y={y+(1-a)*16} w={w} h={h} style={{opacity:a*(.26+.74*focus),border:`2px solid ${border}`,background:'linear-gradient(155deg,#0b1016ed,#040505f2)',boxShadow:`0 0 20px ${border}35,inset 0 0 8px #ffffff13`,borderRadius:12,boxSizing:'border-box',overflow:'hidden',filter:`blur(${(1-focus)*1.9}px)`}}>{children}</Box>}
+// Opt-in whole-label deblur/fade for source-verified cues; all other pills still wipe.
+export type PillFade={alpha:number;blur?:number};
+export function Pill({x,y,w,label,t,color=gold,fade}:{x:number;y:number;w:number;label:string;t:number;color?:string;fade?:PillFade}){
+ const appearance={background:color,borderRadius:4,textAlign:'center' as const,fontFamily:'system-ui',color:'#12100b',padding:'5px 0',fontSize:15,fontWeight:800};
+ if(fade)return <Box x={x} y={y} w={w} style={{opacity:fade.alpha,filter:fade.blur?`blur(${fade.blur}px)`:undefined,...appearance}}>{label}</Box>;
+ const p=ease(t,0,.29);return <Box x={x} y={y} w={w} style={{opacity:p,clipPath:`inset(0 ${100*(1-p)}% 0 0)`,...appearance}}>{label}</Box>;
+}
+export function Reveal({t,at=0,children,travel=16}:{t:number;at?:number;children:React.ReactNode;travel?:number}){const p=ease(t,at,at+.38);return <AbsoluteFill style={{opacity:p,transform:`translateY(${(1-p)*travel}px)`,pointerEvents:'none'}}>{children}</AbsoluteFill>}
+export const gl=(color:string)=>color===gold?'linear-gradient(180deg,#ffeab0,#ba832d)':color===red?'linear-gradient(180deg,#ffb4a7 0%,#f65e4a 32%,#bb231a)':color==='#8b574d'?'linear-gradient(180deg,#7c4c44,#422624)':'linear-gradient(180deg,#a3c5f8,#426caf)';
+export function Gauge({x,y,w,h,p,color=blue}:{x:number;y:number;w:number;h:number;p:number;color?:string}){return <Box x={x} y={y} w={w*p} h={h} style={{background:color===gold?'linear-gradient(90deg,#aa7128,#ffde8e)':color===red?'linear-gradient(90deg,#b72b27,#fa6656)':'linear-gradient(90deg,#415d96,#a8caf9)',borderTop:'1px solid #fff6',boxShadow:`0 0 10px ${color}39`,borderRadius:2}}/>}
+export type Datum={label:string;value?:string;h:number;at:number;color?:string};
+export function Columns({t,rows,x=190,w=820,base=472,barWidth=135}:{t:number;rows:Datum[];x?:number;w?:number;base?:number;barWidth?:number}){const s=w/rows.length;return <><Box x={x-22} y={base} w={w+44} h={1} style={{background:'#ffffff46'}}/>{rows.map((r,i)=>{const p=ease(t,r.at,r.at+.8), color=r.color??blue;const cx=x+s*(i+.5);return <React.Fragment key={r.label}><Box x={cx-barWidth/2} y={base-r.h*p} w={barWidth} h={r.h*p} style={{opacity:p,background:gl(color),borderTop:'2px solid #fff5',boxShadow:`0 0 20px ${color}38`}}/><Text x={cx-s/2} y={base-r.h*p-37} w={s} size={29} alpha={p} color={color}>{r.value}</Text><Small x={cx-s/2} y={base+12} w={s} color={color===gold?gold:'#e0e4eb'} size={13}>{r.label}</Small></React.Fragment>})}</>}
+export function Article({title,value,picture,x,y,w,h,t,focus=1,delay=0,accent=gold,detail='',mini=false}:{title:string;value:string;picture:string;x:number;y:number;w:number;h:number;t:number;focus?:number;delay?:number;accent?:string;detail?:string;mini?:boolean}){return <Panel x={x} y={y} w={w} h={h} t={t} delay={delay} focus={focus} border={accent===gold?'#edd18a8c':'#82abe882'}><Asset id={picture} x={16} y={15} w={w-34} h={h*.40} contain={mini} style={{borderRadius:5,background:'#101317'}}/><Text x={8} y={h*.48} w={w-20} size={24}>{title}</Text>{value&&<Text x={8} y={h*.63} w={w-20} size={value.length>8?36:w>420?45:33} color={accent}>{value}</Text>}{detail&&<Small x={5} y={h*.83} w={w-12} size={13} style={{letterSpacing:.55}}>{detail}</Small>}</Panel>}
+export function ExampleTag(){return <Small x={1062} y={37} w={42} size={10} style={{border:'1px solid #9fa6ad53',borderRadius:4,color:'#bdc0c4',letterSpacing:0,padding:'2px 0'}}>示意</Small>}

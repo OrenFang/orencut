@@ -1,0 +1,1109 @@
+{
+  "fps": 30,
+  "totalFrames": 7783,
+  "chapters": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 28,
+      "stage": "early",
+      "label": "史上最大 IPO",
+      "bg": "listing"
+    },
+    {
+      "id": "ipo",
+      "start": 28,
+      "end": 148,
+      "stage": "early",
+      "label": "史上最大 IPO／终于上市了",
+      "bg": "market"
+    },
+    {
+      "id": "ranking",
+      "start": 148,
+      "end": 259,
+      "stage": "early",
+      "label": "史上最大 IPO｜融资规模",
+      "bg": "market"
+    },
+    {
+      "id": "filing",
+      "start": 259,
+      "end": 361,
+      "stage": "early",
+      "label": "招股书｜发行文件",
+      "bg": "listing"
+    },
+    {
+      "id": "profit",
+      "start": 361,
+      "end": 570,
+      "stage": "early",
+      "label": "Anthropic · 今年前九个月",
+      "bg": "cash"
+    },
+    {
+      "id": "value",
+      "start": 570,
+      "end": 682,
+      "stage": "early",
+      "label": "市场给的估值",
+      "bg": "market"
+    },
+    {
+      "id": "paradox",
+      "start": 682,
+      "end": 787,
+      "stage": "early",
+      "label": "它亏这么多／恰恰因为它太值钱了",
+      "bg": "tower"
+    },
+    {
+      "id": "teardown",
+      "start": 787,
+      "end": 864,
+      "stage": "early",
+      "label": "把这本账本 · 拆开看看",
+      "bg": "cash"
+    },
+    {
+      "id": "chapters",
+      "start": 864,
+      "end": 952,
+      "stage": "early",
+      "label": "三章议题",
+      "bg": "cash"
+    },
+    {
+      "id": "demo",
+      "start": 952,
+      "end": 1105,
+      "stage": "early",
+      "label": "Demo Skill · 全自动剪辑输出",
+      "bg": "laptop"
+    },
+    {
+      "id": "part1",
+      "start": 1105,
+      "end": 1173,
+      "stage": "early",
+      "label": "01 · 钱从哪来",
+      "bg": "terminal"
+    },
+    {
+      "id": "revenue",
+      "start": 1173,
+      "end": 1538,
+      "stage": "early",
+      "label": "Anthropic 收入",
+      "bg": "reader"
+    },
+    {
+      "id": "runrate",
+      "start": 1538,
+      "end": 1691,
+      "stage": "early",
+      "label": "年化收入 · 10 月底",
+      "bg": "market"
+    },
+    {
+      "id": "compare",
+      "start": 1691,
+      "end": 1800,
+      "stage": "early",
+      "label": "只差一步｜年化收入和 IPO 募资",
+      "bg": "analyst"
+    },
+    {
+      "id": "business",
+      "start": 1800,
+      "end": 1880,
+      "stage": "early",
+      "label": "谁在付这些钱？",
+      "bg": "vscode"
+    },
+    {
+      "id": "product",
+      "start": 1880,
+      "end": 2020,
+      "stage": "early",
+      "label": "招股书重点讲的产品 · Claude Code",
+      "bg": "terminal"
+    },
+    {
+      "id": "daily",
+      "start": 2020,
+      "end": 2194,
+      "stage": "early",
+      "label": "Demo 的日常",
+      "bg": "laptop"
+    },
+    {
+      "id": "retention",
+      "start": 2194,
+      "end": 2500,
+      "stage": "early",
+      "label": "净收入留存率 ≈ 900%",
+      "bg": "vscode"
+    },
+    {
+      "id": "part2",
+      "start": 2500,
+      "end": 2567,
+      "stage": "middle",
+      "label": "02 · 一千多亿 · 亏在哪",
+      "bg": "fan"
+    },
+    {
+      "id": "lossA",
+      "start": 2567,
+      "end": 2761,
+      "stage": "middle",
+      "label": "一千零四十亿 · 拆开看",
+      "bg": "fan"
+    },
+    {
+      "id": "margin",
+      "start": 2761,
+      "end": 3027,
+      "stage": "middle",
+      "label": "营业利润率 · 第三季度",
+      "bg": "terminal"
+    },
+    {
+      "id": "lossB",
+      "start": 3027,
+      "end": 3168,
+      "stage": "middle",
+      "label": "一千零四十亿 · 账面与经营",
+      "bg": "fan"
+    },
+    {
+      "id": "funding",
+      "start": 3168,
+      "end": 3297,
+      "stage": "middle",
+      "label": "先拿到钱 · 打欠条",
+      "bg": "cash"
+    },
+    {
+      "id": "safe",
+      "start": 3297,
+      "end": 3443,
+      "stage": "middle",
+      "label": "SAFE · 未来股权简单协议",
+      "bg": "cash"
+    },
+    {
+      "id": "chain",
+      "start": 3443,
+      "end": 3611,
+      "stage": "middle",
+      "label": "公司越值钱 · 账上亏得越多",
+      "bg": "market"
+    },
+    {
+      "id": "coffee",
+      "start": 3611,
+      "end": 3805,
+      "stage": "middle",
+      "label": "打个比方 · 开店借钱",
+      "bg": "coffee"
+    },
+    {
+      "id": "quarters",
+      "start": 3805,
+      "end": 3934,
+      "stage": "middle",
+      "label": "每个季度的净亏损",
+      "bg": "market"
+    },
+    {
+      "id": "quoteA",
+      "start": 3934,
+      "end": 4064,
+      "stage": "middle",
+      "label": "这些工具转换为股权之前",
+      "bg": "analyst"
+    },
+    {
+      "id": "lossC",
+      "start": 4064,
+      "end": 4220,
+      "stage": "middle",
+      "label": "一千零四十亿 · 拆开看",
+      "bg": "fan"
+    },
+    {
+      "id": "part3a",
+      "start": 4220,
+      "end": 4334,
+      "stage": "middle",
+      "label": "真正的风险 · 在哪",
+      "bg": "hall"
+    },
+    {
+      "id": "part3b",
+      "start": 4334,
+      "end": 4430,
+      "stage": "middle",
+      "label": "03 · 真正的风险",
+      "bg": "server"
+    },
+    {
+      "id": "claim",
+      "start": 4430,
+      "end": 4546,
+      "stage": "middle",
+      "label": "「负债 9000 亿」",
+      "bg": "server"
+    },
+    {
+      "id": "commitment",
+      "start": 4546,
+      "end": 4758,
+      "stage": "middle",
+      "label": "采购和租赁承诺",
+      "bg": "campus"
+    },
+    {
+      "id": "contracts",
+      "start": 4758,
+      "end": 4912,
+      "stage": "middle",
+      "label": "签好的长期合同",
+      "bg": "campus"
+    },
+    {
+      "id": "when",
+      "start": 4912,
+      "end": 5028,
+      "stage": "middle",
+      "label": "九千亿 · 什么时候付",
+      "bg": "campus"
+    },
+    {
+      "id": "compute",
+      "start": 5028,
+      "end": 5368,
+      "stage": "middle",
+      "label": "2026 年第三季度｜收入与算力",
+      "bg": "server"
+    },
+    {
+      "id": "moat",
+      "start": 5368,
+      "end": 5541,
+      "stage": "middle",
+      "label": "同一批合同 · 两种结局",
+      "bg": "analyst"
+    },
+    {
+      "id": "quoteB",
+      "start": 5541,
+      "end": 5700,
+      "stage": "middle",
+      "label": "收入增速提醒",
+      "bg": "analyst"
+    },
+    {
+      "id": "matrix",
+      "start": 5700,
+      "end": 5954,
+      "stage": "middle",
+      "label": "1,048 亿 vs 9,009 亿",
+      "bg": "cash"
+    },
+    {
+      "id": "part4",
+      "start": 5954,
+      "end": 6022,
+      "stage": "late",
+      "label": "04 · 谁说了算",
+      "bg": "panel"
+    },
+    {
+      "id": "ownership",
+      "start": 6022,
+      "end": 6268,
+      "stage": "late",
+      "label": "持股不等于说了算",
+      "bg": "panel"
+    },
+    {
+      "id": "control",
+      "start": 6268,
+      "end": 6992,
+      "stage": "late",
+      "label": "真正说了算的",
+      "bg": "panel"
+    },
+    {
+      "id": "summary",
+      "start": 6992,
+      "end": 7381,
+      "stage": "late",
+      "label": "史上最大 IPO + 千亿亏损 · 其实不矛盾",
+      "bg": "tower"
+    },
+    {
+      "id": "watch",
+      "start": 7381,
+      "end": 7556,
+      "stage": "late",
+      "label": "每个季度财报 · 看两个数",
+      "bg": "analyst"
+    },
+    {
+      "id": "outro",
+      "start": 7556,
+      "end": 7783,
+      "stage": "late",
+      "label": "Anthropic 值一万亿吗？",
+      "bg": "listing"
+    }
+  ],
+  "brand": [
+    {
+      "start": 0,
+      "end": 7783,
+      "mode": "none"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 15,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 15,
+      "end": 90,
+      "text": "",
+      "firstOpacity": 0.34,
+      "fadeFrames": 2
+    },
+    {
+      "start": 90,
+      "end": 149,
+      "text": ""
+    },
+    {
+      "start": 149,
+      "end": 210,
+      "text": "",
+      "firstOpacity": 0.63,
+      "fadeFrames": 1
+    },
+    {
+      "start": 210,
+      "end": 259,
+      "text": ""
+    },
+    {
+      "start": 259,
+      "end": 306,
+      "text": "",
+      "firstOpacity": 0.47,
+      "fadeFrames": 2,
+      "fadeEase": "out-cubic"
+    },
+    {
+      "start": 306,
+      "end": 363,
+      "text": ""
+    },
+    {
+      "start": 363,
+      "end": 449,
+      "text": ""
+    },
+    {
+      "start": 449,
+      "end": 516,
+      "text": ""
+    },
+    {
+      "start": 516,
+      "end": 571,
+      "text": ""
+    },
+    {
+      "start": 571,
+      "end": 638,
+      "text": ""
+    },
+    {
+      "start": 638,
+      "end": 684,
+      "text": ""
+    },
+    {
+      "start": 684,
+      "end": 737,
+      "text": ""
+    },
+    {
+      "start": 737,
+      "end": 789,
+      "text": ""
+    },
+    {
+      "start": 789,
+      "end": 847,
+      "text": ""
+    },
+    {
+      "start": 847,
+      "end": 943,
+      "text": ""
+    },
+    {
+      "start": 943,
+      "end": 953,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 953,
+      "end": 977,
+      "text": "",
+      "firstOpacity": 0.39,
+      "fadeFrames": 2
+    },
+    {
+      "start": 977,
+      "end": 1040,
+      "text": ""
+    },
+    {
+      "start": 1040,
+      "end": 1107,
+      "text": ""
+    },
+    {
+      "start": 1107,
+      "end": 1174,
+      "text": ""
+    },
+    {
+      "start": 1174,
+      "end": 1204,
+      "text": ""
+    },
+    {
+      "start": 1204,
+      "end": 1254,
+      "text": ""
+    },
+    {
+      "start": 1254,
+      "end": 1306,
+      "text": ""
+    },
+    {
+      "start": 1306,
+      "end": 1379,
+      "text": ""
+    },
+    {
+      "start": 1379,
+      "end": 1439,
+      "text": ""
+    },
+    {
+      "start": 1439,
+      "end": 1541,
+      "text": ""
+    },
+    {
+      "start": 1541,
+      "end": 1584,
+      "text": ""
+    },
+    {
+      "start": 1584,
+      "end": 1634,
+      "text": ""
+    },
+    {
+      "start": 1634,
+      "end": 1693,
+      "text": ""
+    },
+    {
+      "start": 1693,
+      "end": 1800,
+      "text": ""
+    },
+    {
+      "start": 1800,
+      "end": 1801,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 1801,
+      "end": 1841,
+      "text": "",
+      "firstOpacity": 0.39,
+      "fadeFrames": 2
+    },
+    {
+      "start": 1841,
+      "end": 1883,
+      "text": ""
+    },
+    {
+      "start": 1883,
+      "end": 1932,
+      "text": ""
+    },
+    {
+      "start": 1932,
+      "end": 1959,
+      "text": ""
+    },
+    {
+      "start": 1959,
+      "end": 2022,
+      "text": ""
+    },
+    {
+      "start": 2022,
+      "end": 2063,
+      "text": ""
+    },
+    {
+      "start": 2063,
+      "end": 2113,
+      "text": ""
+    },
+    {
+      "start": 2113,
+      "end": 2197,
+      "text": ""
+    },
+    {
+      "start": 2197,
+      "end": 2235,
+      "text": ""
+    },
+    {
+      "start": 2235,
+      "end": 2335,
+      "text": ""
+    },
+    {
+      "start": 2335,
+      "end": 2389,
+      "text": ""
+    },
+    {
+      "start": 2389,
+      "end": 2439,
+      "text": ""
+    },
+    {
+      "start": 2439,
+      "end": 2500,
+      "text": ""
+    },
+    {
+      "start": 2500,
+      "end": 2501,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 2501,
+      "end": 2557,
+      "text": "",
+      "firstOpacity": 0.3,
+      "fadeFrames": 2
+    },
+    {
+      "start": 2557,
+      "end": 2599,
+      "text": ""
+    },
+    {
+      "start": 2599,
+      "end": 2686,
+      "text": ""
+    },
+    {
+      "start": 2686,
+      "end": 2763,
+      "text": ""
+    },
+    {
+      "start": 2763,
+      "end": 2837,
+      "text": ""
+    },
+    {
+      "start": 2837,
+      "end": 2922,
+      "text": ""
+    },
+    {
+      "start": 2922,
+      "end": 2979,
+      "text": ""
+    },
+    {
+      "start": 2979,
+      "end": 3030,
+      "text": ""
+    },
+    {
+      "start": 3030,
+      "end": 3088,
+      "text": ""
+    },
+    {
+      "start": 3088,
+      "end": 3170,
+      "text": ""
+    },
+    {
+      "start": 3170,
+      "end": 3230,
+      "text": ""
+    },
+    {
+      "start": 3230,
+      "end": 3299,
+      "text": ""
+    },
+    {
+      "start": 3299,
+      "end": 3381,
+      "text": ""
+    },
+    {
+      "start": 3381,
+      "end": 3445,
+      "text": ""
+    },
+    {
+      "start": 3445,
+      "end": 3470,
+      "text": ""
+    },
+    {
+      "start": 3470,
+      "end": 3545,
+      "text": ""
+    },
+    {
+      "start": 3545,
+      "end": 3613,
+      "text": ""
+    },
+    {
+      "start": 3613,
+      "end": 3669,
+      "text": ""
+    },
+    {
+      "start": 3669,
+      "end": 3735,
+      "text": ""
+    },
+    {
+      "start": 3735,
+      "end": 3807,
+      "text": ""
+    },
+    {
+      "start": 3807,
+      "end": 3876,
+      "text": ""
+    },
+    {
+      "start": 3876,
+      "end": 3935,
+      "text": "",
+      "firstOpacity": 0.28,
+      "fadeFrames": 2
+    },
+    {
+      "start": 3935,
+      "end": 4012,
+      "text": "",
+      "firstOpacity": 0.39,
+      "fadeFrames": 2
+    },
+    {
+      "start": 4012,
+      "end": 4065,
+      "text": ""
+    },
+    {
+      "start": 4065,
+      "end": 4105,
+      "text": "",
+      "firstOpacity": 0.39,
+      "fadeFrames": 2
+    },
+    {
+      "start": 4105,
+      "end": 4153,
+      "text": ""
+    },
+    {
+      "start": 4153,
+      "end": 4220,
+      "text": ""
+    },
+    {
+      "start": 4220,
+      "end": 4302,
+      "text": "",
+      "firstOpacity": 0.23,
+      "fadeFrames": 2
+    },
+    {
+      "start": 4302,
+      "end": 4334,
+      "text": ""
+    },
+    {
+      "start": 4334,
+      "end": 4413,
+      "text": ""
+    },
+    {
+      "start": 4413,
+      "end": 4431,
+      "text": ""
+    },
+    {
+      "start": 4431,
+      "end": 4465,
+      "text": "",
+      "firstOpacity": 0.45,
+      "fadeFrames": 2
+    },
+    {
+      "start": 4465,
+      "end": 4511,
+      "text": ""
+    },
+    {
+      "start": 4511,
+      "end": 4548,
+      "text": ""
+    },
+    {
+      "start": 4548,
+      "end": 4635,
+      "text": ""
+    },
+    {
+      "start": 4635,
+      "end": 4695,
+      "text": ""
+    },
+    {
+      "start": 4695,
+      "end": 4760,
+      "text": ""
+    },
+    {
+      "start": 4760,
+      "end": 4852,
+      "text": ""
+    },
+    {
+      "start": 4852,
+      "end": 4913,
+      "text": ""
+    },
+    {
+      "start": 4913,
+      "end": 4952,
+      "text": ""
+    },
+    {
+      "start": 4952,
+      "end": 5028,
+      "text": ""
+    },
+    {
+      "start": 5028,
+      "end": 5029,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 5029,
+      "end": 5084,
+      "text": "",
+      "firstOpacity": 0.38,
+      "fadeFrames": 2
+    },
+    {
+      "start": 5084,
+      "end": 5188,
+      "text": ""
+    },
+    {
+      "start": 5188,
+      "end": 5257,
+      "text": ""
+    },
+    {
+      "start": 5257,
+      "end": 5312,
+      "text": ""
+    },
+    {
+      "start": 5312,
+      "end": 5374,
+      "text": ""
+    },
+    {
+      "start": 5374,
+      "end": 5462,
+      "text": ""
+    },
+    {
+      "start": 5462,
+      "end": 5542,
+      "text": ""
+    },
+    {
+      "start": 5542,
+      "end": 5580,
+      "text": ""
+    },
+    {
+      "start": 5580,
+      "end": 5618,
+      "text": ""
+    },
+    {
+      "start": 5618,
+      "end": 5702,
+      "text": ""
+    },
+    {
+      "start": 5702,
+      "end": 5754,
+      "text": ""
+    },
+    {
+      "start": 5754,
+      "end": 5822,
+      "text": ""
+    },
+    {
+      "start": 5822,
+      "end": 5908,
+      "text": ""
+    },
+    {
+      "start": 5908,
+      "end": 5955,
+      "text": ""
+    },
+    {
+      "start": 5955,
+      "end": 5983,
+      "text": ""
+    },
+    {
+      "start": 5983,
+      "end": 6044,
+      "text": ""
+    },
+    {
+      "start": 6044,
+      "end": 6151,
+      "text": ""
+    },
+    {
+      "start": 6151,
+      "end": 6191,
+      "text": ""
+    },
+    {
+      "start": 6191,
+      "end": 6270,
+      "text": ""
+    },
+    {
+      "start": 6270,
+      "end": 6328,
+      "text": ""
+    },
+    {
+      "start": 6328,
+      "end": 6366,
+      "text": ""
+    },
+    {
+      "start": 6366,
+      "end": 6413,
+      "text": ""
+    },
+    {
+      "start": 6413,
+      "end": 6518,
+      "text": ""
+    },
+    {
+      "start": 6518,
+      "end": 6604,
+      "text": ""
+    },
+    {
+      "start": 6604,
+      "end": 6696,
+      "text": ""
+    },
+    {
+      "start": 6696,
+      "end": 6758,
+      "text": ""
+    },
+    {
+      "start": 6758,
+      "end": 6833,
+      "text": ""
+    },
+    {
+      "start": 6833,
+      "end": 6936,
+      "text": ""
+    },
+    {
+      "start": 6936,
+      "end": 6992,
+      "text": ""
+    },
+    {
+      "start": 6992,
+      "end": 6993,
+      "text": null,
+      "visible": false
+    },
+    {
+      "start": 6993,
+      "end": 7015,
+      "text": "",
+      "firstOpacity": 0.37,
+      "fadeFrames": 2
+    },
+    {
+      "start": 7015,
+      "end": 7105,
+      "text": ""
+    },
+    {
+      "start": 7105,
+      "end": 7140,
+      "text": ""
+    },
+    {
+      "start": 7140,
+      "end": 7169,
+      "text": ""
+    },
+    {
+      "start": 7169,
+      "end": 7256,
+      "text": ""
+    },
+    {
+      "start": 7256,
+      "end": 7280,
+      "text": ""
+    },
+    {
+      "start": 7280,
+      "end": 7383,
+      "text": ""
+    },
+    {
+      "start": 7383,
+      "end": 7461,
+      "text": ""
+    },
+    {
+      "start": 7461,
+      "end": 7557,
+      "text": ""
+    },
+    {
+      "start": 7557,
+      "end": 7614,
+      "text": "",
+      "firstOpacity": 0.42,
+      "fadeFrames": 2
+    },
+    {
+      "start": 7614,
+      "end": 7650,
+      "text": ""
+    },
+    {
+      "start": 7650,
+      "end": 7694,
+      "text": ""
+    },
+    {
+      "start": 7694,
+      "end": 7783,
+      "text": null,
+      "visible": false
+    }
+  ],
+  "whitePageWindows": [],
+  "events": [
+    {
+      "id": "opening-black-source",
+      "frame": 0
+    },
+    {
+      "id": "independent-prospectus-card",
+      "start": 259,
+      "end": 361
+    },
+    {
+      "id": "chapter-2-art-overlap",
+      "start": 2567,
+      "end": 2572
+    },
+    {
+      "id": "q2-red-column-start",
+      "frame": 3887
+    },
+    {
+      "id": "old-seat-boundary-not-a-scene-cut",
+      "frame": 3891
+    },
+    {
+      "id": "q2-settle-663",
+      "frame": 3893
+    },
+    {
+      "id": "q2-annotation-in",
+      "frame": 3905
+    },
+    {
+      "id": "04-art-overlap",
+      "start": 6022,
+      "end": 6028
+    },
+    {
+      "id": "known-caption-tail",
+      "start": 7694,
+      "end": 7783
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[data-motion-scene="06"] .ft1006-root { width:1080px; height:1920px; position:relative; overflow:hidden; font-family:system-ui,system-ui,sans-serif; -webkit-font-smoothing:antialiased; color:#f8f5ed; }
+[data-motion-scene="06"] .ft1006-root *, [data-motion-scene="06"] .ft1006-root *::after, [data-motion-scene="06"] .ft1006-root *::before { box-sizing:border-box; }
+[data-motion-scene="06"] .ft1006-caption { position:absolute; z-index:20; left:38px; width:1004px; height:74px; top:1337px; display:flex; align-items:center; justify-content:center; text-align:center; font-weight:900; white-space:nowrap; line-height:1.11; color:#fffdf8; letter-spacing:-.35px; text-shadow:0 2px 4px #000, 0 1px 11px #15120dce; -webkit-text-stroke:.65px #191512; }
+[data-motion-scene="06"] .ft1006-caption[data-white='1'] { -webkit-text-stroke:1px #202020; text-shadow:0 2px 8px #000,0 2px 16px #000a; }
