@@ -1,13 +1,15 @@
 # OrenCut
 
-**33 个可编辑的静音 Remotion 动效，也是一个可在 Codex 里调用的 Agent Skill。** 先从预览挑动作，再把画面、文字和节奏换成自己项目的内容。横屏与竖屏示例均带 TypeScript 源码，保留原组件的字体、素材和动效时序，预览可以直接静音播放。
+**33 个可编辑的 Remotion 动效，支持在 Codex 中通过 `$orencut` 调用。**
 
-[在线浏览 33 个动效](https://orenfang.github.io/orencut/)
+包含缩略图墙、章节标题、数字图表、地图定位和列表揭示。每个组件都有静音预览和对应的 TypeScript 源码，可把原有动效用到自己的横屏或竖屏视频里。
 
-![OrenCut 动效演示，展示缩略图墙、双卡翻面、柱状图和标签散开](docs/orencut-preview.gif)
+[打开在线组件库](https://orenfang.github.io/orencut/) · [安装到 Codex](#在-codex-中使用) · [下载源码](https://github.com/OrenFang/orencut/archive/refs/heads/main.zip)
+
+![OrenCut 动效演示](docs/orencut-preview.gif)
 
 <details>
-<summary>查看六个动效的画面</summary>
+<summary>查看六张组件截图</summary>
 
 ![OrenCut 组件截图](docs/orencut-gallery.jpg)
 
@@ -23,13 +25,11 @@
 | 素材缩窗、文件聚焦与空间定位 | 6 | [19 · 地图固定，楼层与 L3 金签逐层定位](previews/19.mp4) |
 | 列表、引文与投票逐项揭示 | 5 | [29 · 竖屏流程卡依次打勾，红章落下](previews/29.mp4) |
 
-在 GitHub 选择 **Code → Download ZIP**，解压后双击 `index.html`。本地预览无需安装依赖。可按分类筛选、搜索并点击卡片播放，卡片内也有对应的源码定位。
+在线和离线预览都支持分类、搜索和源码定位。离线浏览时，下载源码、解压并双击 `index.html`。
 
 ## 在 Codex 中使用
 
 下载或克隆仓库，将整个文件夹命名为 `orencut`。放到项目的 `.agents/skills/orencut/`，或放到 `~/.agents/skills/orencut/` 供所有项目使用。技能入口是 [SKILL.md](SKILL.md)。
-
-在 Codex 中输入一条任务即可选用组件。
 
 > 用 $orencut 的 27 号滚数动效做一个竖屏片段。数字滚到 256，保留蓝白渐变，换成我的标题，输出静音 MP4。
 
