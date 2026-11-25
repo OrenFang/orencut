@@ -6,7 +6,7 @@
 
 [打开在线组件库](https://orenfang.github.io/orencut/) · [安装到 Codex](#在-codex-中使用) · [下载源码](https://github.com/OrenFang/orencut/archive/refs/heads/main.zip)
 
-![OrenCut 动效演示](docs/orencut-preview.gif)
+![OrenCut 动效演示](docs/orencut-showcase.gif)
 
 <details>
 <summary>查看六张组件截图</summary>
