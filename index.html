@@ -288,7 +288,7 @@
     <header class="intro">
       <div>
         <h1>OrenCut 动效组件库</h1>
-        <p>点击画面，播放静音动效并查看可编辑源码。</p>
+        <p>点击画面，播放静音动效并查看可编辑源码。 <a class="plain-link" href="https://orenfang.github.io/orencut/studio.html">打开 Studio</a></p>
       </div>
       <div class="search">
         <input id="search" type="search" aria-label="搜索动效" placeholder="搜索动效、期数或源码" autocomplete="off">
@@ -319,6 +319,7 @@
         <p id="media-error" class="media-error" hidden>浏览器无法播放这个片段。 <a id="fallback" class="plain-link" target="_blank" rel="noopener">打开 MP4 文件</a></p>
       </div>
       <aside class="modal-detail" aria-label="片段详情">
+        <p><a id="open-studio" class="plain-link" href="https://orenfang.github.io/orencut/studio.html">在 Studio 中使用</a></p>
         <p id="timing" class="timing"></p>
         <p id="note" class="note"></p>
         <div id="source-block">
@@ -438,6 +439,7 @@
       function open(index, target) {
         const item = visible[index];
         if (!item) return;
+        byId("open-studio").href = `https://orenfang.github.io/orencut/studio.html?id=${item.id}`;
         active = index;
         if (target) activationTarget = target;
         byId("player-title").textContent = item.title;

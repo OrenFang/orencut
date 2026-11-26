@@ -1,10 +1,8 @@
 # OrenCut
 
-**33 个可编辑的 Remotion 动效，支持在 Codex 中通过 `$orencut` 调用。**
+**OrenCut Studio 有 33 个静音视频动效。** 按编号挑选组件，直接在浏览器预览、改标题或导出 MP4。
 
-包含缩略图墙、章节标题、数字图表、地图定位和列表揭示。每个组件都有静音预览和对应的 TypeScript 源码，可把原有动效用到自己的横屏或竖屏视频里。
-
-[打开在线组件库](https://orenfang.github.io/orencut/) · [安装到 Codex](#在-codex-中使用) · [下载源码](https://github.com/OrenFang/orencut/archive/refs/heads/main.zip)
+[打开 Studio](https://orenfang.github.io/orencut/studio.html) · [下载 27 号试用](https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-27.zip) · [下载接口](STUDIO-API.md) · [安装到 Codex](#在-codex-中使用)
 
 ![OrenCut 动效演示](docs/orencut-showcase.gif)
 
@@ -25,7 +23,7 @@
 | 素材缩窗、文件聚焦与空间定位 | 6 | [19 · 地图固定，楼层与 L3 金签逐层定位](previews/19.mp4) |
 | 列表、引文与投票逐项揭示 | 5 | [29 · 竖屏流程卡依次打勾，红章落下](previews/29.mp4) |
 
-在线和离线预览都支持分类、搜索和源码定位。离线浏览时，下载源码、解压并双击 `index.html`。
+在 Studio 选中组件后，可下载单个 ZIP。解压后用新版桌面 Chrome 或 Edge 打开 `index.html`，组件画面和导出工具已随包提供。
 
 ## 在 Codex 中使用
 
@@ -33,47 +31,17 @@
 
 > 用 $orencut 的 27 号滚数动效做一个竖屏片段。数字滚到 256，保留蓝白渐变，换成我的标题，输出静音 MP4。
 
-## 编辑与渲染
+## 在 Studio 使用
 
-在线组件库与本地 `index.html` 都可以直接播放预览。编辑和重新渲染需要原场景素材。
+1. 搜索组件编号或按分类浏览，播放原始动效。
+2. 填写自己的标题。一般组件可选择标题位置，27 号可改滚数目标、单位和补充说明。
+3. 点 **导出 MP4**。用默认设置会直接保存原始静音 MP4。修改后由浏览器本地编码。
 
-从 GitHub 下载的源码可以通过以下命令导入本地已有的 01 至 10 期可编辑 ZIP。可传入多个目录或 ZIP 路径，需要 Python 3、FFmpeg 和 ffprobe。
+AI 可以读取 [组件目录 JSON](https://orenfang.github.io/orencut/catalog.json)，按 `id` 使用 `studioUrl`、`downloadUrl` 或 `previewUrl`。浏览器自动化方法见 [Studio 下载接口](STUDIO-API.md)。
 
-```sh
-python3 scripts/import-visual-assets.py /本地/可编辑工程目录
-```
+## 开发原场景
 
-导入素材后，在 OrenCut 目录安装依赖并启动 Remotion Studio。
-
-```sh
-npm ci
-npm run studio
-```
-
-从左侧选择 `Motion01` 至 `Motion33`，每个合成按自己的画幅、帧率和时长播放。用下面的命令将 23 号动效渲染为 MP4。
-
-```sh
-npm run render -- Motion23 out/Motion23.mp4
-```
-
-[组件目录](src/catalog.json)记录了每个片段的 `id`、`fps`、`frames`、`portrait` 和场景源码入口。用 [`MotionClip`](src/library.tsx) 按编号嵌入整段动效。
-
-```tsx
-import { Sequence } from 'remotion';
-import { clips, MotionClip } from './src/library';
-
-const clip = clips.find((item) => item.id === '23')!;
-
-export function MyScene() {
-  return (
-    <Sequence durationInFrames={clip.frames}>
-      <MotionClip id={clip.id} />
-    </Sequence>
-  );
-}
-```
-
-父合成使用对应的 `fps` 和画幅，横屏为 1920 × 1080，竖屏为 1080 × 1920。只需要某一层时，按目录定位到对应的 TSX，复用组件或其中的动画逻辑。各场景源码里的 `staticFile()` 标明了原素材路径，可按需替换为自己的素材。
+原场景在 `src/scenes/`。已有完整工程素材的维护者可按 [原素材导入说明](VISUAL-ASSETS.md) 打开原工程。
 
 ## 许可证
 

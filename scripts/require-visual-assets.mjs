@@ -18,6 +18,6 @@ if (!valid) {
   console.error('需要先导入与这组组件匹配的可编辑 ZIP 中的素材。');
   console.error('安装 Python 3、FFmpeg 与 ffprobe，然后运行：');
   console.error('  python3 scripts/import-visual-assets.py /本地/可编辑工程目录');
-  console.error('可传入多个目录或独立 ZIP 路径。成功后重新运行 npm run studio。');
+  console.error('可传入多个目录或独立 ZIP 路径。成功后重新运行 npm run studio:original。');
   process.exitCode = 1;
 }

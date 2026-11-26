@@ -141,7 +141,7 @@ def main():
     lock = ROOT/'visual-assets.lock.json'
     previous = lock.read_bytes() if lock.exists() else None
     output(lock, (json.dumps(record, indent=2, sort_keys=True)+'\n').encode(), previous=previous)
-    print(f'{len(public)} visual files imported. Run npm run studio to open the exact visuals.')
+    print(f'{len(public)} visual files imported. Run npm run studio:original to open the full scene sources.')
 
 
 if __name__ == '__main__':

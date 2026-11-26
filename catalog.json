@@ -1,0 +1,1272 @@
+{
+  "schemaVersion": 1,
+  "name": "OrenCut Studio",
+  "release": "studio-v0.2.0",
+  "components": [
+    {
+      "id": "01",
+      "title": "斜向缩略图墙、标题逐字落下，标题移到左侧让出图表",
+      "group": "缩略图墙与选中卡移动",
+      "keywords": [
+        "斜向墙",
+        "落字",
+        "标题移位与图表",
+        "LANES",
+        "Headline",
+        "Analytics"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 186,
+      "durationSeconds": 6.2,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/01.mp4",
+      "posterPath": "previews/01.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/01.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=01",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-01.zip"
+    },
+    {
+      "id": "02",
+      "title": "双墙切入，右侧计数跟着长满",
+      "group": "缩略图墙与选中卡移动",
+      "keywords": [
+        "作品墙与计数",
+        "TileWall"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 84,
+      "durationSeconds": 2.8,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/02.mp4",
+      "posterPath": "previews/02.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/02.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=02",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-02.zip"
+    },
+    {
+      "id": "03",
+      "title": "画面缩到右下，回到 3×3 卡墙",
+      "group": "缩略图墙与选中卡移动",
+      "keywords": [
+        "卡墙收束",
+        "Closing"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 83,
+      "durationSeconds": 2.7666666666666666,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/03.mp4",
+      "posterPath": "previews/03.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/03.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=03",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-03.zip"
+    },
+    {
+      "id": "04",
+      "title": "倒序快闪后落成宽首卡＋3×3，首卡接入正片",
+      "group": "缩略图墙与选中卡移动",
+      "keywords": [
+        "Flash",
+        "Board",
+        "RankIntro"
+      ],
+      "width": 540,
+      "height": 960,
+      "fps": 30,
+      "frames": 278,
+      "durationSeconds": 9.266666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/04.mp4",
+      "posterPath": "previews/04.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/04.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=04",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-04.zip"
+    },
+    {
+      "id": "05",
+      "title": "黑栏推进、紫色大章节号落下、白页标题揭示",
+      "group": "章节落版与双行大字",
+      "keywords": [
+        "AccountChapter",
+        "续到正文",
+        "AChapter"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 59,
+      "durationSeconds": 1.9666666666666666,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/05.mp4",
+      "posterPath": "previews/05.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/05.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=05",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-05.zip"
+    },
+    {
+      "id": "06",
+      "title": "片尾金字提问，CTA 定格后退光",
+      "group": "章节落版与双行大字",
+      "keywords": [
+        "片尾布局",
+        "全局字幕与叠层",
+        "Late",
+        "VisualScene"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 218,
+      "durationSeconds": 7.266666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/06.mp4",
+      "posterPath": "previews/06.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/06.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=06",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-06.zip"
+    },
+    {
+      "id": "07",
+      "title": "白字先出，金字再出，交给片尾问答",
+      "group": "章节落版与双行大字",
+      "keywords": [
+        "宣言双行字",
+        "Feature"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 90,
+      "durationSeconds": 3.0,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/07.mp4",
+      "posterPath": "previews/07.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/07.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=07",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-07.zip"
+    },
+    {
+      "id": "08",
+      "title": "暗底画板与时间轴大数字快速滚动",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "开场舞台与滚数",
+        "数值表",
+        "Opening",
+        "playValues"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 54,
+      "durationSeconds": 1.8,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/08.mp4",
+      "posterPath": "previews/08.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/08.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=08",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-08.zip"
+    },
+    {
+      "id": "09",
+      "title": "金额滚数与三段轨道依次填满",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "金额轨道",
+        "金额舞台",
+        "金额时钟",
+        "CostTimelineB",
+        "AmountB",
+        "tenMinuteCents"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 212,
+      "durationSeconds": 7.066666666666666,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/09.mp4",
+      "posterPath": "previews/09.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/09.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=09",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-09.zip"
+    },
+    {
+      "id": "10",
+      "title": "账单滚入、左移，右侧接结论",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "账单动效",
+        "场景接续",
+        "Receipt",
+        "Conclusion"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 280,
+      "durationSeconds": 9.333333333333334,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/10.mp4",
+      "posterPath": "previews/10.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/10.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=10",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-10.zip"
+    },
+    {
+      "id": "11",
+      "title": "紫色进度环随右侧数字滚动",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "进度环与数值",
+        "右侧放置",
+        "Ring",
+        "Robots"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 154,
+      "durationSeconds": 5.133333333333334,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/11.mp4",
+      "posterPath": "previews/11.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/11.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=11",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-11.zip"
+    },
+    {
+      "id": "12",
+      "title": "先出黑色基准条，再出紫色对照条和旁注",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "成本对照条",
+        "Cost"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 126,
+      "durationSeconds": 4.2,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/12.mp4",
+      "posterPath": "previews/12.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/12.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=12",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-12.zip"
+    },
+    {
+      "id": "13",
+      "title": "左折线逐段绘制，右侧四条价格依次点亮",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "PriceChart"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 502,
+      "durationSeconds": 16.733333333333334,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/13.mp4",
+      "posterPath": "previews/13.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/13.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=13",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-13.zip"
+    },
+    {
+      "id": "14",
+      "title": "黑金面板内蓝红双横条先后伸长",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "财务双条",
+        "Early"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 209,
+      "durationSeconds": 6.966666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/14.mp4",
+      "posterPath": "previews/14.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/14.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=14",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-14.zip"
+    },
+    {
+      "id": "15",
+      "title": "七柱横排，末柱跳升、滚数并亮金签",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "单柱聚焦",
+        "数值关键帧",
+        "QuarterlyLoss",
+        "quarterlyLossMillions"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 129,
+      "durationSeconds": 4.3,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/15.mp4",
+      "posterPath": "previews/15.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/15.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=15",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-15.zip"
+    },
+    {
+      "id": "16",
+      "title": "蓝金横条榜，榜首单独增长和滚数",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "横条榜",
+        "榜首数值",
+        "survey",
+        "Bars"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 241,
+      "durationSeconds": 8.033333333333333,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/16.mp4",
+      "posterPath": "previews/16.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/16.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=16",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-16.zip"
+    },
+    {
+      "id": "17",
+      "title": "全屏素材缩成左窗，右侧浮层入场，两层一起下移",
+      "group": "素材缩窗、文件聚焦与空间定位",
+      "keywords": [
+        "缩窗与信息卡",
+        "Genie"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 68,
+      "durationSeconds": 2.2666666666666666,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/17.mp4",
+      "posterPath": "previews/17.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/17.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=17",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-17.zip"
+    },
+    {
+      "id": "18",
+      "title": "模糊文件渐清、黄色横框扫出证据",
+      "group": "素材缩窗、文件聚焦与空间定位",
+      "keywords": [
+        "文件聚焦",
+        "Early"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 104,
+      "durationSeconds": 3.466666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/18.mp4",
+      "posterPath": "previews/18.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/18.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=18",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-18.zip"
+    },
+    {
+      "id": "19",
+      "title": "地图固定，楼层与 L3 金签逐层定位",
+      "group": "素材缩窗、文件聚焦与空间定位",
+      "keywords": [
+        "地图视角",
+        "楼层标签",
+        "MapScene",
+        "FloorMarker"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 194,
+      "durationSeconds": 6.466666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/19.mp4",
+      "posterPath": "previews/19.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/19.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=19",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-19.zip"
+    },
+    {
+      "id": "20",
+      "title": "四行受众先列出，单行贴边，示例随焦点换",
+      "group": "列表、引文与投票逐项揭示",
+      "keywords": [
+        "受众列表",
+        "选中行与示例",
+        "audience",
+        "AudiencePanel"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 245,
+      "durationSeconds": 8.166666666666666,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/20.mp4",
+      "posterPath": "previews/20.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/20.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=20",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-20.zip"
+    },
+    {
+      "id": "21",
+      "title": "黑金引文板先入，两行引文按拍揭示",
+      "group": "列表、引文与投票逐项揭示",
+      "keywords": [
+        "引文板",
+        "全局叠层",
+        "Quote",
+        "VisualScene"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 130,
+      "durationSeconds": 4.333333333333333,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/21.mp4",
+      "posterPath": "previews/21.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/21.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=21",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-21.zip"
+    },
+    {
+      "id": "22",
+      "title": "十张投票卡交错滑入两列五行",
+      "group": "列表、引文与投票逐项揭示",
+      "keywords": [
+        "Poll"
+      ],
+      "width": 540,
+      "height": 960,
+      "fps": 30,
+      "frames": 75,
+      "durationSeconds": 2.5,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/22.mp4",
+      "posterPath": "previews/22.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/22.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=22",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-22.zip"
+    },
+    {
+      "id": "23",
+      "title": "斜向缩略图墙分排滑动，标题逐字落下",
+      "group": "缩略图墙与选中卡移动",
+      "keywords": [
+        "背景墙",
+        "开场标题与滚数",
+        "FilmWall",
+        "Opening"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 284,
+      "durationSeconds": 9.466666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/23.mp4",
+      "posterPath": "previews/23.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/23.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=23",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-23.zip"
+    },
+    {
+      "id": "24",
+      "title": "白底黑胶囊上移，双卡入场后翻面",
+      "group": "章节落版与双行大字",
+      "keywords": [
+        "胶囊与双卡",
+        "Fault"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 163,
+      "durationSeconds": 5.433333333333334,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/24.mp4",
+      "posterPath": "previews/24.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/24.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=24",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-24.zip"
+    },
+    {
+      "id": "25",
+      "title": "判断大字分拍切换，划线让出紫色结论",
+      "group": "章节落版与双行大字",
+      "keywords": [
+        "大字和结论",
+        "Judgment"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 145,
+      "durationSeconds": 4.833333333333333,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/25.mp4",
+      "posterPath": "previews/25.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/25.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=25",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-25.zip"
+    },
+    {
+      "id": "26",
+      "title": "竖屏画面固定，红色新闻条贴边揭示",
+      "group": "素材缩窗、文件聚焦与空间定位",
+      "keywords": [
+        "红色信息条",
+        "场景路由",
+        "OpeningBanStrip",
+        "Support"
+      ],
+      "width": 540,
+      "height": 960,
+      "fps": 60,
+      "frames": 57,
+      "durationSeconds": 0.95,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/26.mp4",
+      "posterPath": "previews/26.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/26.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=26",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-26.zip"
+    },
+    {
+      "id": "27",
+      "title": "竖屏蓝白斜体大数字滚到 1000，黄签补入",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "滚数场景",
+        "蓝白数字",
+        "FundingHook",
+        "OpeningAmount"
+      ],
+      "width": 540,
+      "height": 960,
+      "fps": 60,
+      "frames": 107,
+      "durationSeconds": 1.7833333333333334,
+      "mode": "counter",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "endValue": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9999,
+          "default": 1000
+        },
+        "unit": {
+          "type": "string",
+          "maxLength": 4,
+          "default": ""
+        },
+        "caption": {
+          "type": "string",
+          "maxLength": 42,
+          "default": ""
+        }
+      },
+      "previewPath": "previews/27.mp4",
+      "posterPath": "previews/27.jpg",
+      "editPath": "studio-assets/27-clean.mp4",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/27.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=27",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-27.zip"
+    },
+    {
+      "id": "28",
+      "title": "竖屏双数字滚动，六格角色卡依次亮起",
+      "group": "列表、引文与投票逐项揭示",
+      "keywords": [
+        "角色列表",
+        "GameRoles"
+      ],
+      "width": 540,
+      "height": 960,
+      "fps": 30,
+      "frames": 99,
+      "durationSeconds": 3.3,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/28.mp4",
+      "posterPath": "previews/28.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/28.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=28",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-28.zip"
+    },
+    {
+      "id": "29",
+      "title": "竖屏流程卡依次打勾，红章落下",
+      "group": "列表、引文与投票逐项揭示",
+      "keywords": [
+        "流程与盖章",
+        "Credits"
+      ],
+      "width": 540,
+      "height": 960,
+      "fps": 30,
+      "frames": 87,
+      "durationSeconds": 2.9,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/29.mp4",
+      "posterPath": "previews/29.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/29.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=29",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-29.zip"
+    },
+    {
+      "id": "30",
+      "title": "黑金 Skill 名牌，六枚工序标签逐项点亮",
+      "group": "章节落版与双行大字",
+      "keywords": [
+        "斜体渐变与工序标签",
+        "Skill"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 159,
+      "durationSeconds": 5.3,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/30.mp4",
+      "posterPath": "previews/30.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/30.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=30",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-30.zip"
+    },
+    {
+      "id": "31",
+      "title": "奶金额三列独立翻滚，美元单位后入场",
+      "group": "滚数、环形进度与图表",
+      "keywords": [
+        "金额卡和单位",
+        "独立数字轮",
+        "LaunchReel",
+        "RevenueWheels"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 111,
+      "durationSeconds": 3.7,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/31.mp4",
+      "posterPath": "previews/31.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/31.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=31",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-31.zip"
+    },
+    {
+      "id": "32",
+      "title": "标签矩阵散开，中央问号渐显",
+      "group": "素材缩窗、文件聚焦与空间定位",
+      "keywords": [
+        "标签与问号",
+        "Opener"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 112,
+      "durationSeconds": 3.7333333333333334,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/32.mp4",
+      "posterPath": "previews/32.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/32.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=32",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-32.zip"
+    },
+    {
+      "id": "33",
+      "title": "工具地图镜头拉远，一楼随讲解点亮",
+      "group": "素材缩窗、文件聚焦与空间定位",
+      "keywords": [
+        "地图镜头与高亮",
+        "楼层指示",
+        "MapScene",
+        "FloorMarker"
+      ],
+      "width": 960,
+      "height": 540,
+      "fps": 30,
+      "frames": 128,
+      "durationSeconds": 4.266666666666667,
+      "mode": "clip",
+      "audio": false,
+      "inputs": {
+        "title": {
+          "type": "string",
+          "maxLength": 80,
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bottom",
+            "top",
+            "middle"
+          ],
+          "default": "bottom"
+        }
+      },
+      "previewPath": "previews/33.mp4",
+      "posterPath": "previews/33.jpg",
+      "previewUrl": "https://orenfang.github.io/orencut/previews/33.mp4",
+      "studioUrl": "https://orenfang.github.io/orencut/studio.html?id=33",
+      "downloadUrl": "https://github.com/OrenFang/orencut/releases/download/studio-v0.2.0/orencut-33.zip"
+    }
+  ]
+}

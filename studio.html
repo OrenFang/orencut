@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>OrenCut Studio</title>
+  <link rel="stylesheet" href="studio-assets/studio.css">
+  <!-- standalone data -->
+  <script defer src="studio-assets/mediabunny.js"></script>
+  <script defer src="studio-assets/renderer.js"></script>
+  <script defer src="studio-assets/studio.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="https://orenfang.github.io/orencut/studio.html"><span aria-hidden="true" class="brand-mark">O</span> OrenCut <span class="brand-section">Studio</span></a>
+    <nav aria-label="项目链接">
+      <a href="https://orenfang.github.io/orencut/">组件库</a>
+      <a href="https://orenfang.github.io/orencut/catalog.json">下载接口</a>
+      <a href="https://github.com/OrenFang/orencut">GitHub ↗</a>
+    </nav>
+  </header>
+  <main class="studio">
+    <aside class="library" id="library" aria-label="组件列表">
+      <div class="list-head">
+        <div class="list-heading"><h1>动效组件</h1><span id="count"></span></div>
+        <label class="sr" for="search">搜索组件</label>
+        <input id="search" type="search" placeholder="搜索编号或动效" autocomplete="off">
+        <label class="sr" for="group">动效分类</label>
+        <select id="group"><option value="">全部分类</option></select>
+      </div>
+      <div id="components" class="component-list"></div>
+      <p id="empty" class="empty" hidden>没有匹配的组件。</p>
+    </aside>
+    <section class="workspace" aria-label="动效预览">
+      <div class="workspace-head"><div><p id="category" class="eyebrow">动效预览</p><h2 id="name">正在加载组件</h2></div><span id="spec" class="spec"></span></div>
+      <div class="stage" id="stage">
+        <div class="picture" id="picture">
+          <video id="video" preload="auto" muted playsinline aria-label="原动效视频"></video>
+          <canvas id="preview" aria-label="修改后的动效画面" hidden></canvas>
+        </div>
+      </div>
+      <div class="transport" aria-label="播放控制">
+        <button type="button" id="play" class="play" disabled>▶ <span>播放</span></button>
+        <input id="timeline" type="range" min="0" max="0" value="0" step="1" aria-label="预览进度" disabled>
+        <span id="clock">0.00 / 0.00</span>
+      </div>
+    </section>
+    <aside class="inspector" aria-label="动效设置与下载">
+      <h2>组件设置</h2>
+      <p id="mode" class="muted"></p>
+      <div class="settings">
+        <label for="title">标题</label>
+        <textarea id="title" maxlength="80" rows="2" placeholder="留空时使用原画面" disabled></textarea>
+        <div id="placement" class="field">
+          <label for="position">标题位置</label>
+          <select id="position" disabled><option value="bottom">底部</option><option value="top">顶部</option><option value="middle">居中</option></select>
+        </div>
+        <div id="counter-field" class="field" hidden>
+          <label for="counter">目标数字</label>
+          <input id="counter" type="number" inputmode="numeric" min="0" max="9999" step="1" value="1000" disabled>
+          <label for="unit">单位（可选）</label>
+          <input id="unit" type="text" maxlength="4" placeholder="例如 岁、万" disabled>
+          <label for="caption">补充说明（可选）</label>
+          <input id="caption" type="text" maxlength="42" placeholder="填入后显示黄色信息条" disabled>
+        </div>
+        <button type="button" id="reset" class="quiet" disabled>恢复原画面</button>
+      </div>
+      <div class="actions">
+        <button type="button" id="export" class="primary" disabled>导出 MP4</button>
+        <a id="download" class="secondary" hidden>下载单个组件 ZIP</a>
+        <button type="button" id="copy" class="secondary" disabled>复制给 AI 的用法</button>
+      </div>
+      <p class="muted" id="offline-note">解压组件 ZIP，双击 index.html 即可使用。</p>
+      <p id="status" role="status" class="feedback" aria-live="polite"></p>
+      <textarea id="copy-text" class="copy-text" aria-label="给 AI 的用法" readonly hidden rows="5"></textarea>
+    </aside>
+  </main>
+  <noscript>请开启 JavaScript，或通过组件下载接口获取 ZIP。</noscript>
+</body>
+</html>

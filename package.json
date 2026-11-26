@@ -13,9 +13,10 @@
   "name": "orencut",
   "private": true,
   "scripts": {
-    "studio": "node scripts/require-visual-assets.mjs && remotion studio src/index.tsx --host 127.0.0.1",
+    "studio": "node scripts/serve-studio.mjs",
+    "studio:original": "node scripts/require-visual-assets.mjs && remotion studio src/index.tsx --host 127.0.0.1",
     "typecheck": "tsc --noEmit",
-    "render": "node scripts/require-visual-assets.mjs && remotion render src/index.tsx --muted"
+    "render:original": "node scripts/require-visual-assets.mjs && remotion render src/index.tsx --muted"
   },
   "type": "module",
   "version": "0.1.0"
